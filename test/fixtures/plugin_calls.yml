@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  call: MyString
+  details: MyString
+  what: MyString
+  plugin_id: 
+
+two:
+  call: MyString
+  details: MyString
+  what: MyString
+  plugin_id: 

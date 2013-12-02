@@ -1,0 +1,27 @@
+<h1>Listing calls</h1>
+
+<%= render :partial => "plugin_calls/form", :locals => { :plugin => plugin } %>
+
+<table>
+  <tr>
+    <th>What</th>
+    <th>Call</th>
+    <th>Details</th>
+    <th>Plugin</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% plugin.plugin_calls.delete_if(&:new_record?).each do |call| %>
+  <tr>
+    <td><%= call.what %></td>
+    <td><%= call.call %></td>
+    <td><%= call.details %></td>
+    <td><%= link_to 'Destroy', call, method: :delete, data: { confirm: 'Are
+    you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

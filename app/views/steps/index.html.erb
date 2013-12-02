@@ -1,0 +1,73 @@
+<h1>Analysis Steps</h1>
+
+<p>Note: This is a demo with a working plugin system, but it only has one
+  sequence of plugins that works now. We have more that will be added in the
+  next few days. This also doesn't let you choose input now because the
+  scraper tool for this site hasn't been converted to a plugin yet (but will
+  soon).</p>
+
+<p>You can hook together analysis tools here. For example, you could have one
+tool pull text from a website, another extract dates from it, and another tool
+convert those dates into a timeline.</p>
+
+<p>To begin, create a new step and choose the tool you want to use at that
+  point from the dropdown menu. Then fill in any settings or inputs from the
+  tool. Once you have added all the steps you need, hit run. The result will
+  be displayed at the top.</p>
+<br />
+
+<%= link_to 'New Step', new_step_path %>
+
+<%= form_tag new_step_path, method: :get do %>
+  <%= select_tag :usedcall, options_from_collection_for_select(PluginCall.all, :id, :what) %>
+  
+  <%= submit_tag "New Step", name: nil %>
+<% end %>
+
+<br />
+<table>
+  <thead>
+    <tr>
+      <th>Current Analysis Sequence</th>
+    </tr>
+  </thead>
+</table>
+
+<tbody>
+<% @steps.each do |step| %>
+<br /><br />
+<tr style="border:0;">
+  <td style="border:0; padding-bottom:50px;">
+       <ul class="nav nav-tabs" id="steptabs" data-tabs="tabs">
+	 <li><b><%= step.number %>.&nbsp;&nbsp;</b></li>
+          <li class="active"><a href="#details<%= step.id %>step" data-toggle="tab">Details</a></li>
+          <li><a href="#edit<%= step.id %>step" data-toggle="tab">Edit</a></li>
+        </ul>
+
+       <div class="tab-content">
+	 <div class="tab-pane active" id="details<%= step.id %>step">
+            <tr>
+              <td><i><%= step.name %></i></td>
+	    </tr><br />
+	    <tr>
+              <td><%= step.description %></td>
+            </tr><br />
+	    <tr>
+	      <td><%= switch(step.usedplugin, step.usedcall, 'public/stratforscraper.json', step.number) %>
+		
+		<td>
+	    </tr>
+          </div>
+
+	 <div class="tab-pane" id="edit<%= step.id %>step">
+            <%= render :partial => "steps/editform", :locals => { :step => step } %>
+         </div>
+       </div>
+  </td>
+</tr>
+<% end %>
+</tbody>
+</table>
+
+<br />
+

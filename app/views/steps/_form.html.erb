@@ -1,0 +1,16 @@
+<%= simple_form_for @step, :html => { :class => 'form-inline'} do |f| %>
+<%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
+<%= f.input :description, label: false, placeholder: 'What does this step do?' %>
+<%= f.input :number, label: false, placeholder: 'Number of step in sequence' %>
+
+<%= f.hidden_field :usedcall %>
+
+<%= f.fields_for :properties do |builder| %>
+  <% @step.plugin_call.fields.each do |field| %>
+    <%= render "steps/fields/#{field.field_type}", field: field, f: builder %>
+  <% end %>
+<% end %>
+
+<br /><br />
+<%= f.submit 'Add Step', :class => 'btn-primary btn-small' %>
+<% end %>
