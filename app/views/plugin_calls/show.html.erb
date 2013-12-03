@@ -12,8 +12,10 @@
   <dd><%= @plugin_call.what %></dd>
   <dt><strong><%= model_class.human_attribute_name(:plugin_id) %>:</strong></dt>
   <dd><%= @plugin_call.plugin_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:fields_attributes) %>:</strong></dt>
+  <dd><%= @plugin_call.fields %></dd>
 </dl>
-
+<%= @plugin_call.fields.id %>
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               plugin_calls_path, :class => 'btn'  %>

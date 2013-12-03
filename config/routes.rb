@@ -11,6 +11,8 @@ Inputtest2::Application.routes.draw do
   
   resources :plugin_calls
 
+  resources :plugin_call_fields
+
   root to: "steps#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
