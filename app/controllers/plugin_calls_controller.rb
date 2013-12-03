@@ -25,7 +25,8 @@ class PluginCallsController < ApplicationController
   # POST /plugin_calls
   # POST /plugin_calls.json
   def create
-    @plugin_call = PluginCall.new(plugin_call_params)
+    @plugin = Plugin.find(params[:plugin_id])
+    @plugin_call = @plugin.plugin_calls.new(plugin_call_params)
 
     respond_to do |format|
       if @plugin_call.save

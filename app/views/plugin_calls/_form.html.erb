@@ -1,16 +1,9 @@
-<%= form_for([plugin, plugin.plugin_calls.build]) do |f| %>
+<%= simple_form_for [plugin, plugin.plugin_calls.build], :html => { :multipart => true, :class => 'form-inline' } do |f| %>
 
-  <div class="field">
-    <%= f.label :call %><br>
-    <%= f.text_field :call %>
-  </div>
-  <div class="field">
-    <%= f.label :details %><br>
-    <%= f.text_field :details %>
-  </div>
-  <div class="field">
-    <%= f.label :what %><br>
-    <%= f.text_field :what %>
+  <div class="form-inputs">
+    <%= f.input :what %>
+    <%= f.input :call %>
+    <%= f.input :details %>
   </div>
 
   <%= f.fields_for :fields do |builder| %>
@@ -18,7 +11,7 @@
   <% end %>
   <%= link_to_add_fields "Add Field", f, :fields %>
 
-  <div class="actions">
-    <%= f.submit %>
+  <div class="form-actions">
+    <%= f.button :submit %>
   </div>
 <% end %>

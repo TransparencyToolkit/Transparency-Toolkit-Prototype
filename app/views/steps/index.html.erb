@@ -19,7 +19,8 @@ convert those dates into a timeline.</p>
 <%= link_to 'New Step', new_step_path %>
 
 <%= form_tag new_step_path, method: :get do %>
-  <%= select_tag :usedcall, options_from_collection_for_select(PluginCall.all, :id, :what) %>
+  <%= select_tag :usedcall, options_from_collection_for_select(PluginCall.all,
+  :id, :what) %>
   
   <%= submit_tag "New Step", name: nil %>
 <% end %>

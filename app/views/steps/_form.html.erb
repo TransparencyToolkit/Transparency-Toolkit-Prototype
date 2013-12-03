@@ -6,7 +6,7 @@
 <%= f.hidden_field :usedcall %>
 
 <%= f.fields_for :properties do |builder| %>
-  <% @step.plugin_call.fields.each do |field| %>
+  <% @step.plugin.plugin_call.fields.each do |field| %>
     <%= render "steps/fields/#{field.field_type}", field: field, f: builder %>
   <% end %>
 <% end %>

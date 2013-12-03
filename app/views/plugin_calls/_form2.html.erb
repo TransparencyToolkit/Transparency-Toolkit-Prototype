@@ -1,0 +1,24 @@
+<%= form_for([plugin, plugin.plugin_calls.build]) do |f| %>
+
+  <div class="field">
+    <%= f.label :call %><br>
+    <%= f.text_field :call %>
+  </div>
+  <div class="field">
+    <%= f.label :details %><br>
+    <%= f.text_field :details %>
+  </div>
+  <div class="field">
+    <%= f.label :what %><br>
+    <%= f.text_field :what %>
+  </div>
+
+  <%= f.fields_for :fields do |builder| %>
+  <%= render 'field_fields', f: builder %>
+  <% end %>
+  <%= link_to_add_fields "Add Field", f, :fields %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
