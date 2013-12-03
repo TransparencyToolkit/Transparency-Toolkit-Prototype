@@ -1,3 +1,6 @@
+require 'tempfile'
+require 'fileutils'
+
 class PluginsController < ApplicationController
   before_action :set_plugin, only: [:show, :edit, :update, :destroy]
 
@@ -25,6 +28,7 @@ class PluginsController < ApplicationController
   # POST /plugins.json
   def create
     @plugin = Plugin.new(plugin_params)
+    addplugin(@plugin.gemname)
 
     respond_to do |format|
       if @plugin.save
@@ -35,6 +39,12 @@ class PluginsController < ApplicationController
         format.json { render json: @plugin.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def addplugin(pluginname)
+    file = File.open("Gemfile", "a+")
+    file.puts "gem '" + pluginname + "'"
+    system("sudo gem install " + pluginname)
   end
 
   # PATCH/PUT /plugins/1
