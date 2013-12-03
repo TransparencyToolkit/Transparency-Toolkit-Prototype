@@ -52,3 +52,4 @@ end
 # gem 'debugger', group: [:development, :test]
 gem 'timelinegen'
 gem 'timelineJS-rails'
+

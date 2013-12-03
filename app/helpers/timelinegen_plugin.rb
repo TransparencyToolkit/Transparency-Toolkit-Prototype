@@ -2,7 +2,7 @@ class TimelinegenPlugin < PluginClass
   public
   def switch
     case @method
-      when 6 then maketimeline
+      when 10 then maketimeline
       else "Unknown Method"
     end
   end

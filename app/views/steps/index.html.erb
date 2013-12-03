@@ -52,7 +52,9 @@ convert those dates into a timeline.</p>
               <td><%= step.description %></td>
             </tr><br />
 	    <tr>
-	      <td><%= switch(step.usedplugin, step.usedcall, 'public/stratforscraper.json', step.number) %>
+	      <td>
+		<%= switch(step.usedplugin.to_i, step.usedcall.to_i,
+		'public/stratforscraper.json', step.number.to_i) %>
 		
 		<td>
 	    </tr>

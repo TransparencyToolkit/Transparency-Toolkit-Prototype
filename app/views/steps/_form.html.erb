@@ -2,7 +2,7 @@
 <%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
 <%= f.input :description, label: false, placeholder: 'What does this step do?' %>
 <%= f.input :number, label: false, placeholder: 'Number of step in sequence' %>
-
+<%= f.collection_select :usedplugin, Plugin.all, :id, :name, prompt: "Tool to use" %>
 <%= f.hidden_field :usedcall %>
 
 <%= f.fields_for :properties do |builder| %>
