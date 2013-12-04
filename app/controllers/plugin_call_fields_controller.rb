@@ -25,7 +25,7 @@ class PluginCallFieldsController < ApplicationController
   # POST /plugin_call_fields.json
   def create
     @plugin_call = PluginCall.find(params[:plugin_call_id])
-    @plugin_call_field = @plugin_call.fields.new(params[:field])
+    @plugin_call_field = @plugin_call.plugin_call_fields.new(params[:plugin_call_fields])
 
     respond_to do |format|
       if @plugin_call_field.save

@@ -20,6 +20,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer'
 gem 'less-rails'
 gem 'simple_form'
+gem 'pry'
 
 gem 'protected_attributes'
 
