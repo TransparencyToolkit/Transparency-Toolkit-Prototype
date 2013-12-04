@@ -6,17 +6,6 @@
     <%= f.input :details %>
   </div>
 
-  <%= f.fields_for :fields do |builder| %>
-<fieldset>
-  <%= f.select :field_type, %w{text_field check_box} %>
-  <%= f.text_field :name, placeholder: 'field_name' %>
-  <%= f.check_box :required %><%= f.label :required %>
-  <%= f.hidden_field :_destroy %>
-  <%= link_to '[remove]', '#', class: 'remove_fields' %>
-</fieldset>
-  <% end %>
-  <%= link_to_add_fields "Add Field", f, :fields %>
-
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
