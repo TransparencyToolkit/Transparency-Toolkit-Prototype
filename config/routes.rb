@@ -9,7 +9,9 @@ Inputtest2::Application.routes.draw do
     resources :plugin_calls
   end
   
-  resources :plugin_calls
+  resources :plugin_calls do 
+    resources :plugin_call_fields
+  end
 
   resources :plugin_call_fields
 

@@ -13,7 +13,7 @@
   <dt><strong><%= model_class.human_attribute_name(:plugin_id) %>:</strong></dt>
   <dd><%= @plugin_call.plugin_id %></dd>
   <dt><strong><%= model_class.human_attribute_name(:fields_attributes) %>:</strong></dt>
-  <dd><%= @plugin_call.plugin_call_fields %></dd>
+  <dd><%= @plugin_call.fields %></dd>
 </dl>
 
 <div class="form-actions">
@@ -28,3 +28,6 @@
               :class => 'btn btn-danger' %>
 </div>
 <%= render :partial => "plugin_call_fields/form", :locals => { :plugin_call => @plugin_call } %>
+  <% @plugin_call.fields.each do |field| %>
+    <%= field.field_type %>
+  <% end %>

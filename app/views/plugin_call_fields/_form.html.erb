@@ -1,10 +1,10 @@
-<%= simple_form_for [plugin_call, plugin_call.plugin_call_fields.build], :html => { :multipart => true, :class => 'form-inline' } do |f| %>
-  <div class="form-inputs">
-    <%= f.select :field_type, %w{text_field check_box} %>
-    <%= f.text_field :name, placeholder: 'field_name' %>
-    <%= f.check_box :required %><%= f.label :required %>
+<%= form_for [plugin_call, plugin_call.fields.build] do |f| %>
+  <%= f.select :field_type, %w{text_field check_box} %>
+  <%= f.text_field :name, placeholder: 'field_name' %>
+  <%= f.check_box :required %><%= f.label :required %>
 
-  <div class="form-actions">
-    <%= f.button :submit %>
+  <div class="actions">
+    <%= f.submit %>
   </div>
 <% end %>
+
