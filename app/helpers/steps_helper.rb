@@ -2,7 +2,7 @@ $pluginhash = Hash.new
 
 module StepsHelper
 def switch(usedplugin, usedmethod, input=nil, stepnum)
-  if input == {}
+  if input == {} && $pluginhash[stepnum-1]
     input = $pluginhash[stepnum-1].output
   end
 

@@ -11,6 +11,7 @@
 <%= f.fields_for :properties do |builder| %>
   <% @step.plugin_call.fields.each do |field| %>
     <% if field.field_type %>
+    <br /><br />
     <%= render "#{field.field_type}", field: field, f: builder %>
     <% end %>
   <% end %>

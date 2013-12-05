@@ -2,13 +2,13 @@ class TimelinegenPlugin < PluginClass
   public
   def switch
     case @method
-      when 10 then maketimeline
+      when 15 then maketimeline
       else "Unknown Method"
     end
   end
   
   def maketimeline
-    @output = TimelineGen.emailTimeline(open(@input[:test]))
+    @output = TimelineGen.emailTimeline(open(@input["File Path"]))
   end
 end
 
