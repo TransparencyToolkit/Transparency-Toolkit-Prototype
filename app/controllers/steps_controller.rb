@@ -25,6 +25,7 @@ class StepsController < ApplicationController
   # POST /steps.json
   def create
     @step = Step.new(step_params)
+    binding.pry
 
     respond_to do |format|
       if @step.save

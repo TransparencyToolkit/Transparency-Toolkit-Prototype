@@ -25,7 +25,6 @@ class PluginCallsController < ApplicationController
   # POST /plugin_calls
   # POST /plugin_calls.json
   def create
-    binding.pry
     @plugin = Plugin.find(params[:plugin_id])
     @plugin_call = @plugin.plugin_calls.new(plugin_call_params)
 

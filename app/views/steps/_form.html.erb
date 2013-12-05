@@ -7,10 +7,14 @@
 
 <%= f.fields_for :properties do |builder| %>
   <% @step.fields.each do |field| %>
-    <%= render "steps/fields/#{field.field_type}", field: field, f: builder %>
+    <% if field.field_type %>
+    <%= render "#{field.field_type}", field: field, f: builder %>
+    <% end %>
   <% end %>
 <% end %>
 
 <br /><br />
 <%= f.submit 'Add Step', :class => 'btn-primary btn-small' %>
 <% end %>
+
+
