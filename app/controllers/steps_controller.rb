@@ -25,7 +25,6 @@ class StepsController < ApplicationController
   # POST /steps.json
   def create
     @step = Step.new(step_params)
-    binding.pry
 
     respond_to do |format|
       if @step.save
@@ -69,7 +68,7 @@ class StepsController < ApplicationController
     end
 
     def step_params
-      params.require(:step).permit(:name, :description, :number, :usedplugin, :plugin_call_id).tap do |whitelisted|
+      params.require(:step).permit(:name, :description, :number, :usedplugin, :usedcall, :plugin_call_id).tap do |whitelisted|
         whitelisted[:properties] = params[:step][:properties]
       end
     end

@@ -8,6 +8,7 @@ class TimelinegenPlugin < PluginClass
   end
   
   def maketimeline
+    # Add input processing
     @output = TimelineGen.emailTimeline(open(@input))
   end
 end
