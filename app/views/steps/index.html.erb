@@ -17,7 +17,7 @@ convert those dates into a timeline.</p>
 <br />
 
 <%= form_tag new_step_path, method: :get do %>
-  <%= select_tag :usedcall, options_from_collection_for_select(PluginCall.all,
+  <%= select_tag :plugin_call_id, options_from_collection_for_select(PluginCall.all,
   :id, :what) %>
   
   <%= submit_tag "New Step", name: nil %>
@@ -54,7 +54,7 @@ convert those dates into a timeline.</p>
 	    <tr>
 	      <td>
 		<%= switch(step.usedplugin.to_i, step.usedcall.to_i,
-		'public/stratforscraper.json', step.number.to_i) %>
+		 step.properties, step.number.to_i) %>
 		
 		<td>
 	    </tr>

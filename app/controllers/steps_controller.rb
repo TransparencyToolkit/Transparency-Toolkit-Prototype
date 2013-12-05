@@ -14,7 +14,7 @@ class StepsController < ApplicationController
 
   # GET /steps/new
   def new
-    @step = Step.new(usedcall: params[:usedcall])
+    @step = Step.new(plugin_call_id: params[:plugin_call_id])
   end
 
   # GET /steps/1/edit
@@ -68,8 +68,9 @@ class StepsController < ApplicationController
       @step = Step.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def step_params
-      params.require(:step).permit(:name, :description, :number, :usedplugin, :usedcall)
+      params.require(:step).permit(:name, :description, :number, :usedplugin, :plugin_call_id).tap do |whitelisted|
+        whitelisted[:properties] = params[:step][:properties]
+      end
     end
 end

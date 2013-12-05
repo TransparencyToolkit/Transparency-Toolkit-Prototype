@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131204223744) do
+ActiveRecord::Schema.define(version: 20131205044803) do
 
   create_table "call_fields", force: true do |t|
     t.string   "name"
@@ -54,8 +54,10 @@ ActiveRecord::Schema.define(version: 20131204223744) do
     t.integer  "plugin_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "plugin_call_id"
   end
 
+  add_index "plugin_calls", ["plugin_call_id"], name: "index_plugin_calls_on_plugin_call_id"
   add_index "plugin_calls", ["plugin_id"], name: "index_plugin_calls_on_plugin_id"
 
   create_table "plugins", force: true do |t|
