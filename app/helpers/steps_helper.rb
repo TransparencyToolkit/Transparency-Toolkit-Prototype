@@ -2,7 +2,10 @@ $pluginhash = Hash.new
 
 module StepsHelper
 def switch(usedplugin, usedmethod, input=nil, stepnum)
-  input ||= $pluginhash[stepnum-1].output
+  if input == {}
+    input = $pluginhash[stepnum-1].output
+  end
+
   if usedplugin == 2
     $pluginhash[stepnum] = TimelinegenPlugin.new(usedmethod, input, stepnum)
     $pluginhash[stepnum].switch
