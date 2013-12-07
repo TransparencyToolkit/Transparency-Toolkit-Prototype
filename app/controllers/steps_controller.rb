@@ -1,4 +1,7 @@
 class StepsController < ApplicationController
+  def file
+  end
+  skip_before_action :set_step, only: [:file]
   before_action :set_step, only: [:show, :edit, :update, :destroy]
 
   # GET /steps

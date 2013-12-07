@@ -1,19 +1,13 @@
 <h1>Analysis Steps</h1>
 
-<p>Note: This is a demo with a working plugin system, but it only has one
-  sequence of plugins that works now. We have more that will be added in the
-  next few days. This also doesn't let you choose input now because the
-  scraper tool for this site hasn't been converted to a plugin yet (but will
-  soon).</p>
-
 <p>You can hook together analysis tools here. For example, you could have one
 tool pull text from a website, another extract dates from it, and another tool
 convert those dates into a timeline.</p>
 
 <p>To begin, create a new step and choose the tool you want to use at that
   point from the dropdown menu. Then fill in any settings or inputs from the
-  tool. Once you have added all the steps you need, hit run. The result will
-  be displayed at the top.</p>
+  tool. Once you have added all the steps you need, hit run. The output will
+  be displayed under each step.</p>
 <br />
 
 <%= form_tag new_step_path, method: :get do %>

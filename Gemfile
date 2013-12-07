@@ -54,3 +54,4 @@ end
 gem 'timelinegen'
 gem 'timelineJS-rails'
 
+gem 'jsontochart'

@@ -14,6 +14,10 @@ def switch(usedplugin, usedmethod, input=nil, stepnum)
     $pluginhash[stepnum] = TimelinejsPlugin.new(usedmethod, input, stepnum)
     $pluginhash[stepnum].switch
     render :partial => 'emailtimeline', :locals => { :output => $pluginhash[stepnum].output }
+  elsif usedplugin == 6
+    $pluginhash[stepnum] = JsontochartPlugin.new(usedmethod, input, stepnum)
+    $pluginhash[stepnum].switch
+    render :partial => 'jsontochart', :locals => { :output => $pluginhash[stepnum].output }
   end
 end
 end
