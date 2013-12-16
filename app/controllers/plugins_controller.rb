@@ -28,7 +28,7 @@ class PluginsController < ApplicationController
   # POST /plugins.json
   def create
     @plugin = Plugin.new(plugin_params)
-    addplugin(@plugin.gemname)
+    #addplugin(@plugin.gemname)
 
     respond_to do |format|
       if @plugin.save

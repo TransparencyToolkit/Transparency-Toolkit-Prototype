@@ -21,6 +21,8 @@ gem 'therubyracer'
 gem 'less-rails'
 gem 'simple_form'
 gem 'pry'
+gem 'json'
+gem 'httparty'
 
 gem 'protected_attributes'
 
@@ -53,5 +55,5 @@ end
 # gem 'debugger', group: [:development, :test]
 gem 'timelinegen'
 gem 'timelineJS-rails'
-
 gem 'jsontochart'
+gem 'sunlightcongress'

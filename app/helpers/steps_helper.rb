@@ -18,6 +18,13 @@ def switch(usedplugin, usedmethod, input=nil, stepnum)
     $pluginhash[stepnum] = JsontochartPlugin.new(usedmethod, input, stepnum)
     $pluginhash[stepnum].switch
     render :partial => 'jsontochart', :locals => { :output => $pluginhash[stepnum].output }
+  elsif usedplugin == 7
+    $pluginhash[stepnum] = UploadfilePlugin.new(usedmethod, input, stepnum)
+    $pluginhash[stepnum].switch
+  elsif usedplugin == 8
+    $pluginhash[stepnum] = SunlightcongressPlugin.new(usedmethod, input, stepnum)
+    $pluginhash[stepnum].switch
+    render :partial => 'sunlightcongress', :locals => { :output => $pluginhash[stepnum].output }
   end
 end
 end
