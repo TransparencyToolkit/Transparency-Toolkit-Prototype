@@ -1,30 +1,42 @@
-$pluginhash = Hash.new
+$recipehash = Hash.new
 
 module StepsHelper
-def switch(usedplugin, usedmethod, input=nil, stepnum)
-  if input == {} && $pluginhash[stepnum-1]
-    input = $pluginhash[stepnum-1].output
-  end
+def newrecipe(recipeid)
+  $recipehash[recipeid] = PluginSaver.new(recipeid)
+end
 
-  if usedplugin == 2
-    $pluginhash[stepnum] = TimelinegenPlugin.new(usedmethod, input, stepnum)
-    $pluginhash[stepnum].switch
-    render :partial => 'timelinegen', :locals => { :output => $pluginhash[stepnum].output }
+def switch(usedplugin, usedmethod, input=nil, stepnum, recipeid)
+  if input == {} && $recipehash[recipeid].useobject(stepnum-1)
+    input = $recipehash[recipeid].getoutput(stepnum-1)
+  end
+  
+  if usedplugin == 10
+    $recipehash[recipeid].addstep(stepnum, TimelinegenPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'timelinegen', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   elsif usedplugin == 3
-    $pluginhash[stepnum] = TimelinejsPlugin.new(usedmethod, input, stepnum)
-    $pluginhash[stepnum].switch
-    render :partial => 'emailtimeline', :locals => { :output => $pluginhash[stepnum].output }
+    $recipehash[recipeid].addstep(stepnum, TimelinejsPlugin.new(usedmethod, input, stepnum))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'emailtimeline', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   elsif usedplugin == 6
-    $pluginhash[stepnum] = JsontochartPlugin.new(usedmethod, input, stepnum)
-    $pluginhash[stepnum].switch
-    render :partial => 'jsontochart', :locals => { :output => $pluginhash[stepnum].output }
+    $recipehash[recipeid].addstep(stepnum, JsontochartPlugin.new(usedmethod, input, stepnum))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'jsontochart', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   elsif usedplugin == 7
-    $pluginhash[stepnum] = UploadfilePlugin.new(usedmethod, input, stepnum)
-    $pluginhash[stepnum].switch
+    $recipehash[recipeid].addstep(stepnum, UploadfilePlugin.new(usedmethod, input, stepnum))
+    $recipehash[recipeid].useobject(stepnum).switch
   elsif usedplugin == 8
-    $pluginhash[stepnum] = SunlightcongressPlugin.new(usedmethod, input, stepnum)
-    $pluginhash[stepnum].switch
-    render :partial => 'sunlightcongress', :locals => { :output => $pluginhash[stepnum].output }
+    $recipehash[recipeid].addstep(stepnum, SunlightcongressPlugin.new(usedmethod, input, stepnum))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  elsif usedplugin == 9
+    $recipehash[recipeid].addstep(stepnum, SunlightpartytimePlugin.new(usedmethod, input, stepnum))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  elsif usedplugin == 11
+    $recipehash[recipeid].addstep(stepnum, JsoncombinerPlugin.new(usedmethod, input, stepnum, recipeid))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   end
 end
 end

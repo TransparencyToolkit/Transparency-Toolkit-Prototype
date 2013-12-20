@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131205044803) do
+ActiveRecord::Schema.define(version: 20131219202724) do
 
   create_table "call_fields", force: true do |t|
     t.string   "name"
@@ -72,6 +72,13 @@ ActiveRecord::Schema.define(version: 20131205044803) do
 
   add_index "plugins", ["step_id"], name: "index_plugins_on_step_id"
 
+  create_table "recipes", force: true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "steps", force: true do |t|
     t.string   "name"
     t.string   "description"
@@ -82,8 +89,11 @@ ActiveRecord::Schema.define(version: 20131205044803) do
     t.datetime "updated_at"
     t.text     "properties"
     t.integer  "plugin_call_id"
+    t.integer  "recipe_id"
+    t.integer  "inrecipe"
   end
 
   add_index "steps", ["plugin_call_id"], name: "index_steps_on_plugin_call_id"
+  add_index "steps", ["recipe_id"], name: "index_steps_on_recipe_id"
 
 end

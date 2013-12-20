@@ -1,5 +1,9 @@
 Inputtest2::Application.routes.draw do
-  resources :steps, :has_one => :plugin
+  resources :recipes, :has_many => :steps
+
+  resources :recipes do
+    resources :steps, :has_one => :plugin
+  end
 
   resources :steps do 
     resources :plugins, :has_many => :plugin_calls
@@ -16,7 +20,7 @@ Inputtest2::Application.routes.draw do
   resources :plugin_call_fields
 
 
-  root to: "steps#index"
+  root to: "recipes#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
