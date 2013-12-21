@@ -10,6 +10,7 @@ class RecipesController < ApplicationController
   # GET /recipes/1
   # GET /recipes/1.json
   def show
+    
   end
 
   # GET /recipes/new
@@ -35,8 +36,6 @@ class RecipesController < ApplicationController
         format.json { render json: @recipe.errors, status: :unprocessable_entity }
       end
     end
-
-    out = view_context.newrecipe(@recipe.id)
   end
 
   # PATCH/PUT /recipes/1
