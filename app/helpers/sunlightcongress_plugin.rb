@@ -10,7 +10,6 @@ class SunlightcongressPlugin < PluginClass
 
   def switch
     case @method
-      when 18 then legislatorid
       when 19 then votes
       when 20 then amendments
       when 21 then bills
@@ -23,34 +22,29 @@ class SunlightcongressPlugin < PluginClass
     end
   end
   
-  def legislatorid
-    s = SunlightCongress.new(@apikey)
-    @output = s.legislator_id(@input["Legislator Name"])
-  end
-  
   def votes
     s = SunlightCongress.new(@apikey)
-    @output = s.get_votes(@input)
+    @output = s.get_votes(@input["Legislator Name"])
   end
 
   def amendments
     s = SunlightCongress.new(@apikey)
-    @output = s.get_amendments(@input)
+    @output = s.get_amendments(@input["Legislator Name"])
   end
 
   def bills
     s = SunlightCongress.new(@apikey)
-    @output = s.get_bills(@input)
+    @output = s.get_bills(@input["Legislator Name"])
   end
 
   def updates
     s = SunlightCongress.new(@apikey)
-    @output = s.get_updates(@input)
+    @output = s.get_updates(@input["Legislator Name"])
   end
 
   def committees
     s = SunlightCongress.new(@apikey)
-    @output = s.get_committees(@input)
+    @output = s.get_committees(@input["Legislator Name"])
   end
 
   def hearings
@@ -65,7 +59,7 @@ class SunlightcongressPlugin < PluginClass
 
   def events
     s = SunlightCongress.new(@apikey)
-    @output = s.get_events(@input)
+    @output = s.get_events(@input["Legislator Name"])
   end
 end
 

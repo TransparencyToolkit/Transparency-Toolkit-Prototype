@@ -9,8 +9,10 @@ tool get data, another get a second set of data, a fourth tool combine those
 <br />
 
 <%= form_tag new_recipe_step_path(recipe), method: :get do %>
-  <%= select_tag :plugin_call_id, options_from_collection_for_select(PluginCall.all,
-  :id, :what) %>
+  <%= select_tag :plugin_call_id,
+  grouped_options_for_select(Plugin.order(:name).map{ |group| [group.name,
+  group.plugin_calls.map{|pc| [pc.what, pc.id] } ]}), prompt: "Choose tool to
+  use", include_blank: true %>
   <%= hidden_field_tag :inrecipe, recipe.id %>
   
   <%= submit_tag "New Step", name: nil %>
@@ -47,8 +49,7 @@ tool get data, another get a second set of data, a fourth tool combine those
 	    <tr>
 	      <td>
 		
-		<%= switch(step.usedplugin.to_i, step.usedcall.to_i,
-		 step.properties, step.number.to_i, recipe.id.to_i) %>
+		<%= switch(step.plugin_call_id.to_i, step.properties, step.number.to_i, recipe.id.to_i) %>
 		
 		
 		<td>

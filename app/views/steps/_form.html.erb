@@ -2,10 +2,7 @@
 <%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
 <%= f.input :description, label: false, placeholder: 'What does this step do?' %>
 <%= f.input :number, label: false, placeholder: 'Number of step in sequence' %>
-<%= f.collection_select :usedplugin, Plugin.all, :id, :name, prompt: "Tool to
-								      use" %>
-<%= f.grouped_collection_select :usedcall, Plugin.order(:name), :plugin_calls, :name,
-    :id, :what, include_blank: true, prompt: "What to do" %>
+
 <%= f.hidden_field :plugin_call_id %>
 <%= f.hidden_field :inrecipe, :value => params[:inrecipe] %>
 
