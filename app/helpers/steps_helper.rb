@@ -5,6 +5,10 @@ def newrecipe(recipeid)
   $recipehash[recipeid] = PluginSaver.new(recipeid)
 end
 
+def setnum(recipeid)
+  return $recipehash[recipeid].getlastnum + 1
+end
+
 def switch(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
     input = $recipehash[recipeid].getoutput(stepnum-1)

@@ -1,21 +1,20 @@
 <%= simple_form_for [@recipe, @step], :html => { :class => 'form-inline'} do |f| %>
 <%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
-<%= f.input :description, label: false, placeholder: 'What does this step do?' %>
-<%= f.input :number, label: false, placeholder: 'Number of step in sequence' %>
 
 <%= f.hidden_field :plugin_call_id %>
 <%= f.hidden_field :inrecipe, :value => params[:inrecipe] %>
+<%= f.hidden_field :number, :value => setnum(params[:inrecipe].to_i) %>
 
 <%= f.fields_for :properties do |builder| %>
   <% @step.plugin_call.fields.each do |field| %>
     <% if field.field_type %>
-    <br /><br />
+    <br />
     <%= render "#{field.field_type}", field: field, f: builder %>
     <% end %>
   <% end %>
 <% end %>
 
-<br /><br />
+<br />
 <%= f.submit 'Add Step', :class => 'btn-primary btn-small' %>
 <% end %>
 

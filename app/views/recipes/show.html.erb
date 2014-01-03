@@ -3,4 +3,6 @@
   <h1><%= @recipe.name %><h1>
 </div>
 
+<% newrecipe(@recipe.id) %>
+
 <%= render :partial => "steps/steps", :locals => { :recipe => @recipe } %>
