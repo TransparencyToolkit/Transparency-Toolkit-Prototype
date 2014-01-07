@@ -9,6 +9,25 @@ def setnum(recipeid)
   return $recipehash[recipeid].getlastnum + 1
 end
 
+def getfields(recipeid)
+  if ($recipehash[recipeid]) != nil && ($recipehash[recipeid].getlastnum != 0)
+    $recipehash[recipeid].useobject($recipehash[recipeid].getlastnum)
+    data = JSON.parse($recipehash[recipeid].getoutput($recipehash[recipeid].getlastnum))
+    keylist = Array.new
+
+    data.each do |l|
+      dhash = Hash[*l.flatten]
+      dhash.each_key do |key|
+        if keylist.include? key
+        else keylist.push(key)
+        end
+      end
+    end
+  
+    return keylist
+  end
+end
+
 def switch(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
     input = $recipehash[recipeid].getoutput(stepnum-1)
@@ -32,6 +51,10 @@ def switch(usedmethod, input=nil, stepnum, recipeid)
     render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   elsif usedmethod == 31
     $recipehash[recipeid].addstep(stepnum, JsoncombinerPlugin.new(usedmethod, input, stepnum, recipeid))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  elsif usedmethod == 32
+    $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch
     render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   end
