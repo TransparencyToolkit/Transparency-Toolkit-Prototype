@@ -57,6 +57,10 @@ def switch(usedmethod, input=nil, stepnum, recipeid)
     $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch
     render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  elsif usedmethod == 33
+    $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
+    $recipehash[recipeid].useobject(stepnum).switch
+    render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   end
 end
 end
