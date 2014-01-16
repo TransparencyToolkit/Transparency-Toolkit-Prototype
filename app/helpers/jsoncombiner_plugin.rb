@@ -16,8 +16,10 @@ class JsoncombinerPlugin < PluginClass
   end
   
   def concatenate
-    json1 = $recipehash[@recipeid].getoutput(@input["Step # of Data 1"].to_i)
-    json2 = $recipehash[@recipeid].getoutput(@input["Step # of Data 2"].to_i)
+    data1 = @input["First Dataset to Combine"].split(".")
+    data2 = @input["Second Dataset to Combine"].split(".")
+    json1 = $recipehash[@recipeid].getoutput(data1[0].to_i)
+    json2 = $recipehash[@recipeid].getoutput(data2[0].to_i)
     c = JSONCombiner.new(json1, json2)
     @output = c.concatenate
   end

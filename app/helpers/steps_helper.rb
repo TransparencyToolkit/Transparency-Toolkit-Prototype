@@ -29,8 +29,20 @@ def getfields(recipeid)
 end
 
 def getsteps(recipeid)
-  
+  if ($recipehash[recipeid]) != nil && ($recipehash[recipeid].getlastnum != 0)
+    lastnum = $recipehash[recipeid].getlastnum
+    steparray = Array.new
+    
+    (1..lastnum).each do |n|
+      step = Step.where(number: n, inrecipe: recipeid).take
+      plugin = PluginCall.find(step.plugin_call_id).what
+      steparray.push(n.to_s + ". " + step.name + " (Tool: " + plugin + ")")
+    end
+
+    return steparray
+  end
 end
+
 
 def switch(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
