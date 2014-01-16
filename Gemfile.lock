@@ -37,6 +37,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     commonjs (0.2.7)
+    datacalc (0.0.1)
     domain_name (0.5.15)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
@@ -56,6 +57,7 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.1)
     jsoncombiner (0.0.1)
+    jsoncrossreference (0.0.3)
     jsontochart (0.1.8)
     less (2.4.0)
       commonjs (~> 0.2.7)
@@ -175,11 +177,13 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  datacalc
   httparty
   jbuilder (~> 1.2)
   jquery-rails
   json
   jsoncombiner
+  jsoncrossreference
   jsontochart
   less-rails
   linkedin-scraper

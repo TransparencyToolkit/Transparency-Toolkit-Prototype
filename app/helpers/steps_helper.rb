@@ -81,6 +81,11 @@ def switch(usedmethod, input=nil, stepnum, recipeid)
     $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch
     render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  elsif usedmethod == 34
+    $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
+    $recipehash[recipeid].useobject(stepnum).switch
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   end
 end
 end
