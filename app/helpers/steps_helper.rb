@@ -28,6 +28,10 @@ def getfields(recipeid)
   end
 end
 
+def getsteps(recipeid)
+  
+end
+
 def switch(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
     input = $recipehash[recipeid].getoutput(stepnum-1)
@@ -44,19 +48,23 @@ def switch(usedmethod, input=nil, stepnum, recipeid)
   elsif usedmethod >= 19 && usedmethod <= 26
     $recipehash[recipeid].addstep(stepnum, SunlightcongressPlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch
-    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   elsif usedmethod == 28
     $recipehash[recipeid].addstep(stepnum, SunlightpartytimePlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch
-    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   elsif usedmethod == 31
     $recipehash[recipeid].addstep(stepnum, JsoncombinerPlugin.new(usedmethod, input, stepnum, recipeid))
     $recipehash[recipeid].useobject(stepnum).switch
-    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   elsif usedmethod == 32
     $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch
-    render :partial => 'sunlightcongress', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   elsif usedmethod == 33
     $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
     $recipehash[recipeid].useobject(stepnum).switch

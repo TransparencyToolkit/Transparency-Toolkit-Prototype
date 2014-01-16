@@ -8,7 +8,7 @@ class JsontochartPlugin < PluginClass
   end
   
   def maketimeline
-    j = JSONToChart.new(@input)
+    j = JSONToChart.new(@input, @stepnum)
     @output = j.table
   end
 end
