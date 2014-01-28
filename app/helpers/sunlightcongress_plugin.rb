@@ -5,7 +5,7 @@ class SunlightcongressPlugin < PluginClass
     @input = input
     @stepnum = stepnum
     @output = nil
-    @apikey = "apikey"
+    @apikey = ""
   end
 
   def switch

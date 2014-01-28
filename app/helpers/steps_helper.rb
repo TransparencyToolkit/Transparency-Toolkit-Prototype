@@ -34,7 +34,7 @@ def getsteps(recipeid)
     steparray = Array.new
     
     (1..lastnum).each do |n|
-      step = Step.where(number: n, inrecipe: recipeid).take
+      step = Step.where(number: n.to_s, inrecipe: recipeid).take
       plugin = PluginCall.find(step.plugin_call_id).what
       steparray.push(n.to_s + ". " + step.name + " (Tool: " + plugin + ")")
     end
