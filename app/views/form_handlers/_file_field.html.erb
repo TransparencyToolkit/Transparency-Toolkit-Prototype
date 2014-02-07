@@ -1,0 +1,4 @@
+<div class="field">
+  <%= f.label field.name %><br/>
+  <%= f.select field.name, getfields(params[:recipeid].to_i), {}, {multiple: false} %>
+</div>

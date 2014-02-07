@@ -1,6 +1,6 @@
+module StepsHelper
 $recipehash = Hash.new
 
-module StepsHelper
 def newrecipe(recipeid)
   $recipehash[recipeid] = PluginSaver.new(recipeid)
 end

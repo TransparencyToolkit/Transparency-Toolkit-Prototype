@@ -1,0 +1,29 @@
+<h1>Title and Tool Inputs</h1>
+
+<p>Here you can add a title to your analysis step and choose tool inputs. The
+  inputs are things like details on what data to get, which datasets to combine, or which fields should be used
+  for which parts of a visualization.</p>
+<br />
+
+<%= simple_form_for [@recipe, Step.find(params[:stepid])], url: wizard_path do |f| %>
+
+<%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
+
+<%= f.hidden_field :plugin_call_id %>
+<%= f.hidden_field :inrecipe, :value => params[:recipeid] %>
+<%= f.hidden_field :number, :value => setnum((params[:recipeid]).to_i) %>
+<%= f.hidden_field :stepid, :value => params[:stepid] %>
+
+<%= f.fields_for :properties do |builder| %>
+  <% Step.find(params[:stepid]).plugin_call.fields.each do |field| %>
+    <% if field.field_type %>
+    <br />
+    <%= render "#{field.field_type}", field: field, f: builder %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<br />
+<%= f.submit 'Use Tool', :class => 'btn-primary btn-small' %>
+
+<% end %>

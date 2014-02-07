@@ -7,17 +7,10 @@ tool get data, another get a second set of data, a fourth tool combine those
   will be displayed under each step.</p>
 <br />
 
-<%= form_tag new_recipe_step_path(recipe), method: :get do %>
-  <%= select_tag :plugin_call_id,
-  grouped_options_for_select(Plugin.order(:name).map{ |group| [group.name,
-  group.plugin_calls.map{|pc| [pc.what, pc.id] } ]}), prompt: "Choose tool to
-  use", include_blank: true %>
-  <%= hidden_field_tag :inrecipe, recipe.id %>
-  
-  <%= submit_tag "New Step", name: nil %>
-<% end %>
+<%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "btn
+btn-primary" %>
 
-<br />
+<br /><br />
 <table>
   <thead>
     <tr>
@@ -64,6 +57,12 @@ tool get data, another get a second set of data, a fourth tool combine those
 <% end %>
 </tbody>
 </table>
+<br /><br />
+<% if recipe.steps.length > 0 %>
+<%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "btn
+btn-primary" %>
+<% end %>
+
 
 <br />
 

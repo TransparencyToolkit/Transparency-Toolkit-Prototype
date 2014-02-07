@@ -1,21 +1,13 @@
-<%= simple_form_for [@recipe, @step], :html => { :class => 'form-inline'} do |f| %>
-<%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
-
-<%= f.hidden_field :plugin_call_id %>
-<%= f.hidden_field :inrecipe, :value => params[:inrecipe] %>
-<%= f.hidden_field :number, :value => setnum(params[:inrecipe].to_i) %>
-
-<%= f.fields_for :properties do |builder| %>
-  <% @step.plugin_call.fields.each do |field| %>
-    <% if field.field_type %>
-    <br />
-    <%= render "#{field.field_type}", field: field, f: builder %>
-    <% end %>
-  <% end %>
-<% end %>
-
+<h1>Choose a Tool</h1>
+<p>Choose a tool to get data or use on a dataset you have already retrieved.</p>
 <br />
-<%= f.submit 'Add Step', :class => 'btn-primary btn-small' %>
-<% end %>
+<%= simple_form_for [recipe, recipe.steps.build], :html => { :class => 'form-inline'} do |f| %>
 
+<%= f.grouped_collection_select :plugin_call_id,
+    Plugin.order(:name), :plugin_calls, :name, :id, :what, include_blank: true%>
+
+  <%= hidden_field_tag :inrecipe, recipe.id %>
+<br /><br />
+  <%= f.submit 'Next: Tool Inputs', :class => 'btn-primary btn-small' %> 
+<% end %>
 

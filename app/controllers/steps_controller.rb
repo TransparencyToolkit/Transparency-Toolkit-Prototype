@@ -27,17 +27,13 @@ class StepsController < ApplicationController
   # POST /steps
   # POST /steps.json
   def create
-    @recipe = Recipe.find(params[:step][:inrecipe])
+    @recipe = Recipe.find(params[:inrecipe])
     @step = @recipe.steps.new(step_params)
 
-    respond_to do |format|
-      if @step.save
-        format.html { redirect_to @recipe, notice: 'Step was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @step }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @step.errors, status: :unprocessable_entity }
-      end
+    if @step.save
+      session[:step_id] = @step.id
+      redirect_to(controller: 'form_handlers', stepid: @step.to_param, recipeid: @recipe.to_param)
+    else
     end
   end
 

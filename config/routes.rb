@@ -19,6 +19,8 @@ Inputtest2::Application.routes.draw do
 
   resources :plugin_call_fields
 
+  resources :form_handlers
+
 
   root to: "recipes#index"
 
