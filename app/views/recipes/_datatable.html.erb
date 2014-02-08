@@ -4,13 +4,14 @@
                                                          border-color:
                                                          transparent;
                                                          cursor: default;
-                                                         overflow: hidden;"
-                                                         class="collapsed expandcol" data-toggle="collapse"
+                                                         overflow: auto;"
+                                                         class="expandcol"
+	data-toggle="collapse"
                                                          data-target="#<%= stepnum %>datatable">
                                                          </button></td>
 </tr>
 <tr><td>
-<div id="<%= stepnum %>datatable" class="collapse">
+<div id="<%= stepnum %>datatable" class="collapse in">
     <%= raw output %>
 </div>
 </td>

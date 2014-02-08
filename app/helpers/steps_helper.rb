@@ -1,14 +1,17 @@
 module StepsHelper
 $recipehash = Hash.new
 
+# Adds recipe to hash and makes object for tool data
 def newrecipe(recipeid)
   $recipehash[recipeid] = PluginSaver.new(recipeid)
 end
 
+# Sets the step number
 def setnum(recipeid)
   return $recipehash[recipeid].getlastnum + 1
 end
 
+# Returns array of fields in JSON from last step
 def getfields(recipeid)
   if ($recipehash[recipeid]) != nil && ($recipehash[recipeid].getlastnum != 0)
     $recipehash[recipeid].useobject($recipehash[recipeid].getlastnum)
@@ -28,6 +31,7 @@ def getfields(recipeid)
   end
 end
 
+# Returns an array with details on all previous steps in recipe
 def getsteps(recipeid)
   if ($recipehash[recipeid]) != nil && ($recipehash[recipeid].getlastnum != 0)
     lastnum = $recipehash[recipeid].getlastnum
@@ -43,7 +47,7 @@ def getsteps(recipeid)
   end
 end
 
-
+# Switches between tools
 def switch(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
     input = $recipehash[recipeid].getoutput(stepnum-1)
