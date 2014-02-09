@@ -10,7 +10,7 @@ class JsoncrossreferencePlugin < PluginClass
 
   def switch
     case @method
-      when 34 then crossreference
+      when 12 then crossreference
       else "Unknown Method"
     end
   end

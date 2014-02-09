@@ -10,7 +10,7 @@ class JsoncombinerPlugin < PluginClass
 
   def switch
     case @method
-      when 31 then concatenate
+      when 11 then concatenate
       else "Unknown Method"
     end
   end

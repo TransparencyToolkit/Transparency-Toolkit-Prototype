@@ -9,7 +9,7 @@ class LinkedindataPlugin < PluginClass
 
   def switch
     case @method
-      when 32 then data
+      when 10 then data
       else "Unknown Method"
     end
   end

@@ -10,7 +10,7 @@ class TimelinegenPlugin < PluginClass
 
   def switch
     case @method
-      when 30 then maketimeline
+      when 13 then maketimeline
       else "Unknown Method"
     end
   end

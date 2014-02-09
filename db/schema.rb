@@ -11,29 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131219202724) do
+ActiveRecord::Schema.define(version: 20140209003835) do
 
-  create_table "call_fields", force: true do |t|
-    t.string   "name"
-    t.string   "field_type"
-    t.boolean  "required"
-    t.integer  "call_id"
+  create_table "categories", force: true do |t|
+    t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  add_index "call_fields", ["call_id"], name: "index_call_fields_on_call_id"
-
-  create_table "calls", force: true do |t|
-    t.string   "call"
-    t.string   "details"
-    t.string   "what"
-    t.integer  "Plugin_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "calls", ["Plugin_id"], name: "index_calls_on_Plugin_id"
 
   create_table "plugin_call_fields", force: true do |t|
     t.string   "name"
@@ -68,8 +52,10 @@ ActiveRecord::Schema.define(version: 20131219202724) do
     t.integer  "step_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "category_id"
   end
 
+  add_index "plugins", ["category_id"], name: "index_plugins_on_category_id"
   add_index "plugins", ["step_id"], name: "index_plugins_on_step_id"
 
   create_table "recipes", force: true do |t|

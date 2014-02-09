@@ -10,7 +10,7 @@ class SunlightpartytimePlugin < PluginClass
 
   def switch
     case @method
-      when 28 then parties
+      when 9 then parties
       else "Unknown Method"
     end
   end

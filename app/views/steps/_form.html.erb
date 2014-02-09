@@ -3,8 +3,7 @@
 <br />
 <%= simple_form_for [recipe, recipe.steps.build], :html => { :class => 'form-inline'} do |f| %>
 
-<%= f.grouped_collection_select :plugin_call_id,
-    Plugin.order(:name), :plugin_calls, :name, :id, :what, include_blank: true%>
+<%= f.grouped_collection_select :plugin_call_id, Plugin.order(:name), :plugin_calls, :name, :id, :what, include_blank: true%>
 
   <%= hidden_field_tag :inrecipe, recipe.id %>
 <br /><br />

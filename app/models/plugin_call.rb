@@ -1,6 +1,6 @@
 class PluginCall < ActiveRecord::Base
   belongs_to :plugin
-  attr_accessible :call, :details, :what, :fields_attributes
+  attr_accessible :call, :details, :what, :fields_attributes, :plugin_id
   has_many :steps
   has_many :plugin_call_fields
   has_many :fields, class_name: "PluginCallField"

@@ -9,7 +9,7 @@ class WordcloudPlugin < PluginClass
 
   def switch
     case @method
-      when 33 then gencloud
+      when 14 then gencloud
       else "Unknown Method"
     end
   end

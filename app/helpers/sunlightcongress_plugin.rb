@@ -10,14 +10,14 @@ class SunlightcongressPlugin < PluginClass
 
   def switch
     case @method
-      when 19 then votes
-      when 20 then amendments
-      when 21 then bills
-      when 22 then updates
-      when 23 then committees
-      when 24 then hearings
-      when 25 then hearings_json
-      when 26 then events
+      when 2 then votes
+      when 3 then amendments
+      when 4 then bills
+      when 5 then updates
+      when 6 then committees
+      when 7 then hearings
+      when 8 then hearings_json
+      when 1 then events
       else "Unknown Method"
     end
   end
