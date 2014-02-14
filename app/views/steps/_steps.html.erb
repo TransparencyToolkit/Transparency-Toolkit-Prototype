@@ -41,7 +41,7 @@ btn-primary" %>
 	    <tr>
 	      <td>
 		
-		<%= switch(step.plugin_call_id.to_i, step.properties,
+		<%= switchView(step.plugin_call_id.to_i, step.properties,
 		step.number.to_i, recipe.id.to_i) %>
 		
 		<td>

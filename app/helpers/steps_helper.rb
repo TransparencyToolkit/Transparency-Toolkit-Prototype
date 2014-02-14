@@ -1,5 +1,6 @@
-module StepsHelper
 $recipehash = Hash.new
+
+module StepsHelper
 
 # Adds recipe to hash and makes object for tool data
 def newrecipe(recipeid)
@@ -48,44 +49,37 @@ def getsteps(recipeid)
 end
 
 # Switches between tools
-def switch(usedmethod, input=nil, stepnum, recipeid)
+def switchTool(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
     input = $recipehash[recipeid].getoutput(stepnum-1)
   end
-  
-  if usedmethod == 13
-    $recipehash[recipeid].addstep(stepnum, TimelinegenPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
-    $recipehash[recipeid].useobject(stepnum).switch
+
+  case usedmethod
+    when 13 then $recipehash[recipeid].addstep(stepnum, TimelinegenPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
+    when 1..8 then $recipehash[recipeid].addstep(stepnum, SunlightcongressPlugin.new(usedmethod, input, stepnum))
+    when 9 then $recipehash[recipeid].addstep(stepnum, SunlightpartytimePlugin.new(usedmethod, input, stepnum))
+    when 11 then $recipehash[recipeid].addstep(stepnum, JsoncombinerPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 10 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
+    when 14 then $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
+    when 12 then $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
+    else "Unknown Tool"
+  end
+
+  $recipehash[recipeid].useobject(stepnum).switch
+end
+
+# Switches between the views for different tools
+def switchView(usedmethod, input=nil, stepnum, recipeid)
+  case usedmethod
+  when 13
     render :partial => 'emailtimeline', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
-  elsif usedmethod >= 1 && usedmethod <= 8
-    $recipehash[recipeid].addstep(stepnum, SunlightcongressPlugin.new(usedmethod, input, stepnum))
-    $recipehash[recipeid].useobject(stepnum).switch
+  when 1..12
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
-  elsif usedmethod == 9
-    $recipehash[recipeid].addstep(stepnum, SunlightpartytimePlugin.new(usedmethod, input, stepnum))
-    $recipehash[recipeid].useobject(stepnum).switch
-    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
-  elsif usedmethod == 11
-    $recipehash[recipeid].addstep(stepnum, JsoncombinerPlugin.new(usedmethod, input, stepnum, recipeid))
-    $recipehash[recipeid].useobject(stepnum).switch
-    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
-  elsif usedmethod == 10
-    $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
-    $recipehash[recipeid].useobject(stepnum).switch
-    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
-  elsif usedmethod == 14
-    $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
-    $recipehash[recipeid].useobject(stepnum).switch
+  when 14
     render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
-  elsif usedmethod == 12
-    $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
-    $recipehash[recipeid].useobject(stepnum).switch
-    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+  else "Unknown Tool"
   end
 end
+
 end

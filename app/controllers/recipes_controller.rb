@@ -7,7 +7,7 @@ class RecipesController < ApplicationController
 
   def show
     @recipe = Recipe.find(params[:id])
-    view_context.newrecipe(@recipe.id)
+    # view_context.newrecipe(@recipe.id)
 
     if @recipe.steps.length == 0
       redirect_to new_step_path(recipe: @recipe)
@@ -19,6 +19,7 @@ class RecipesController < ApplicationController
 
     respond_to do |format|
       if @recipe.save
+        view_context.newrecipe(@recipe.id)
         format.html { redirect_to @recipe}
         format.json { render action: 'show', status: :created, location: @recipe }
       else
