@@ -20,7 +20,7 @@ btn-primary" %>
 </table>
 
 <tbody>
-<% recipe.steps.each do |step| %>
+<% recipe.steps.order(:number).each do |step| %>
 <br /><br />
 <tr style="border:0;">
   <td style="border:0; padding-bottom:50px;">
