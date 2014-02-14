@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140209003835) do
+ActiveRecord::Schema.define(version: 20140214054912) do
 
   create_table "categories", force: true do |t|
     t.string   "type"
@@ -77,6 +77,7 @@ ActiveRecord::Schema.define(version: 20140209003835) do
     t.integer  "plugin_call_id"
     t.integer  "recipe_id"
     t.integer  "inrecipe"
+    t.integer  "stepid"
   end
 
   add_index "steps", ["plugin_call_id"], name: "index_steps_on_plugin_call_id"

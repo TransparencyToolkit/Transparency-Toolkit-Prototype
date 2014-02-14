@@ -16,7 +16,8 @@ class FormHandlersController < ApplicationController
 
   def update
     @step = Step.find(params[:step][:stepid])
-    @step.attributes = params[:step]
+    @step.update(params[:step])
+    binding.pry
     view_context.switchTool(@step.plugin_call_id.to_i, step.properties, step.number.to_i, @@recipe.id.to_i)
     render_wizard @step
   end
