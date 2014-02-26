@@ -1,12 +1,8 @@
-<h1>Choose a Tool</h1>
-<p>Choose a tool to get data or use on a dataset you have already retrieved.</p>
-<br />
 <%= simple_form_for [recipe, recipe.steps.build], :html => { :class => 'form-inline'} do |f| %>
 
-<%= f.grouped_collection_select :plugin_call_id, Plugin.order(:name), :plugin_calls, :name, :id, :what, include_blank: true%>
+<%= f.grouped_collection_select :plugin_call_id, Plugin.order(:name), :plugin_calls, :name, :id, :what, include_blank: 'please select'%>
 
   <%= hidden_field_tag :inrecipe, recipe.id %>
-<br /><br />
   <%= f.submit 'Next: Tool Inputs', :class => 'btn-primary btn-small' %> 
 <% end %>
 
