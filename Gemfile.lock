@@ -50,6 +50,9 @@ GEM
     ejs (1.0.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    foundation-icons-sass-rails (3.0.0)
+      railties (>= 3.1.1)
+      sass-rails (>= 3.1.1)
     foundation-rails (5.1.1.0)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
@@ -192,6 +195,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   compass-rails
   datacalc
+  foundation-icons-sass-rails
   foundation-rails
   httparty
   jbuilder (~> 1.2)

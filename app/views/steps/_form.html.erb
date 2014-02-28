@@ -1,8 +1,19 @@
-<%= simple_form_for [recipe, recipe.steps.build], :html => { :class => 'form-inline'} do |f| %>
+<%= form_for [recipe, recipe.steps.build] do |f| %>
+    <div class="row">
+      <div class="medium-6 small-6 columns">
 
-<%= f.grouped_collection_select :plugin_call_id, Plugin.order(:name), :plugin_calls, :name, :id, :what, include_blank: 'please select'%>
+        <%= f.grouped_collection_select :plugin_call_id, Plugin.where(category_id: 1).order(:name), :plugin_calls, :name, :id, :what, include_blank: 'Please select', wrapper_html: { class: 'medium-12 small-12 columns' }%>
 
-  <%= hidden_field_tag :inrecipe, recipe.id %>
-  <%= f.submit 'Next: Tool Inputs', :class => 'btn-primary btn-small' %> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium=6 small-6 columns">
+
+        <%= hidden_field_tag :inrecipe, recipe.id %>
+        <%= f.submit 'Next: Tool Inputs', :class => 'button' %>
+      </div>
+
+    </div>
+
 <% end %>
 

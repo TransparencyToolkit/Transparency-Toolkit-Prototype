@@ -148,6 +148,7 @@
     <orderEntry type="library" scope="PROVIDED" name="ejs (v1.0.0, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.2, rbenv: 1.9.3-p484) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="foundation-icons-sass-rails (v3.0.0, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="foundation-rails (v5.1.1.0, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fssm (v0.2.10, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 1.9.3-p484) [gem]" level="application" />
