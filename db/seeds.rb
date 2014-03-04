@@ -24,7 +24,8 @@ plugin_list = [
    ["Combine", "Combine multiple datasets.", 2],
    ["Crossreference", "Crossreference datasets.", 2],
    ["Timeline", "Automatically generate a timeline visualization.", 3],
-   ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 3]
+   ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 3] ,
+   ["Document Viewer", "View, Annotate, Edit documents", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -46,7 +47,8 @@ plugin_call_list = [
    ["Combine", "Combine multiple datasets.", 4],
    ["Crossreference", "Crossreference datasets.", 5],
    ["Timeline", "Automatically generate a timeline visualization.", 6],
-   ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 7]
+   ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 7],
+   ["Document Viewer", "View, Annotate, Edit documents", 8]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|

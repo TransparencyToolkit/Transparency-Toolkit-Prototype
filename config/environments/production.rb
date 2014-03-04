@@ -28,6 +28,7 @@ Inputtest2::Application.configure do
  
   config.assets.precompile += %w( timeline.js )
   config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+  config.assets.precompile += %w( vendor/modernizr.js )
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="ClearType" content="true">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <title>Document Title</title>
+
+
+  <!--[if (!IE)|(gte IE 8)]><!-->
+  <link href="DV/viewer-datauri.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="DV/plain-datauri.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="DV/themes/plain.css" media="screen" rel="stylesheet" type="text/css" />
+  <!--<![endif]-->
+  <!--[if lte IE 7]>
+  <link href="DV/viewer.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="DV/plain.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+</head>
+<body>
+
+<div id="DV-container">
+
+  <div class="DV-loadingDocument"><span>Loading</span></div>
+  <noscript>
+    <div id="DV-noJS">
+      The Document Viewer requires that you enable Javascript.
+    </div>
+  </noscript>
+
+</div>
+
+<script src="DV/viewer.js" type="text/javascript" charset="utf-8"></script>
+<script src="DV/templates.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+    DV.load('http://documents.nytimes.com/goldman-sachs-internal-emails.json', { container: '#DV-container' });
+</script>
+
+</body>
+</html>
