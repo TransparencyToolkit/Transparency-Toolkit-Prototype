@@ -1,68 +1,31 @@
-<p>You can hook together analysis tools here. For example, you could have one
-tool get data, another get a second set of data, a third tool combine those
-  data sets, and a fourth show them on a timeline.</p>
+<dl class="accordion" data-accordion>
+  <% recipe.steps.order(:number).each do |step| %>
+      <dd>
 
-<p>To begin, choose the tool you want to use from the dropdown menu and click
-  "New Step". Then fill in any settings or inputs for the tool. The output
-  will be displayed under each step.</p>
-<br />
+        <a href="#panel<%= step.number %>">Step Number<%= step.number %></a>
 
-<%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "btn
-btn-primary" %>
+        <div id="panel<%= step.number %>" class="content <%= 'active' if step.number.first %>">
+          <dl class="tabs" data-tab>
+            <dd><a href="#panel<%= step.number %>-<%= step.id %>-details"><%= step.number %></a></dd>
+            <dd><a href="#panel<%= step.number %>-<%= step.id %>-edit">Tab 2</a></dd>
+          </dl>
+          <div class="tabs-content">
+            <div class="content" id="#panel<%= step.number %>-<%= step.id %>-details">
+              <%= switchView(step.plugin_call_id.to_i, step.properties,
+                             step.number.to_i, recipe.id.to_i) %>
 
-
-<table>
-  <thead>
-    <tr>
-      <th>Current Analysis Sequence</th>
-    </tr>
-  </thead>
-</table>
-
-<tbody>
-<% recipe.steps.order(:number).each do |step| %>
-<br /><br />
-<tr style="border:0;">
-  <td style="border:0; padding-bottom:50px;">
-       <ul class="nav nav-tabs" id="steptabs" data-tabs="tabs">
-	 <li><b><%= step.number %>.&nbsp;&nbsp;</b></li>
-          <li class="active"><a href="#details<%= step.id %>step" data-toggle="tab">Details</a></li>
-          <li><a href="#edit<%= step.id %>step" data-toggle="tab">Edit</a></li>
-        </ul>
-
-       <div class="tab-content">
-	 <div class="tab-pane active" id="details<%= step.id %>step">
-            <tr>
-              <td><i><%= step.name %></i></td>
-	    </tr><br />
-	    <tr>
-              <td><%= step.description %></td>
-            </tr><br />
-	    <tr>
-	      <td>
-		
-		<%= switchView(step.plugin_call_id.to_i, step.properties,
-		step.number.to_i, recipe.id.to_i) %>
-		
-		<td>
-	    </tr>
+            </div>
+            <div class="content" id="#panel<%= step.number %>-<%= step.id %>-edit">
+              <%= render :partial => "steps/editform", :locals => {:step => step} %>
+            </div>
           </div>
 
-	 <div class="tab-pane" id="edit<%= step.id %>step">
-            <%= render :partial => "steps/editform", :locals => { :step => step } %>
-         </div>
-       </div>
-  </td>
-</tr>
-<% end %>
-</tbody>
-</table>
-<br /><br />
-<% if recipe.steps.length > 0 %>
-<%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "btn
-btn-primary" %>
-<% end %>
 
+        </div>
 
-<br />
+      </dd>
+  <% end %>
+</dl>
+<br/><br/>
+    <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button" %>
 

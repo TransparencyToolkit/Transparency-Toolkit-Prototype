@@ -157,6 +157,7 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.9, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v1.5.3, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.1.0, rbenv: 1.9.3-p484) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-turbolinks (v2.0.2, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jsoncombiner (v0.0.1, rbenv: 1.9.3-p484) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jsoncrossreference (v0.0.3, rbenv: 1.9.3-p484) [gem]" level="application" />

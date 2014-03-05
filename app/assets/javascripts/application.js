@@ -21,5 +21,8 @@
 //= require backbone_datalink
 //= require backbone/inputtest2
 //= require_tree .
+//= require_self
 
-$(function(){ $(document).foundation(); });
+$(function() {
+    $(document).foundation();
+});
