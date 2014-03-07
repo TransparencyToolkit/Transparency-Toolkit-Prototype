@@ -2,20 +2,21 @@
   <% recipe.steps.order(:number).each do |step| %>
       <dd>
 
-        <a href="#panel<%= step.number %>">Step Number<%= step.number %></a>
+        <a href="#panel<%= step.number %>">Step <%= step.number %></a>
 
-        <div id="panel<%= step.number %>" class="content <%= 'active' if step.number.first %>">
+        <div id="panel<%= step.number %>" class="content active">
           <dl class="tabs" data-tab>
-            <dd><a href="#panel<%= step.number %>-<%= step.id %>-details"><%= step.number %></a></dd>
-            <dd><a href="#panel<%= step.number %>-<%= step.id %>-edit">Tab 2</a></dd>
+            <dd><a href="#panel<%= step.number  %>-<%= step.id %>">Details</a></dd>
+            <dd><a href="#panel<%= step.number %>-<%= step.id + 1  %>">Edit</a></dd>
           </dl>
           <div class="tabs-content">
-            <div class="content" id="#panel<%= step.number %>-<%= step.id %>-details">
+            <div class="content" id="panel<%= step.number %>-<%= step.id %>">
+
               <%= switchView(step.plugin_call_id.to_i, step.properties,
                              step.number.to_i, recipe.id.to_i) %>
 
             </div>
-            <div class="content" id="#panel<%= step.number %>-<%= step.id %>-edit">
+            <div class="content" id="panel<%= step.number  %>-<%= step.id + 1 %>">
               <%= render :partial => "steps/editform", :locals => {:step => step} %>
             </div>
           </div>
@@ -26,6 +27,7 @@
       </dd>
   <% end %>
 </dl>
+
 <br/><br/>
     <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button" %>
 

@@ -19,10 +19,7 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
-//= require backbone/inputtest2
 //= require_tree .
-//= require_self
+//= require_self.
 
-$(function() {
-    $(document).foundation();
-});
+$(function(){ $(document).foundation(); });

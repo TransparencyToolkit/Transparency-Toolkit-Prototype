@@ -12,3 +12,8 @@ button.expandcol:before
     content: "\f068  Hide Data";
     font-family: FontAwesome;
 }
+
+
+.accordion .content {
+  overflow: hidden;
+}
