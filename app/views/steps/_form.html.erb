@@ -4,7 +4,7 @@
 
 <%= form_for [recipe, recipe.steps.build] do |f| %>
 
-    <% if recipe.steps.empty? %>
+    <% if recipe.steps.count < 1 %>
         <h1>Choose a Datasource</h1>
         <h3 class="subheader"><small>Choose a dataset from available sources.</small></h3>
         <div class="row">

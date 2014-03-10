@@ -13,8 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require turbolinks
+//= require timelineJS/timeline
 //= require timelineJS/embed
+//= require turbolinks
 //= require underscore
 //= require backbone
 //= require backbone_rails_sync
@@ -22,4 +23,4 @@
 //= require_tree .
 //= require_self.
 
-$(function(){ $(document).foundation(); });
+$(function(){$(document).foundation(); });

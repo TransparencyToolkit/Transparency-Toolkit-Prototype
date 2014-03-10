@@ -15,13 +15,19 @@ button.expandcol:before
 
 
 .accordion .content {
-  overflow: hidden;
+  overflow: scroll;
 }
 
-.accordion dd.active a {
+.accordion dd.outer.active>a:before {
 
-  .fi-arrouws-compress {
-    display: block;
-  }
+  content: "\f176";
+  font-family: "foundation-icons";
 
+
+}
+
+.accordion dd.outer>a:before {
+
+  content: "\f199";
+  font-family: "foundation-icons";
 }

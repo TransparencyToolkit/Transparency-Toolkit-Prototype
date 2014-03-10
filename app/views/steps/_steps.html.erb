@@ -1,8 +1,8 @@
 <dl class="accordion" data-accordion>
   <% recipe.steps.order(:number).each do |step| %>
-      <dd>
+      <dd class="outer">
 
-        <a href="#panel<%= step.number %>"><i class="fi-arrows-compress"></i>Step <%= step.number %></a>
+        <a href="#panel<%= step.number %>" > Step <%= step.number%></a>
 
         <div id="panel<%= step.number %>" class="content <% if step.number =='1' %>active<%else%><%end%>">
           <dl class="tabs" data-tab>
@@ -13,7 +13,7 @@
             <div class="content <% if step.number.first %>active<% else %><% end %>" id="panel<%= step.number %>-<%= step.id %>">
 
               <%= switchView(step.plugin_call_id.to_i, step.properties,
-                             step.number.to_i, recipe.id.to_i) %>
+                             step.number.to_i, @recipe.id.to_i) %>
 
             </div>
             <div class="content" id="panel<%= step.number  %>-<%= step.id + 1 %>">
@@ -35,6 +35,10 @@
 </div>
 
 <script>
+    $(".accordion a").on('click',function(){
+        $("dd.active a").children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
+        $(this).children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
+    });
 
 
 
