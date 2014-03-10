@@ -17,3 +17,11 @@ button.expandcol:before
 .accordion .content {
   overflow: hidden;
 }
+
+.accordion dd.active a {
+
+  .fi-arrouws-compress {
+    display: block;
+  }
+
+}

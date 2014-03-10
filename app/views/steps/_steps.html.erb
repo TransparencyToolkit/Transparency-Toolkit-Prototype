@@ -2,15 +2,15 @@
   <% recipe.steps.order(:number).each do |step| %>
       <dd>
 
-        <a href="#panel<%= step.number %>">Step <%= step.number %></a>
+        <a href="#panel<%= step.number %>"><i class="fi-arrows-compress"></i>Step <%= step.number %></a>
 
-        <div id="panel<%= step.number %>" class="content active">
+        <div id="panel<%= step.number %>" class="content <% if step.number =='1' %>active<%else%><%end%>">
           <dl class="tabs" data-tab>
             <dd><a href="#panel<%= step.number  %>-<%= step.id %>">Details</a></dd>
             <dd><a href="#panel<%= step.number %>-<%= step.id + 1  %>">Edit</a></dd>
           </dl>
           <div class="tabs-content">
-            <div class="content" id="panel<%= step.number %>-<%= step.id %>">
+            <div class="content <% if step.number.first %>active<% else %><% end %>" id="panel<%= step.number %>-<%= step.id %>">
 
               <%= switchView(step.plugin_call_id.to_i, step.properties,
                              step.number.to_i, recipe.id.to_i) %>
@@ -27,7 +27,22 @@
       </dd>
   <% end %>
 </dl>
+<div class="row">
+  <div class="medium-12 small-12">
+    <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button secondary" %>
 
-<br/><br/>
-    <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button" %>
+  </div>
+</div>
+
+<script>
+
+
+
+
+
+
+
+</script>
+
+
 
