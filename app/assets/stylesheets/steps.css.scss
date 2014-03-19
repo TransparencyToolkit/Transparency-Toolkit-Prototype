@@ -14,9 +14,7 @@ button.expandcol:before
 }
 
 
-.accordion .content {
-  overflow: scroll;
-}
+
 
 .accordion dd.outer.active>a:before {
 
@@ -30,4 +28,8 @@ button.expandcol:before
 
   content: "\f199";
   font-family: "foundation-icons";
+}
+
+.modal-form {
+  position: relative !important;
 }

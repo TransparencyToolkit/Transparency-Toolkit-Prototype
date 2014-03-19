@@ -25,6 +25,8 @@
         </div>
 
       </dd>
+
+
   <% end %>
 </dl>
 <div class="row">
@@ -35,12 +37,11 @@
 </div>
 
 <script>
-    $(".accordion a").on('click',function(){
-        $("dd.active a").children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
-        $(this).children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
+    $.noConflict();
+    Foundation.utils.S(".accordion a").on('click',function(){
+        Foundation.utils.S("dd.active a").children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
+        Foundation.utils.S(this).children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
     });
-
-
 
 
 

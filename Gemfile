@@ -7,10 +7,9 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '~> 4.0.1'
 
-
-gem 'compass-rails'
+gem 'sprockets', '2.11.0'
 
 
 # Use Uglifier as compressor for JavaScript assets
@@ -28,6 +27,7 @@ gem 'pry'
 gem 'json'
 gem 'httparty'
 
+
 gem 'protected_attributes'
 
 # Use jquery as the JavaScript library
@@ -35,13 +35,13 @@ gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
-gem 'jquery-turbolinks'
+
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', ' ~> 2.0'
 
 
-gem 'foundation-rails'
+
 gem 'foundation-icons-sass-rails'
 
 group :doc do
@@ -49,6 +49,13 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+
+group :development do
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'binding_of_caller'
+  gem 'foundation-rails', '~> 5.2.1'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -74,3 +81,4 @@ gem 'jsoncrossreference'
 gem 'datacalc'
 gem 'wicked'
 gem 'rails-backbone'
+gem 'thin'
