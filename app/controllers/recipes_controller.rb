@@ -7,7 +7,7 @@ class RecipesController < ApplicationController
 
   def show
     @recipe = Recipe.find(params[:id])
-    # view_context.newrecipe(@recipe.id)
+     #view_context.newrecipe(@recipe.id)
 
     if @recipe.steps.length == 0
       redirect_to new_step_path(recipe: @recipe)

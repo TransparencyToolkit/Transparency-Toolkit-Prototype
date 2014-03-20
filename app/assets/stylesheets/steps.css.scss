@@ -12,3 +12,24 @@ button.expandcol:before
     content: "\f068  Hide Data";
     font-family: FontAwesome;
 }
+
+
+
+
+.accordion dd.outer.active>a:before {
+
+  content: "\f176";
+  font-family: "foundation-icons";
+
+
+}
+
+.accordion dd.outer>a:before {
+
+  content: "\f199";
+  font-family: "foundation-icons";
+}
+
+.modal-form {
+  position: relative !important;
+}

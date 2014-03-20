@@ -4,7 +4,7 @@
         <!-- jQuery -->
         <script type="text/javascript"
         src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<%= javascript_include_tag "timeline" %>
+
         <!-- BEGIN TimelineJS -->
         <script type="text/javascript">
             $(document).ready(function() {
@@ -12,13 +12,18 @@
                     type:       'timeline',
                     width:      '800',
                     height:     '600',
+                    start_zoom_adjust:  '1',
+                    start_at_end:       false,
                     source: <%= raw output %>,
                     embed_id:   'time_line'
                 });
+                $('#time_line > .content').removeAttr('display');
             });
         </script>
         <!-- END TimelineJS -->
     </head>
-    <body>  
+    <body>
+
         <div id="time_line"></div>
+
     </body>

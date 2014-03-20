@@ -12,8 +12,9 @@
     <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="getDataModal" data-reveal>Add Data</a></span>
   </div>
   <div class="medium-4 small-4 columns
-    <% if @recipe.nil? %>
-      <% else %>  callout <% end %> panel" data-equalizer-watch>
+
+    callout
+ panel" data-equalizer-watch>
     <dl>
       <dt>
         Combine Data
@@ -22,11 +23,12 @@
         Choose this to use another datasource from the available dataset, for use with tools like "Combine".
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button <% if @recipe.nil? %>
-      disabled <% else %> <% end %>" data-reveal-id="combineDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="combineDataModal" data-reveal>Add Data</a></span>
   </div>
-  <div class="medium-4 small-4 columns   <% if @recipe.nil? %>
-      <% else %> callout <% end %> panel" data-equalizer-watch>
+  <div class="medium-4 small-4 columns
+
+    callout
+panel" data-equalizer-watch>
     <dl>
       <dt>
         Visualize Data
@@ -35,13 +37,21 @@
         Choose this to use another datasource from the available dataset, for use with tools like "Combine".
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button <% if @recipe.nil? %> disabled
-      <% else %>  <% end %>" data-reveal-id="visualizeDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="visualizeDataModal" data-reveal>Add Data</a></span>
 
   </div>
 </div>
+<div class="row">
+  <div class="small-6 columns">
 
+
+  </div>
+</div>
+<%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
 <div id="getDataModal" class="reveal-modal" data-reveal>
+  <h2>Choose a Data Source</h2>
+  <p class="lead">All available data sources are listed in the dropdown.</p>
+  <p>Once you choose, you'll be directed to the next step where you can select more options.</p>
   <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
@@ -53,13 +63,4 @@
   <%= render :partial => "steps/visualizeform", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
-
-
-<script>
-    $('.disabled').click(function(e){
-        return false;
-    });
-</script>
-
-
 

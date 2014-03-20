@@ -1,13 +1,16 @@
-<h1>Title and Tool Inputs</h1>
+<h1>Tool Inputs</h1>
 
-<p>Here you can add a title to your analysis step and choose tool inputs. The
+<h3 class="subheader"><small>Here you can choose tool inputs. The
   inputs are things like details on what data to get, which datasets to combine, or which fields should be used
-  for which parts of a visualization.</p>
+  for which parts of a visualization.</small></h3>
 <br />
 
-<%= simple_form_for [@recipe, Step.find(params[:stepid])], url: wizard_path do |f| %>
 
-<%= f.input :name, label: false, placeholder: 'Title of new analysis step' %>
+<%= form_for [@recipe, Step.find(params[:stepid])], url: wizard_path  do |f| %>
+    <div class="row">
+      <div class="medium-6 small-6 columns">
+
+<%= f.hidden_field :name, :value => "#{params[:stepid]}"  %>
 
 <%= f.hidden_field :plugin_call_id %>
 <%= f.hidden_field :inrecipe, :value => params[:recipeid] %>
@@ -22,8 +25,24 @@
     <% end %>
   <% end %>
 <% end %>
-
+      </div>
+      </div>
 <br />
-<%= f.submit 'Use Tool', :class => 'btn-primary btn-small' %>
+
+    <div class="row">
+      <div class="medium=6 small-6 columns">
+<%= f.submit 'Use Tool', :class => 'button' %>
+          </div>
+        </div>
 
 <% end %>
+
+<script>
+    $(document).foundation({
+        tab: {
+            callback : function (tab) {
+                console.log(tab);
+            }
+        }
+    });
+</script>
