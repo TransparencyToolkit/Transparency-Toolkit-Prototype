@@ -6,37 +6,35 @@
         Get Data
       </dt>
       <dd>
-        Choose this to use another datasource from the available dataset, for use with tools like "Combine".
+	Get data from a variety of sources or upload your own documents.
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="getDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to get or upload data."><a href="#" class="button" data-reveal-id="getDataModal" data-reveal>Get Data</a></span>
   </div>
   <div class="medium-4 small-4 columns
     <% if @recipe.nil? %>
       <% else %>  callout <% end %> panel" data-equalizer-watch>
     <dl>
       <dt>
-        Combine Data
+        Combine/Filter
       </dt>
       <dd>
-        Choose this to use another datasource from the available dataset, for use with tools like "Combine".
+	Combine, crossreference, and extract text from documents and data.
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button <% if @recipe.nil? %>
-      disabled <% else %> <% end %>" data-reveal-id="combineDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to combine data."><a href="#" class="button" data-reveal-id="combineDataModal" data-reveal>Combine/Filter</a></span>
   </div>
   <div class="medium-4 small-4 columns   <% if @recipe.nil? %>
       <% else %> callout <% end %> panel" data-equalizer-watch>
     <dl>
       <dt>
-        Visualize Data
+        Visualize
       </dt>
       <dd>
-        Choose this to use another datasource from the available dataset, for use with tools like "Combine".
+	Turn data and documents into visualizations like timelines and network graphs. 
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button <% if @recipe.nil? %> disabled
-      <% else %>  <% end %>" data-reveal-id="visualizeDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to visualize data."><a href="#" class="button" data-reveal-id="visualizeDataModal" data-reveal>Visualize</a></span>
 
   </div>
 </div>
