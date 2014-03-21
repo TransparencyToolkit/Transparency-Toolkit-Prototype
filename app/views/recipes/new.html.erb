@@ -6,52 +6,40 @@
         Get Data
       </dt>
       <dd>
-        Choose this to use another datasource from the available dataset, for use with tools like "Combine".
+        Get data from a variety of sources or upload your own documents.
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="getDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to get or upload data."><a href="#" class="button" data-reveal-id="getDataModal" data-reveal>Get Data</a></span>
   </div>
   <div class="medium-4 small-4 columns
-
-    callout
- panel" data-equalizer-watch>
+    <% if @recipe.nil? %>
+      <% else %>  callout <% end %> panel" data-equalizer-watch>
     <dl>
       <dt>
-        Combine Data
+        Combine/Filter
       </dt>
       <dd>
-        Choose this to use another datasource from the available dataset, for use with tools like "Combine".
+        Combine, crossreference, and extract text from documents and data.
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="combineDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to combine data."><a href="#" class="button" data-reveal-id="combineDataModal" data-reveal>Combine/Filter</a></span>
   </div>
-  <div class="medium-4 small-4 columns
-
-    callout
-panel" data-equalizer-watch>
+  <div class="medium-4 small-4 columns   <% if @recipe.nil? %>
+      <% else %> callout <% end %> panel" data-equalizer-watch>
     <dl>
       <dt>
-        Visualize Data
+        Visualize
       </dt>
       <dd>
-        Choose this to use another datasource from the available dataset, for use with tools like "Combine".
+        Turn data and documents into visualizations like timelines and network graphs.
       </dd>
     </dl>
-    <span data-tooltip class="has-tip" title="Click here to choose a data source."><a href="#" class="button" data-reveal-id="visualizeDataModal" data-reveal>Add Data</a></span>
+    <span data-tooltip class="has-tip" title="Click here to visualize data."><a href="#" class="button" data-reveal-id="visualizeDataModal" data-reveal>Visualize</a></span>
 
   </div>
 </div>
-<div class="row">
-  <div class="small-6 columns">
 
-
-  </div>
-</div>
-<%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
 <div id="getDataModal" class="reveal-modal" data-reveal>
-  <h2>Choose a Data Source</h2>
-  <p class="lead">All available data sources are listed in the dropdown.</p>
-  <p>Once you choose, you'll be directed to the next step where you can select more options.</p>
   <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
@@ -63,4 +51,12 @@ panel" data-equalizer-watch>
   <%= render :partial => "steps/visualizeform", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+
+
+<script>
+    $('.disabled').click(function(e){
+        return false;
+    });
+</script>
+
 

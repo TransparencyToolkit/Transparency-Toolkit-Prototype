@@ -12,8 +12,7 @@
     <span data-tooltip class="has-tip" title="Click here to get or upload data."><a href="#" class="button" data-reveal-id="getDataModal" data-reveal>Get Data</a></span>
   </div>
   <div class="medium-4 small-4 columns
-    <% if @recipe.nil? %>
-      <% else %>  callout <% end %> panel" data-equalizer-watch>
+ callout panel" data-equalizer-watch>
     <dl>
       <dt>
         Combine/Filter
@@ -24,8 +23,8 @@
     </dl>
     <span data-tooltip class="has-tip" title="Click here to combine data."><a href="#" class="button" data-reveal-id="combineDataModal" data-reveal>Combine/Filter</a></span>
   </div>
-  <div class="medium-4 small-4 columns   <% if @recipe.nil? %>
-      <% else %> callout <% end %> panel" data-equalizer-watch>
+  <div class="medium-4 small-4 columns
+      callout  panel" data-equalizer-watch>
     <dl>
       <dt>
         Visualize
@@ -40,15 +39,18 @@
 </div>
 
 <div id="getDataModal" class="reveal-modal" data-reveal>
-  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
+  <h3>Get New Data</h3>
+  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]), :category_id => '1' } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="combineDataModal" class="reveal-modal" data-reveal>
-  <%= render :partial => "steps/combineform", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
+  <h3>Combine Data</h3>
+  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]), :category_id => '2'  } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="visualizeDataModal" class="reveal-modal" data-reveal>
-  <%= render :partial => "steps/visualizeform", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
+  <h3>Visualize Data</h3>
+  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]), :category_id => '3'  } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
