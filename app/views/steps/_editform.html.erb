@@ -1,0 +1,15 @@
+<%= simple_form_for step, :html => { :class => 'form-inline'} do |f| %>
+<%= f.input :name, label: false, placeholder: 'Title of analysis step' %>
+<%= f.input :description, label: false, placeholder: 'What does this step do?' %>
+<%= f.input :number, label: false, placeholder: 'Number of step in sequence' %>
+<%= f.collection_select :usedplugin, Plugin.all, :id, :name, prompt: "Tool to use" %>
+<br /><br />
+<%= f.submit 'Update', :class => 'btn-primary btn-small' %>
+<%= link_to t('.destroy', :default =>
+t("helpers.links.destroy")),
+step_path(step),
+:method => :delete,
+:data => { :confirm => t('.confirm', :default =>
+t("helpers.links.confirm", :default => 'Are you sure?')) },
+:class => 'btn btn-small btn-danger' %>
+<% end %>
