@@ -47,7 +47,7 @@ class StepsController < ApplicationController
     end
 
     def step_params
-      params.require(:step).permit(:name, :description, :number, :stepid, :usedplugin, :usedcall, :plugin_call_id, :inrecipe, :recipe_id).tap do |whitelisted|
+      params.require(:step).permit(:name, :description, :number, :stepid, :usedplugin, :usedcall, :plugin_call_id, :inrecipe, :recipe_id, :docfile).tap do |whitelisted|
         whitelisted[:properties] = params[:step][:properties]
       end
     end

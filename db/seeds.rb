@@ -24,7 +24,8 @@ plugin_list = [
     ["Combine", "Combine multiple datasets.", 2],
     ["Crossreference", "Crossreference datasets.", 2],
     ["Timeline", "Automatically generate a timeline visualization.", 3],
-    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 3]
+    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 3],
+    ["Upload", "Upload your own documents.", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -46,7 +47,8 @@ plugin_call_list = [
     ["Combine", "Combine multiple datasets.", 4],
     ["Crossreference", "Crossreference datasets.", 5],
     ["Timeline", "Automatically generate a timeline visualization.", 6],
-    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 7]
+    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 7],
+    ["Upload", "Upload your own documents.", 8]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -75,7 +77,8 @@ plugin_call_field_list = [
     ["Field for End Date", "file_field", true, 13],
     ["Field for Headline", "file_field", true, 13],
     ["Field for Text", "file_field", true, 13],
-    ["Input Text", "text_area", true, 14]
+    ["Input Text", "text_area", true, 14],
+    ["File to Upload", "upload_field", true, 15]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|

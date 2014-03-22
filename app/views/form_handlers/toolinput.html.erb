@@ -6,7 +6,7 @@
 <br />
 
 
-<%= form_for [@recipe, Step.find(params[:stepid])], url: wizard_path  do |f| %>
+<%= form_for [@recipe, Step.find(params[:stepid])], :html => { :multipart => true }, url: wizard_path do |f| %>
     <div class="row">
       <div class="medium-6 small-6 columns">
 
@@ -16,6 +16,12 @@
 <%= f.hidden_field :inrecipe, :value => params[:recipeid] %>
 <%= f.hidden_field :number, :value => setnum((params[:recipeid]).to_i) %>
 <%= f.hidden_field :stepid, :value => params[:stepid] %>
+
+<% Step.find(params[:stepid]).plugin_call.fields.each do |e| %>
+<% if e.field_type == "upload_field" %>
+<%= f.file_field :docfile %>
+<% end %>
+<% end %>
 
 <%= f.fields_for :properties do |builder| %>
   <% Step.find(params[:stepid]).plugin_call.fields.each do |field| %>

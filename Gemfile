@@ -67,6 +67,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'carrierwave'
+
 gem 'timelinegen'
 gem 'timelineJS-rails'
 gem 'jsontochart'
@@ -82,3 +85,6 @@ gem 'datacalc'
 gem 'wicked'
 gem 'rails-backbone'
 gem 'thin'
+gem 'docsplit'
+gem 'uploadconvert'
+gem 'crack'

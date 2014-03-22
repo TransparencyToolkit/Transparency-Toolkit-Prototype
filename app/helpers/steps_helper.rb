@@ -53,6 +53,10 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
   if input == {} && $recipehash[recipeid].useobject(stepnum-1)
     input = $recipehash[recipeid].getoutput(stepnum-1)
   end
+ 
+  if usedmethod == 15
+    input = @step.docfile.to_s
+  end
 
   case usedmethod
     when 13 then $recipehash[recipeid].addstep(stepnum, TimelinegenPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
@@ -62,6 +66,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 10 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
     when 14 then $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
     when 12 then $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
+    when 15 then $recipehash[recipeid].addstep(stepnum, UploadPlugin.new(usedmethod, input, stepnum))
     else "Unknown Tool"
   end
 
@@ -78,6 +83,8 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
     render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 14
     render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 15
+    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   else "Unknown Tool"
   end
 end
