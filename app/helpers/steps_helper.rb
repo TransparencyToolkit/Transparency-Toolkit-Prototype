@@ -67,6 +67,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 14 then $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
     when 12 then $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
     when 15 then $recipehash[recipeid].addstep(stepnum, UploadPlugin.new(usedmethod, input, stepnum))
+    when 16 then $recipehash[recipeid].addstep(stepnum, EffscraperPlugin.new(usedmethod, input, stepnum))
     else "Unknown Tool"
   end
 
@@ -84,6 +85,8 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 14
     render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 15
+    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 16
     render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   else "Unknown Tool"
   end

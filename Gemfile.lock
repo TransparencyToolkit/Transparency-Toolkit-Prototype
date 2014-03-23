@@ -55,6 +55,7 @@ GEM
     docsplit (0.7.4)
     domain_name (0.5.17)
       unf (>= 0.0.5, < 1.0.0)
+    effscraper (0.0.4)
     ejs (1.1.1)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -217,6 +218,7 @@ DEPENDENCIES
   crack
   datacalc
   docsplit
+  effscraper
   foundation-icons-sass-rails
   foundation-rails (~> 5.2.1)
   httparty
