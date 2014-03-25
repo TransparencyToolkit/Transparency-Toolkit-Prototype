@@ -27,7 +27,8 @@ plugin_list = [
     ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 3],
     ["Upload", "Upload your own documents.", 1],
     ["EFF Scraper", "Scrape EFF case documents.", 1],
-    ["ACLU Scraper", "Scrape ACLU case documents.", 1]
+    ["ACLU Scraper", "Scrape ACLU case documents.", 1],
+    ["Text Extractor", "Extract dates, set terms, or terms in ALLCAPS", 2] 
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -52,7 +53,8 @@ plugin_call_list = [
     ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 7],
     ["Upload", "Upload your own documents.", 8],
     ["EFF Scraper", "Scrape EFF case documents.", 9],
-    ["ACLU Scraper", "Scrape ACLU case documents.", 10]
+    ["ACLU Scraper", "Scrape ACLU case documents.", 10],
+    ["Extract Dates", "Extract dates mentioned in documents.", 11]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -84,7 +86,8 @@ plugin_call_field_list = [
     ["Input Text", "text_area", true, 14],
     ["File to Upload", "upload_field", true, 15],
     ["URL of EFF Case", "text_field", true, 16],
-    ["URL of ACLU Case", "text_field", true, 17]
+    ["URL of ACLU Case", "text_field", true, 17],
+    ["Field to Extract From", "file_field", true, 18]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|
