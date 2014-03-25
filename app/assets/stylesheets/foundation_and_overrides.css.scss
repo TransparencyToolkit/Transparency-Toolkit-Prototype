@@ -8,6 +8,10 @@
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
 
+// THESE ARE EXAMPLES YOU CAN MODIFY
+// create mixins using Foundation classes
+
+
 // $experimental: true;
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
@@ -31,7 +35,7 @@
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
- $row-width: rem-calc(1500);
+ $row-width: rem-calc(1000);
 // $column-gutter: rem-calc(30);
 // $total-columns: 12;
 

@@ -14,7 +14,9 @@ button.expandcol:before
 }
 
 
-
+.tabs-content {
+  overflow: scroll;
+  }
 
 .accordion dd.outer.active>a:before {
 
@@ -23,6 +25,10 @@ button.expandcol:before
 
 
 }
+
+.vco-timeline .vco-navigation .timenav .content {
+  display: block;
+  }
 
 .accordion dd.outer>a:before {
 

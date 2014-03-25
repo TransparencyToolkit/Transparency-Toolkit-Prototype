@@ -2,7 +2,9 @@
 <html lang="en">
 
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%%= content_for?(:title) ? yield(:title) : "<%= app_name.underscore.titleize %>" %></title>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
     <%# Modernizr is required for Zurb Foundation %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -13,11 +15,14 @@
   </head>
 
   <body>
-
+       <header>
     <%= render :partial => "layouts/header" %>
-    <div class="row">
-      <div class="medium-12 small-12"><%= yield %></div>
-    </div>
+       </header>
+       <main role="main">
+         <%= render :partial => "layouts/messages" %>
+        <%= yield %>
+       </main>
+
 
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   </body>
