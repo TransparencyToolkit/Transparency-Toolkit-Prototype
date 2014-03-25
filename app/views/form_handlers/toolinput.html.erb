@@ -1,52 +1,21 @@
 <h1>Tool Inputs</h1>
 
-<h3 class="subheader"><small>Here you can choose tool inputs. The
-  inputs are things like details on what data to get, which datasets to combine, or which fields should be used
-  for which parts of a visualization.</small></h3>
-<br />
+<h3 class="subheader">
+  <small>Here you can choose tool inputs. The
+    inputs are things like details on what data to get, which datasets to combine, or which fields should be used
+    for which parts of a visualization.
+  </small>
+</h3>
+<br/>
 
 
-<%= form_for [@recipe, Step.find(params[:stepid])], :html => { :multipart => true }, url: wizard_path do |f| %>
-    <div class="row">
-      <div class="medium-6 small-6 columns">
+<%= render partial: "form", locals: {recipe: @recipe, stepid: Step.find(params[:stepid])} %>
 
-<%= f.hidden_field :name, :value => "#{params[:stepid]}"  %>
-
-<%= f.hidden_field :plugin_call_id %>
-<%= f.hidden_field :inrecipe, :value => params[:recipeid] %>
-<%= f.hidden_field :number, :value => setnum((params[:recipeid]).to_i) %>
-<%= f.hidden_field :stepid, :value => params[:stepid] %>
-
-<% Step.find(params[:stepid]).plugin_call.fields.each do |e| %>
-<% if e.field_type == "upload_field" %>
-<%= f.file_field :docfile %>
-<% end %>
-<% end %>
-
-<%= f.fields_for :properties do |builder| %>
-  <% Step.find(params[:stepid]).plugin_call.fields.each do |field| %>
-    <% if field.field_type %>
-    <br />
-    <%= render "#{field.field_type}", field: field, f: builder %>
-    <% end %>
-  <% end %>
-<% end %>
-      </div>
-      </div>
-<br />
-
-    <div class="row">
-      <div class="medium=6 small-6 columns">
-<%= f.submit 'Use Tool', :class => 'button' %>
-          </div>
-        </div>
-
-<% end %>
 
 <script>
     $(document).foundation({
         tab: {
-            callback : function (tab) {
+            callback: function (tab) {
                 console.log(tab);
             }
         }
