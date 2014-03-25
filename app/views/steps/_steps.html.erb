@@ -1,3 +1,4 @@
+<div class="row">
 <dl class="accordion" data-accordion>
   <% recipe.steps.order(:number).each do |step| %>
       <dd class="outer">
@@ -29,6 +30,8 @@
 
   <% end %>
 </dl>
+
+  </div>
 <div class="row">
   <div class="medium-12 small-12">
     <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button secondary" %>
