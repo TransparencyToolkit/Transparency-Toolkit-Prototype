@@ -1,8 +1,8 @@
 <% require 'ostruct' %>
 
 <%= form_for [@recipe, Step.find(params[:stepid])], :html => { :multipart => true }, url: wizard_path do |f| %>
-    <div class="row">
-      <div class="medium-6 small-6 columns">
+
+      <div class=" small-12 large-12 columns">
 
         <%= f.hidden_field :name, :value => "#{params[:stepid]}" %>
 
@@ -31,13 +31,11 @@
 
 
       </div>
-    </div>
-    <br/>
 
-    <div class="row">
-      <div class="medium=6 small-6 columns">
-        <%= f.submit 'Use Tool', :class => 'button' %>
+
+      <div class=" small-12 large-12 columns ">
+        <%= f.submit 'Use Tool', :class => 'button large expand' %>
       </div>
-    </div>
+
 
 <% end %>
