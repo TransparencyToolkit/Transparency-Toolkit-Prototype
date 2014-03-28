@@ -4,7 +4,6 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%%= content_for?(:title) ? yield(:title) : "<%= app_name.underscore.titleize %>" %></title>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
     <%# Modernizr is required for Zurb Foundation %>
     <%= javascript_include_tag "vendor/modernizr" %>

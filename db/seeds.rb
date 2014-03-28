@@ -28,7 +28,8 @@ plugin_list = [
     ["Upload", "Upload your own documents.", 1],
     ["EFF Scraper", "Scrape EFF case documents.", 1],
     ["ACLU Scraper", "Scrape ACLU case documents.", 1],
-    ["Text Extractor", "Extract dates, set terms, or terms in ALLCAPS", 2] 
+    ["Text Extractor", "Extract dates, set terms, or terms in ALLCAPS", 2],
+    ["WikiLeaks Documents", "Get documents released by WikiLeaks", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -54,7 +55,8 @@ plugin_call_list = [
     ["Upload", "Upload your own documents.", 8],
     ["EFF Scraper", "Scrape EFF case documents.", 9],
     ["ACLU Scraper", "Scrape ACLU case documents.", 10],
-    ["Extract Dates", "Extract dates mentioned in documents.", 11]
+    ["Extract Dates", "Extract dates mentioned in documents.", 11],
+    ["WikiLeaks Cables", "Get the WikiLeaks Cables.", 12]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -87,7 +89,8 @@ plugin_call_field_list = [
     ["File to Upload", "upload_field", true, 15],
     ["URL of EFF Case", "text_field", true, 16],
     ["URL of ACLU Case", "text_field", true, 17],
-    ["Field to Extract From", "file_field", true, 18]
+    ["Field to Extract From", "file_field", true, 18],
+    ["Terms to Search for in Cables", "text_field", true, 19]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|
