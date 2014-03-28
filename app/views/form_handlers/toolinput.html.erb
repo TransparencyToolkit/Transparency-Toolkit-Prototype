@@ -1,16 +1,24 @@
-<h1>Tool Inputs</h1>
+<section class="toolinput">
 
-<h3 class="subheader">
-  <small>Here you can choose tool inputs. The
-    inputs are things like details on what data to get, which datasets to combine, or which fields should be used
-    for which parts of a visualization.
-  </small>
-</h3>
-<br/>
+<row>
+  <div class="small-12 large-12 columns">
 
+    <h1>Tool Inputs</h1>
+    <h4 class="subheader">
+     Here you can choose tool inputs. The
+        inputs are things like details on what data to get, which datasets to combine, or which fields should be used
+        for which parts of a visualization.
 
-<%= render partial: "form", locals: {recipe: @recipe, stepid: Step.find(params[:stepid])} %>
+    </h4>
+    <hr>
 
+  </div>
+</row>
+
+<row>
+<%= render partial: "form", locals: { recipe: @recipe, stepid: Step.find(params[:stepid]) } %>
+</row>
+</section>
 
 <script>
     $(document).foundation({
