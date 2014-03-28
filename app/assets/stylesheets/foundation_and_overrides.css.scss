@@ -10,6 +10,36 @@
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create mixins using Foundation classes
+.top-bar .name {
+  font-size: rem-calc(13);
+  line-height: 45px; }
+.top-bar .name a {
+  font-weight: normal;
+  color: white;
+  padding: 0 15px; }
+
+// THESE ARE EXAMPLES YOU CAN MODIFY
+// create mixins using Foundation classes
+@mixin twelve-columns {
+  @extend .small-12;
+  @extend .columns;
+  }
+@mixin six-columns-centered {
+  @extend .small-6;
+  @extend .columns;
+  @extend .text-center;
+  }
+// create your own classes
+// to make views framework-neutral
+// apply styles to HTML elements
+// to make views framework-neutral
+main {
+  @include twelve-columns;
+  }
+section {
+  @extend .row;
+  margin-top: 20px;
+  }
 
 
 // $experimental: true;
@@ -275,6 +305,7 @@ $secondary-color: #6DE48D;
 // We use this to control the maximum number of block grid elements per row
 // $block-grid-elements: 12;
 // $block-grid-default-spacing: rem-calc(20);
+// $align-block-grid-to-grid: true;
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 // $block-grid-media-queries: true;
@@ -1161,6 +1192,7 @@ $secondary-color: #6DE48D;
 // $topbar-link-font-family: $body-font-family;
 
 // $topbar-button-font-size: 0.75rem;
+// $topbar-button-top: 7px;
 
 // $topbar-dropdown-label-color: #777;
 // $topbar-dropdown-label-text-transform: uppercase;
@@ -1196,6 +1228,42 @@ $secondary-color: #6DE48D;
 //
 
 // $include-html-visibility-classes: $include-html-classes;
+// $include-table-visibility-classes: true;
+// $include-legacy-visibility-classes: true;
+
+
+// RANGE SLIDER
+//
+
+// $include-html-range-slider-classes: $include-html-classes;
+
+// These variabels define the slider bar styles
+// $range-slider-bar-width: 100%;
+// $range-slider-bar-height: rem-calc(16);
+
+// $range-slider-bar-border-width: 1px;
+// $range-slider-bar-border-style: solid;
+// $range-slider-bar-border-color: #ddd;
+// $range-slider-radius: $global-radius;
+// $range-slider-round: $global-rounded;
+// $range-slider-bar-bg-color: #fafafa;
+
+// Vertical bar styles
+// $range-slider-vertical-bar-width: rem-calc(16);
+// $range-slider-vertical-bar-height: rem-calc(200);
+
+// These variabels define the slider handle styles
+// $range-slider-handle-width: rem-calc(32);
+// $range-slider-handle-height: rem-calc(22);
+// $range-slider-handle-position-top: rem-calc(-5);
+// $range-slider-handle-bg-color: $primary-color;
+// $range-slider-handle-border-width: 1px;
+// $range-slider-handle-border-style: solid;
+// $range-slider-handle-border-color: none;
+// $range-slider-handle-radius: $global-radius;
+// $range-slider-handle-round: $global-rounded;
+// $range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
+// $range-slider-handle-cursor: pointer;
 
 @import 'foundation';
 @import 'foundation-icons';
