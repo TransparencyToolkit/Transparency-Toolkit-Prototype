@@ -24,12 +24,12 @@ plugin_list = [
     ["Combine", "Combine multiple datasets.", 2],
     ["Crossreference", "Crossreference datasets.", 2],
     ["Timeline", "Automatically generate a timeline visualization.", 3],
-    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 3],
+    ["Word Cloud", "Word cloud tool.", 3],
     ["Upload", "Upload your own documents.", 1],
     ["EFF Scraper", "Scrape EFF case documents.", 1],
     ["ACLU Scraper", "Scrape ACLU case documents.", 1],
     ["Text Extractor", "Extract dates, set terms, or terms in ALLCAPS", 2],
-    ["WikiLeaks Documents", "Get documents released by WikiLeaks", 1]
+    ["Cables", "Get documents released by WikiLeaks", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
