@@ -94,6 +94,7 @@ gem 'wlsearchscraper'
 gem 'entityextractor'
 gem 'treat'
 gem 'american_date'
+gem 'dalli'
 gem 'paperclip'
 gem 'intellij-coffee-script-debugger', :git => 'git://github.com/JetBrains/intellij-coffee-script-debugger.git'
 

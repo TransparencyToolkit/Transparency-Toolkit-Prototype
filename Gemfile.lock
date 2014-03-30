@@ -66,6 +66,7 @@ GEM
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     daemons (1.1.9)
+    dalli (2.7.0)
     datacalc (0.0.1)
     debug_inspector (0.0.2)
     docsplit (0.7.4)
@@ -251,6 +252,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 4.0.0)
   crack
+  dalli
   datacalc
   docsplit
   effscraper
