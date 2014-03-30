@@ -16,7 +16,8 @@ class UploadPlugin < PluginClass
   
   def uploadconvert
     u = UploadConvert.new("public" + @input)
-    @output = u.handleDoc
+    c = WordCloud.new(u.handleDoc)
+    @output = c.parse
   end
 end
 

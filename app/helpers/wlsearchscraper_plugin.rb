@@ -16,7 +16,8 @@ class WlsearchscraperPlugin < PluginClass
   
   def scrapeCables
     w = WLSearchScraper.new(@input["Terms to Search for in Cables"])
-    @output = w.scrape
+    c = WordCloud.new(w.scrape)
+    @output = c.parse
   end
 end
 

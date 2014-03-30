@@ -16,7 +16,8 @@ class AcluscraperPlugin < PluginClass
   
   def scrape
     e = ACLUScraper.new(@input["URL of ACLU Case"])
-    @output = e.scrapeCase
+    c = WordCloud.new(e.scrapeCase)
+    @output = c.parse
   end
 end
 
