@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list id="34ff3c00-9c6b-4943-9b27-3c49e46c2322" name="Default" comment="oops&#10;" />
     <list default="true" id="45da8f71-e67a-4483-8fd4-dfb23cf52a93" name="latest changes" comment="partial timeline fix and dynamic form beginnings">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__Transparency_Toolkit.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__Transparency_Toolkit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Transparency-Toolkit.iml" afterPath="$PROJECT_DIR$/.idea/Transparency-Toolkit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Transparency-Toolkit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,7 +96,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="69" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.31433824" vertical-offset="1059" max-vertical-offset="1620">
+            <state line="43" column="22" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.52389705" vertical-offset="360" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -1551,7 +1543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="69" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.31433824" vertical-offset="1059" max-vertical-offset="1620">
+        <state line="43" column="22" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.52389705" vertical-offset="360" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>

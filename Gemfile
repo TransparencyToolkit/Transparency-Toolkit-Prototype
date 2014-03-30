@@ -41,7 +41,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', ' ~> 2.0'
 
-
+gem 'foundation-rails'
 
 gem 'foundation-icons-sass-rails'
 
@@ -55,7 +55,7 @@ group :development do
   gem 'better_errors'
   gem 'quiet_assets'
   gem 'binding_of_caller'
-  gem 'foundation-rails'
+
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
