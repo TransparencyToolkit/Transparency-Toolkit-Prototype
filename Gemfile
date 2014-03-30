@@ -27,7 +27,6 @@ gem 'pry'
 gem 'json'
 gem 'httparty'
 
-
 gem 'protected_attributes'
 
 # Use jquery as the JavaScript library
