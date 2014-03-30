@@ -9,14 +9,15 @@ class AcluscraperPlugin < PluginClass
 
   def switch
     case @method
-      when 17 then scrape
+      when 16 then scrape
       else "Unknown Method"
     end
   end
   
   def scrape
     e = ACLUScraper.new(@input["URL of ACLU Case"])
-    @output = e.scrapeCase
+    c = WordCloud.new(e.scrapeCase)
+    @output = c.parse
   end
 end
 

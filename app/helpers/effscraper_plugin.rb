@@ -9,14 +9,15 @@ class EffscraperPlugin < PluginClass
 
   def switch
     case @method
-      when 16 then scrape
+      when 15 then scrape
       else "Unknown Method"
     end
   end
   
   def scrape
     e = EFFScraper.new(@input["URL of EFF Case"])
-    @output = e.scrapeCase
+    c = WordCloud.new(e.scrapeCase)
+    @output = c.parse
   end
 end
 

@@ -9,14 +9,15 @@ class UploadPlugin < PluginClass
 
   def switch
     case @method
-      when 15 then uploadconvert
+      when 14 then uploadconvert
       else "Unknown Method"
     end
   end
   
   def uploadconvert
     u = UploadConvert.new("public" + @input)
-    @output = u.handleDoc
+    c = WordCloud.new(u.handleDoc)
+    @output = c.parse
   end
 end
 

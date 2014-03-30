@@ -54,8 +54,9 @@ group :development do
   gem 'better_errors'
   gem 'quiet_assets'
   gem 'binding_of_caller'
-  gem 'foundation-rails', '~> 5.2.1'
 end
+
+gem 'foundation-rails', '~> 5.2.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

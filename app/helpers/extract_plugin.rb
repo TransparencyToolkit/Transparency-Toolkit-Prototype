@@ -12,7 +12,7 @@ class ExtractPlugin < PluginClass
 
   def switch
     case @method
-      when 18 then extractdates
+      when 17 then extractdates
       else "Unknown Method"
     end
   end

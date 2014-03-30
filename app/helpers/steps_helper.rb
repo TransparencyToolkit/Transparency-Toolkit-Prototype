@@ -64,13 +64,12 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 9 then $recipehash[recipeid].addstep(stepnum, SunlightpartytimePlugin.new(usedmethod, input, stepnum))
     when 11 then $recipehash[recipeid].addstep(stepnum, JsoncombinerPlugin.new(usedmethod, input, stepnum, recipeid))
     when 10 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
-    when 14 then $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
     when 12 then $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
-    when 15 then $recipehash[recipeid].addstep(stepnum, UploadPlugin.new(usedmethod, input, stepnum))
-    when 16 then $recipehash[recipeid].addstep(stepnum, EffscraperPlugin.new(usedmethod, input, stepnum))
-    when 17 then $recipehash[recipeid].addstep(stepnum, AcluscraperPlugin.new(usedmethod, input, stepnum))
-    when 18 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
-    when 19 then $recipehash[recipeid].addstep(stepnum, WlsearchscraperPlugin.new(usedmethod, input, stepnum))
+    when 14 then $recipehash[recipeid].addstep(stepnum, UploadPlugin.new(usedmethod, input, stepnum))
+    when 15 then $recipehash[recipeid].addstep(stepnum, EffscraperPlugin.new(usedmethod, input, stepnum))
+    when 16 then $recipehash[recipeid].addstep(stepnum, AcluscraperPlugin.new(usedmethod, input, stepnum))
+    when 17 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
+    when 18 then $recipehash[recipeid].addstep(stepnum, WlsearchscraperPlugin.new(usedmethod, input, stepnum))
     else "Unknown Tool"
   end
 
@@ -86,17 +85,15 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 14
-    render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 15
     render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 16
     render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 17
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
-  when 18
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
-  when 19
+  when 18
     render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   else "Unknown Tool"
   end

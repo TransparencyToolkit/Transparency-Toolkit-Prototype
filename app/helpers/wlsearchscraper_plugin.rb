@@ -9,14 +9,15 @@ class WlsearchscraperPlugin < PluginClass
 
   def switch
     case @method
-      when 19 then scrapeCables
+      when 18 then scrapeCables
       else "Unknown Method"
     end
   end
   
   def scrapeCables
     w = WLSearchScraper.new(@input["Terms to Search for in Cables"])
-    @output = w.scrape
+    c = WordCloud.new(w.scrape)
+    @output = c.parse
   end
 end
 
