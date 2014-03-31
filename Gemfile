@@ -9,7 +9,7 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', '4.0.2'
 
 gem 'sprockets', '2.11.0'
 
@@ -18,7 +18,7 @@ gem 'sprockets', '2.11.0'
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '4.0.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 #gem 'therubyracer', platforms: :ruby
@@ -39,7 +39,7 @@ gem 'turbolinks'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', ' ~> 2.0'
+gem 'jbuilder', '2.0'
 
 gem 'foundation-rails'
 
@@ -100,4 +100,4 @@ gem 'intellij-coffee-script-debugger', :git => 'git://github.com/JetBrains/intel
 
 
 
-ruby "1.9.3"
+ruby '1.9.3'

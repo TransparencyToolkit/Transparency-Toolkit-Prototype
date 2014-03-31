@@ -90,7 +90,7 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.6.9)
-    jbuilder (2.0.5)
+    jbuilder (2.0.0)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
     jquery-rails (3.1.0)
@@ -250,7 +250,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   carrierwave
-  coffee-rails (~> 4.0.0)
+  coffee-rails (= 4.0.1)
   crack
   dalli
   datacalc
@@ -261,7 +261,7 @@ DEPENDENCIES
   foundation-rails
   httparty
   intellij-coffee-script-debugger!
-  jbuilder (~> 2.0)
+  jbuilder (= 2.0)
   jquery-rails
   json
   jsoncombiner
@@ -278,7 +278,7 @@ DEPENDENCIES
   quiet_assets
   rails (= 4.0.0)
   rails_12factor
-  sass-rails (~> 4.0.1)
+  sass-rails (= 4.0.2)
   sdoc
   simple_form
   sprockets (= 2.11.0)
