@@ -5,8 +5,7 @@
     <list default="true" id="45da8f71-e67a-4483-8fd4-dfb23cf52a93" name="latest changes" comment="partial timeline fix and dynamic form beginnings">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Transparency-Toolkit.iws" />
@@ -73,7 +72,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="244" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+            <state line="20" column="24" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -124,19 +123,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="81" selection-start="838" selection-end="838" vertical-scroll-proportion="-15.25" vertical-offset="9" max-vertical-offset="525">
+            <state line="24" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.6976744" vertical-offset="0" max-vertical-offset="516">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="734" selection-end="734" vertical-scroll-proportion="0.5277778" vertical-offset="0" max-vertical-offset="540">
+            <state line="19" column="34" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -203,7 +202,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.css.scss" />
         <option value="0.0.0.0:3000/assets/jquery.js?body=1" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/form_handlers.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/steps.css.scss" />
         <option value="$PROJECT_DIR$/app/views/steps/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/form_handlers/toolinput.html.erb" />
@@ -211,8 +209,9 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -1563,26 +1562,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="244" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+        <state line="20" column="24" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="81" selection-start="838" selection-end="838" vertical-scroll-proportion="-15.25" vertical-offset="9" max-vertical-offset="525">
+        <state line="24" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.6976744" vertical-offset="0" max-vertical-offset="516">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="734" selection-end="734" vertical-scroll-proportion="0.5277778" vertical-offset="0" max-vertical-offset="540">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

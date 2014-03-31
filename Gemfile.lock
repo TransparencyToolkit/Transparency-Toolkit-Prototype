@@ -250,7 +250,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   carrierwave
-  coffee-rails (= 4.0.1)
+  coffee-rails (~> 4.0.1)
   crack
   dalli
   datacalc
@@ -278,7 +278,7 @@ DEPENDENCIES
   quiet_assets
   rails (= 4.0.0)
   rails_12factor
-  sass-rails (= 4.0.2)
+  sass-rails (~> 4.0.2)
   sdoc
   simple_form
   sprockets (= 2.11.0)
