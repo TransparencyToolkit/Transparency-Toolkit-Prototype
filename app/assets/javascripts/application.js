@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require foundation
+//= require turbolinks
 //= require timelineJS/embed
 //= require_tree .
 //= require_self.

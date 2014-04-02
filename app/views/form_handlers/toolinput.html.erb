@@ -19,13 +19,3 @@
 <%= render partial: "form", locals: { recipe: @recipe, stepid: Step.find(params[:stepid]) } %>
 </row>
 </section>
-
-<script>
-    $(document).foundation({
-        tab: {
-            callback: function (tab) {
-                console.log(tab);
-            }
-        }
-    });
-</script>

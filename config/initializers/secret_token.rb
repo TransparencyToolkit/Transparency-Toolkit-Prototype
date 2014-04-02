@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Inputtest2::Application.config.secret_key_base = '60771fe39d975b084c91d861e24117045d6702b14020c2c038d19e34d09077e1d1c1e79b0d9f0d9b56e88c551e0e334cc3b8b83701ceef3ce17fafbbadba2039'
+Inputtest2::Application.config.secret_key_base = 'd4fac075389d25eee1c19e50f332f497320e18794dce17bf58e571e7a9fdce49e5547e3a650a9568a47f4a94a4280b255ad11d80dea95292648bc3ebcd748ff5'

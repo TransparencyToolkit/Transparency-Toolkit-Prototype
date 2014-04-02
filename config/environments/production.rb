@@ -22,13 +22,10 @@ Inputtest2::Application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = false
 
-
   # Compress JavaScripts and CSS.
-  # config.assets.js_compressor = :uglifier
+  config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
- 
-  config.assets.precompile += %w( timeline.js )
-  config.assets.precompile += %w( vendor/modernizr.js )
+
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
@@ -46,7 +43,7 @@ Inputtest2::Application.configure do
   # config.force_ssl = true
 
   # Set to :debug to see everything in the log.
-  config.log_level = :debug
+  config.log_level = :info
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
@@ -55,7 +52,7 @@ Inputtest2::Application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   # Use a different cache store in production.
-   config.cache_store = :mem_cache_store
+  # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = "http://assets.example.com"
