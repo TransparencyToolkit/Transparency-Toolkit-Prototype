@@ -47,7 +47,7 @@ plugin_call_list = [
     ["Hearings", "Get a list of all hearings for a committee.", 1],
     ["Hearings for Committees", "Get a list of all hearings for a list of committees.", 1],
     ["Political Fundraising Parties", "Get a list of all parties a legislator attended.", 2],
-    ["LinkedIn", "Get data from public LinkedIn profiles.", 3],
+    ["Scrape LinkedIn", "Get data from public LinkedIn profiles.", 3],
     ["Combine", "Combine multiple datasets.", 4],
     ["Crossreference", "Crossreference datasets.", 5],
     ["Timeline", "Automatically generate a timeline visualization.", 6],
@@ -56,7 +56,8 @@ plugin_call_list = [
     ["EFF Scraper", "Scrape EFF case documents.", 9],
     ["ACLU Scraper", "Scrape ACLU case documents.", 10],
     ["Extract Dates", "Extract dates mentioned in documents.", 11],
-    ["WikiLeaks Cables", "Get the WikiLeaks Cables.", 12]
+    ["WikiLeaks Cables", "Get the WikiLeaks Cables.", 12],
+    ["NSA LinkedIn Data", "Pre-scraped data on the NSA and intelligence contractors", 3]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|

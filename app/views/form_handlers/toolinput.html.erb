@@ -19,3 +19,16 @@
 <%= render partial: "form", locals: { recipe: @recipe, stepid: Step.find(params[:stepid]) } %>
 </row>
 </section>
+
+<%= content_tag "span", id: "load", data: {load: "load"} do %>
+<% end %>
+
+<script>
+    $(document).foundation({
+        tab: {
+            callback: function (tab) {
+                console.log(tab);
+            }
+        }
+    });
+</script>

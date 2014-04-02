@@ -10,6 +10,7 @@ class LinkedindataPlugin < PluginClass
   def switch
     case @method
       when 10 then data
+      when 20 then nsadata
       else "Unknown Method"
     end
   end
@@ -17,6 +18,10 @@ class LinkedindataPlugin < PluginClass
   def data
     l = LinkedinData.new(@input["Search Terms"])
     @output = l.getData
+  end
+
+  def nsadata
+    @output = JSON.parse(File.read("public/nsadata.json"))
   end
 end
 
