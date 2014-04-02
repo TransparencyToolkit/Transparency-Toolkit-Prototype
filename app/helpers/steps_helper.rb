@@ -71,6 +71,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 17 then $recipehash[recipeid].addstep(stepnum, AcluscraperPlugin.new(usedmethod, input, stepnum))
     when 18 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
     when 19 then $recipehash[recipeid].addstep(stepnum, WlsearchscraperPlugin.new(usedmethod, input, stepnum))
+    when 20 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
     else "Unknown Tool"
   end
 
@@ -97,6 +98,8 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 19
+    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 20
     render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   else "Unknown Tool"
   end

@@ -21,7 +21,6 @@ Inputtest2::Application.routes.draw do
 
   resources :form_handlers
 
-
   root to: "recipes#create"
 
   # The priority is based upon order of creation: first created -> highest priority.
