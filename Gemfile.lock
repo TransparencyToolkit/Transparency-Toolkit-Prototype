@@ -57,6 +57,7 @@ GEM
       safe_yaml (~> 1.0.0)
     daemon_controller (1.2.0)
     daemons (1.1.9)
+    dalli (2.7.0)
     datacalc (0.0.1)
     docsplit (0.7.4)
     domain_name (0.5.18)
@@ -263,6 +264,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 4.0.1)
   crack
+  dalli
   datacalc
   docsplit
   effscraper

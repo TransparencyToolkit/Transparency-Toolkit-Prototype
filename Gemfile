@@ -26,6 +26,8 @@ gem 'simple_form'
 gem 'pry'
 gem 'json', '~> 1.8.1'
 gem 'httparty'
+gem 'dalli'
+
 
 gem 'protected_attributes'
 
