@@ -33,8 +33,6 @@ GEM
     better_errors (1.1.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
-    binding_of_caller (0.7.2)
-      debug_inspector (>= 0.0.1)
     birch (0.0.8)
     builder (3.1.4)
     carrierwave (0.10.0)
@@ -60,7 +58,6 @@ GEM
     daemon_controller (1.2.0)
     daemons (1.1.9)
     datacalc (0.0.1)
-    debug_inspector (0.0.2)
     docsplit (0.7.4)
     domain_name (0.5.18)
       unf (>= 0.0.5, < 1.0.0)
@@ -109,6 +106,7 @@ GEM
     jsoncombiner (0.0.2)
     jsoncrossreference (0.0.3)
     jsontochart (0.1.8)
+    jsontonetworkgraph (0.0.5)
     launchy (2.4.2)
       addressable (~> 2.3)
     less (2.5.0)
@@ -262,7 +260,6 @@ DEPENDENCIES
   acluscraper
   american_date
   better_errors
-  binding_of_caller
   carrierwave
   coffee-rails (~> 4.0.1)
   crack
@@ -280,6 +277,7 @@ DEPENDENCIES
   jsoncombiner
   jsoncrossreference
   jsontochart
+  jsontonetworkgraph
   less-rails
   linkedin-scraper
   linkedindata
