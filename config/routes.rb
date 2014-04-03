@@ -5,15 +5,15 @@ Inputtest2::Application.routes.draw do
     resources :steps, :has_one => :plugin
   end
 
-  resources :steps do 
+  resources :steps do
     resources :plugins, :has_many => :plugin_calls
   end
 
   resources :plugins do
     resources :plugin_calls
   end
-  
-  resources :plugin_calls do 
+
+  resources :plugin_calls do
     resources :plugin_call_fields
   end
 
@@ -63,7 +63,7 @@ Inputtest2::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

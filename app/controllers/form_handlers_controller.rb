@@ -2,7 +2,7 @@ class FormHandlersController < ApplicationController
   include Wicked::Wizard
   steps :toolinput
   @@recipe
-  
+
   def show
     if params[:id] == "wicked_finish"
       finish_wizard_path

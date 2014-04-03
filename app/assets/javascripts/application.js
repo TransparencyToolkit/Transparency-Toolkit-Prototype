@@ -13,8 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require timelineJS/embed
 //= require turbolinks
+//= require timelineJS/embed
 //= require_tree .
 //= require_self.
 
@@ -22,3 +22,4 @@
 $(function() {
     $(document).foundation();
 });
+

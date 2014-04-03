@@ -1,29 +1,30 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.4'
+
+
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', '~> 4.0.2'
 
-gem 'sprockets', '2.11.0'
+gem 'sprockets'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 #gem 'therubyracer', platforms: :ruby
-gem 'therubyracer'
 gem 'less-rails'
 gem 'simple_form'
 gem 'pry'
-gem 'json'
+gem 'json', '~> 1.8.1'
 gem 'httparty'
 
 gem 'protected_attributes'
@@ -36,9 +37,9 @@ gem 'turbolinks'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', ' ~> 2.0'
+gem 'jbuilder', '2.0'
 
-
+gem 'foundation-rails'
 
 gem 'foundation-icons-sass-rails'
 
@@ -49,10 +50,11 @@ end
 
 
 group :development do
+  gem 'therubyracer'
   gem 'better_errors'
   gem 'quiet_assets'
   gem 'binding_of_caller'
-  gem 'foundation-rails', '~> 5.2.1'
+
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -67,6 +69,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'carrierwave'
+gem 'spring', group: :development
 
 gem 'timelinegen'
 gem 'timelineJS-rails'
@@ -93,5 +96,9 @@ gem 'treat'
 gem 'american_date'
 gem 'jsontonetworkgraph'
 gem 'paperclip'
-gem 'intellij-coffee-script-debugger', :git => 'git://github.com/JetBrains/intellij-coffee-script-debugger.git'
-gem 'awesome_nested_fields'
+gem 'engineyard'
+gem 'passenger'
+
+
+
+ruby '2.0.0'
