@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list id="34ff3c00-9c6b-4943-9b27-3c49e46c2322" name="Default" comment="oops&#10;" />
     <list default="true" id="45da8f71-e67a-4483-8fd4-dfb23cf52a93" name="latest changes" comment="merged changes">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ruby-version" afterPath="$PROJECT_DIR$/.ruby-version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__Transparency_Toolkit.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__Transparency_Toolkit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Transparency-Toolkit.iml" afterPath="$PROJECT_DIR$/.idea/Transparency-Toolkit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -32,7 +31,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Transparency-Toolkit@Development__Transparency_Toolkit.coverage" NAME="Development: Transparency-Toolkit Coverage Results" MODIFIED="1396477963583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Transparency-Toolkit" />
+    <SUITE FILE_PATH="coverage/Transparency-Toolkit@Development__Transparency_Toolkit.coverage" NAME="Development: Transparency-Toolkit Coverage Results" MODIFIED="1396489386323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Transparency-Toolkit" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -49,16 +48,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="22" selection-start="1610" selection-end="1610" vertical-scroll-proportion="-0.44" vertical-offset="1129" max-vertical-offset="1635">
+            <state line="85" column="61" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1605">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".ruby-version" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name=".ruby-version" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.ruby-version">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -73,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ey.yml.backup" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ey.yml.backup" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/ey.yml.backup">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2715">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2715">
               <folding />
             </state>
           </provider>
@@ -133,22 +132,21 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23370">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23880">
               <folding>
-                <marker date="1396485241000" expanded="true" signature="59:92115" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="98:325" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="303:325" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91651:91714" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91651:91699" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91651:91686" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91651:91668" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91749:92104" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91762:92089" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91810:92075" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91829:92060" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91862:92040" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91902:92006" placeholder="..." />
-                <marker date="1396485241000" expanded="true" signature="91923:91984" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="59:93549" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="98:325" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="303:325" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93102:93148" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93102:93133" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93102:93120" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93183:93538" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93196:93523" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93244:93509" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93263:93494" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93296:93474" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93336:93440" placeholder="..." />
+                <marker date="1396489393000" expanded="true" signature="93357:93418" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -157,7 +155,7 @@
       <file leaf-file-name="Transparency-Toolkit.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/Transparency-Toolkit.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="128" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+            <state line="123" column="128" selection-start="8093" selection-end="8093" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="3915">
               <folding />
             </state>
           </provider>
@@ -230,8 +228,8 @@
         <option value="$PROJECT_DIR$/app/controllers/form_handlers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/form_handlers/toolinput.html.erb" />
         <option value="$PROJECT_DIR$/.idea/Transparency-Toolkit.iml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.ruby-version" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -1110,7 +1108,15 @@
       <created>1396479743906</created>
       <updated>1396479743906</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ruby rollback">
+      <created>1396485296897</created>
+      <updated>1396485296897</updated>
+    </task>
+    <task id="LOCAL-00013" summary="typo">
+      <created>1396485364248</created>
+      <updated>1396485364248</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1137,7 +1143,7 @@
     <frame x="-5" y="22" width="1669" height="944" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32082325" sideWeight="0.6791641" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32082325" sideWeight="0.6791641" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32687652" sideWeight="0.49969268" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1207,7 +1213,9 @@
     <MESSAGE value="partial timeline fix and dynamic form beginnings" />
     <MESSAGE value="updated ruby and rails and gems and ready to deploy" />
     <MESSAGE value="merged changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged changes" />
+    <MESSAGE value="ruby rollback" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1503,41 +1511,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22890">
           <folding>
-            <marker date="1396485241000" expanded="true" signature="59:92115" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="98:325" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="303:325" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91651:91714" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91651:91699" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91651:91686" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91651:91668" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91749:92104" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91762:92089" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91810:92075" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91829:92060" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91862:92040" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91902:92006" placeholder="..." />
-            <marker date="1396485241000" expanded="true" signature="91923:91984" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="59:93549" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="98:325" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="303:325" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93102:93148" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93102:93133" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93102:93120" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93183:93538" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93196:93523" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93244:93509" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93263:93494" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93296:93474" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93336:93440" placeholder="..." />
+            <marker date="1396489393000" expanded="true" signature="93357:93418" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/Transparency-Toolkit.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="128" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="22" selection-start="1610" selection-end="1610" vertical-scroll-proportion="-0.44" vertical-offset="1129" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ruby-version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+        <state line="123" column="128" selection-start="8093" selection-end="8093" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="3915">
           <folding />
         </state>
       </provider>
@@ -1557,6 +1550,20 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="61" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ruby-version">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
