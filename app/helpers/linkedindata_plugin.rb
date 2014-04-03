@@ -21,7 +21,7 @@ class LinkedindataPlugin < PluginClass
   end
 
   def nsadata
-    @output = JSON.parse(File.read("public/nsadata.json"))
+    @output = File.read("public/nsadata.json")
   end
 end
 

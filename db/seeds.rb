@@ -29,7 +29,8 @@ plugin_list = [
     ["EFF Scraper", "Scrape EFF case documents.", 1],
     ["ACLU Scraper", "Scrape ACLU case documents.", 1],
     ["Text Extractor", "Extract dates, set terms, or terms in ALLCAPS", 2],
-    ["Cables", "Get documents released by WikiLeaks", 1]
+    ["Cables", "Get documents released by WikiLeaks", 1],
+    ["Network Graph Generator", "Generate a network graph from any data", 3]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -57,7 +58,8 @@ plugin_call_list = [
     ["ACLU Scraper", "Scrape ACLU case documents.", 10],
     ["Extract Dates", "Extract dates mentioned in documents.", 11],
     ["WikiLeaks Cables", "Get the WikiLeaks Cables.", 12],
-    ["NSA LinkedIn Data", "Pre-scraped data on the NSA and intelligence contractors", 3]
+    ["NSA LinkedIn Data", "Pre-scraped data on the NSA and intelligence contractors", 3],
+    ["Generate Network Graph", "Generate a network graph from any data", 13]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -91,7 +93,9 @@ plugin_call_field_list = [
     ["URL of EFF Case", "text_field", true, 16],
     ["URL of ACLU Case", "text_field", true, 17],
     ["Field to Extract From", "file_field", true, 18],
-    ["Terms to Search for in Cables", "text_field", true, 19]
+    ["Terms to Search for in Cables", "text_field", true, 19],
+    ["First Attribute to Generate Nodes From", "file_field", true, 21],
+    ["Second Attribute to Generate Nodes From", "file_field", true, 21]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|
