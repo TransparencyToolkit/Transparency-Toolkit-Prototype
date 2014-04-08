@@ -20,12 +20,14 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-#gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 gem 'less-rails'
 gem 'simple_form'
 gem 'pry'
 gem 'json', '~> 1.8.1'
 gem 'httparty'
+gem 'dalli'
+
 
 gem 'protected_attributes'
 
@@ -50,11 +52,8 @@ end
 
 
 group :development do
-  gem 'therubyracer'
   gem 'better_errors'
   gem 'quiet_assets'
-  gem 'binding_of_caller'
-
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -98,6 +97,7 @@ gem 'jsontonetworkgraph'
 gem 'paperclip'
 gem 'engineyard'
 gem 'passenger'
+
 
 
 

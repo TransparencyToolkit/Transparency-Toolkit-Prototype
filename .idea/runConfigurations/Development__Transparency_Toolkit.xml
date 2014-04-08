@@ -25,7 +25,9 @@
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="BROWSER_URL" VALUE="http://localhost:3000" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="true" />
     <RunnerSettings RunnerId="RubyDebugRunner" />
+    <RunnerSettings RunnerId="RubyRunner" />
     <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+    <ConfigurationWrapper RunnerId="RubyRunner" />
     <method />
   </configuration>
 </component>
