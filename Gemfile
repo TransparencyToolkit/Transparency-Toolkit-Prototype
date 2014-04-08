@@ -33,9 +33,11 @@ gem 'protected_attributes'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -44,6 +46,10 @@ gem 'jbuilder', '2.0'
 gem 'foundation-rails'
 
 gem 'foundation-icons-sass-rails'
+
+gem 'foundation_datepicker_rails'
+
+gem 'will_paginate-foundation'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

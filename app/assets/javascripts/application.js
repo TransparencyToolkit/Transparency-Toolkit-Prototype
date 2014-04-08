@@ -11,15 +11,19 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require foundation
-//= require turbolinks
 //= require timelineJS/embed
-//= require_tree .
-//= require_self.
 
 
-$(function() {
+
+jQuery(function($) {
     $(document).foundation();
 });
+
+
+//= require_self.
+//= require_tree .
+
 

@@ -153,6 +153,7 @@
     <orderEntry type="library" scope="PROVIDED" name="crack (v0.4.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemon_controller (v1.2.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dalli (v2.7.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="datacalc (v0.0.1, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="docsplit (v0.7.4, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.18, rbenv: 2.0.0-rc1) [gem]" level="application" />
@@ -165,8 +166,10 @@
     <orderEntry type="library" scope="PROVIDED" name="escape (v0.0.4, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.3, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="font-awesome-rails (v4.0.3.1, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="foundation-icons-sass-rails (v3.0.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="foundation-rails (v5.2.1.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="foundation_datepicker_rails (v0.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="highline (v1.6.21, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
@@ -174,6 +177,8 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.9, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.0.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.1.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-turbolinks (v2.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v4.2.0, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jsoncombiner (v0.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jsoncrossreference (v0.0.3, rbenv: 2.0.0-rc1) [gem]" level="application" />
@@ -244,9 +249,12 @@
     <orderEntry type="library" scope="PROVIDED" name="uploadconvert (v0.0.10, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="webrobots (v0.1.1, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wicked (v1.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.5, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate-foundation (v5.3.3, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wlsearchscraper (v0.0.2, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="wordcloud (v0.0.10, rbenv: 2.0.0-rc1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="yomu (v0.1.10, rbenv: 2.0.0-rc1) [gem]" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
