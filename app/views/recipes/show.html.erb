@@ -2,25 +2,20 @@
   <div class="medium-12 small-12 clearfix">
     <h1 class="left">Current Recipe</h1>
 
-
-    <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-                recipe_path(@recipe),
-                :method => :delete,
-                :data => {:confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?'))},
-                :class => 'large button alert right' %>
+    <%= link_to 'Delete', recipe_path(@recipe), method: :delete, data: {confirm: 'Are you sure?'}, class: 'large button alert right' %>
   </div>
 
 </div>
 <div class="row">
   <div class="medium-12 small-12">
-  <h3 class="subheader">
-    <small>This is when you can view the output of the tools in this recipe, or add new tools to the recipe sequence.
+  <p>
+     This is when you can view the output of the tools in this recipe, or add new tools to the recipe sequence.
       To add a new tool, click "Use Another Tool", or if you'd like to edit currently active tools, Click the "Edit" tab
       underneath it.
       Then fill in any settings or inputs for the tool. The output will be displayed under each step in the "Details"
       tab.
-    </small>
-  </h3>
+
+  </p>
   </div>
 </div>
 

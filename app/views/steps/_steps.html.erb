@@ -1,6 +1,7 @@
 <div class="row">
 <dl class="accordion" data-accordion>
-  <% recipe.steps.order(:number).each do |step| %>
+  <% @recipe.steps.order(:number).each do |step| %>
+
       <dd class="outer">
 
         <a href="#panel<%= step.number %>" > Step <%= step.number%></a>
@@ -16,10 +17,18 @@
               <%= switchView(step.plugin_call_id.to_i, step.properties,
                              step.number.to_i, @recipe.id.to_i) %>
 
+              <%= link_to 'Show Fullscreen', recipe_step_path(@recipe, step), :class => 'button secondary'%>
+
+
+
+
+
             </div>
             <div class="content" id="panel<%= step.number  %>-<%= step.id + 1 %>">
               <%= render :partial => "steps/editform", :locals => {:step => step} %>
             </div>
+
+
           </div>
 
 
@@ -34,7 +43,7 @@
   </div>
 <div class="row">
   <div class="medium-12 small-12">
-    <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button secondary" %>
+    <%= link_to "Use Another Tool", new_step_path(recipe: recipe), :class => "button" %>
 
   </div>
 </div>
@@ -45,6 +54,7 @@
         Foundation.utils.S("dd.active a").children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
         Foundation.utils.S(this).children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
     });
+
 
 
 
