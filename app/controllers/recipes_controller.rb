@@ -22,9 +22,11 @@ class RecipesController < ApplicationController
         view_context.newrecipe(@recipe.id)
         format.html { redirect_to @recipe}
         format.json { render action: 'show', status: :created, location: @recipe }
+        format.js   {}
       else
         format.html { render action: 'new' }
         format.json { render json: @recipe.errors, status: :unprocessable_entity }
+        format.js   {}
       end
     end
   end
@@ -34,6 +36,7 @@ class RecipesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to :root, notice: 'Analysis sequence was successfully deleted.' }
       format.json { head :no_content }
+      format.js   {}
     end
   end
 
@@ -43,6 +46,6 @@ class RecipesController < ApplicationController
     end
 
     def recipe_params
-      params.require(:recipe).permit(:name, :description)
+      params.require(:recipe).permit(:name, :description, steps_attributes: [:id, :name, :description, :number, :stepid, :usedplugin, :usedcall, :plugin_call_id, :inrecipe, :recipe_id, :docfile, :_destroy])
     end
 end

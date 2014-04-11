@@ -82,27 +82,27 @@ end
 def switchView(usedmethod, input=nil, stepnum, recipeid)
   case usedmethod
   when 13
-    render :partial => 'emailtimeline', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/emailtimeline', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 1..12
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 14
-    render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 15
-    render :partial => 'uploadsingle', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/uploadsingle', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 16
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 17
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 18
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 19
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 20
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 21
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   else "Unknown Tool"
   end
 end

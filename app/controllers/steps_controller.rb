@@ -21,6 +21,15 @@ class StepsController < ApplicationController
     end
   end
 
+  def show
+    @step = Step.find(params[:id])
+
+    respond_to do |format|
+      format.html { render action: 'show' }
+      format.json { render action: 'show', location: @step}
+    end
+  end
+
   def update
     respond_to do |format|
       if @step.update(step_params)
@@ -45,6 +54,11 @@ class StepsController < ApplicationController
     def set_step
       @step = Step.find(params[:id])
     end
+
+  def current_step
+    @_current_step ||= session[:step_id] &&
+        Step.find_by(id: session[:step_id])
+  end
 
     def step_params
       params.require(:step).permit(:name, :description, :number, :stepid, :usedplugin, :usedcall, :plugin_call_id, :inrecipe, :recipe_id, :docfile).tap do |whitelisted|
