@@ -89,7 +89,7 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 14
     render :partial => 'wordcloud', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 15
-    render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'uploadsingle', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 16
     render :partial => 'upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 17

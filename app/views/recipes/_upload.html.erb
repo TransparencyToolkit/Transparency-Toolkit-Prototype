@@ -1,1 +1,2 @@
-<%= raw output %>
+<% c = WordCloud.new(output, "multiple") %>
+<%= raw c.parse %>

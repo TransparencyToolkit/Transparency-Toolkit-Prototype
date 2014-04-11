@@ -16,8 +16,7 @@ class EffscraperPlugin < PluginClass
   
   def scrape
     e = EFFScraper.new(@input["URL of EFF Case"])
-    c = WordCloud.new(e.scrapeCase)
-    @output = c.parse
+    @output = e.scrapeCase
   end
 end
 
