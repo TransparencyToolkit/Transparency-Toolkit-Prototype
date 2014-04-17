@@ -55,19 +55,18 @@
         Foundation.utils.S(this).children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
     });
 
-    Foundation.utils.S(document).on('click', '.accordion .title', function(ev) {
-        if (Foundation.utils.S(this).next('.content').find('.storyjs-embed sized-embed').length > 0) {
-            Foundation.utils.S(window).resize();
-        }
+
+
+    Foundation.utils.S('.content .active').on('toggled', function (event, tab) {
+        Foundation.utils.S(window).trigger('resize');
     });
-
-
-
-
-
-
-
 </script>
+
+
+
+
+
+
 
 
 
