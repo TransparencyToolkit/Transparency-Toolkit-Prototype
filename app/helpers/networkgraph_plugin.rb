@@ -1,9 +1,10 @@
 class NetworkgraphPlugin < PluginClass
   public
-  def initialize(method, input=nil, stepnum, previous)
+  def initialize(method, input=nil, stepnum, previous, recipeid)
     @method = method
     @input = input
     @stepnum = stepnum
+    @recipeid = recipeid
     @output = nil
     @previous = previous
   end
@@ -17,7 +18,8 @@ class NetworkgraphPlugin < PluginClass
   
   def gennetwork
     n = JSONToNetworkGraph.new(@previous, @input["First Attribute to Generate Nodes From"], @input["First Attribute to Generate Nodes From"], @input["Second Attribute to Generate Nodes From"], @input["Second Attribute to Generate Nodes From"])
-    @output = n.genJSON
+    File.open("public/"+@stepnum+"step"+@recipeid+".json", 'w') { |file| file.write(n.genJSON) }
+    @output = "public/"+@stepnum+"step"+@recipeid+".json"
   end
 end
 

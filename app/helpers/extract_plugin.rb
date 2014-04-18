@@ -21,7 +21,6 @@ class ExtractPlugin < PluginClass
     d = EntityExtractor.new(@previous, @input["Field to Extract From"])
     save = d.extract("date", nil, nil, nil)
     @output = d.genJSON
-    binding.pry
   end
 end
 

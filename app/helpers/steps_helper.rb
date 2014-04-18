@@ -71,7 +71,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 18 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
     when 19 then $recipehash[recipeid].addstep(stepnum, WlsearchscraperPlugin.new(usedmethod, input, stepnum))
     when 20 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
-    when 21 then $recipehash[recipeid].addstep(stepnum, NetworkgraphPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
+    when 21 then $recipehash[recipeid].addstep(stepnum, NetworkgraphPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
     else "Unknown Tool"
   end
 
@@ -102,7 +102,7 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 20
     render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 21
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/networkgraph', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   else "Unknown Tool"
   end
 end
