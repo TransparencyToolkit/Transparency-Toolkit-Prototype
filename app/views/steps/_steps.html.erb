@@ -4,10 +4,10 @@
 
       <dd class="outer">
 
-        <a href="#panel<%= step.number %>" > Step <%= step.number%></a>
+        <a href="#panel<%= step.number %>" class="title" > Step <%= step.number%></a>
 
         <div id="panel<%= step.number %>" class="content <% if step.number =='1' %>active<%else%><%end%>">
-          <dl class="tabs" data-tab>
+          <dl class="tabs" data-tab data-options=deep_linking:true">
             <dd><a href="#panel<%= step.number  %>-<%= step.id %>">Details</a></dd>
             <dd><a href="#panel<%= step.number %>-<%= step.id + 1  %>">Edit</a></dd>
           </dl>
@@ -17,7 +17,7 @@
               <%= switchView(step.plugin_call_id.to_i, step.properties,
                              step.number.to_i, @recipe.id.to_i) %>
 
-              <%= link_to 'Show Fullscreen', recipe_step_path(@recipe, step), :class => 'button secondary'%>
+              <%= link_to 'Show Fullscreen', recipe_step_path(@recipe, step), :target => "_blank", :class => 'button secondary'%>
 
 
 
@@ -57,10 +57,16 @@
 
 
 
-
-
-
+    Foundation.utils.S('.content .active').on('toggled', function (event, tab) {
+        Foundation.utils.S(window).trigger('resize');
+    });
 </script>
+
+
+
+
+
+
 
 
 
