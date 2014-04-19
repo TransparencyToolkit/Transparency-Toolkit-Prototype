@@ -9,6 +9,8 @@
   #port: 5432
   #pool: 5
   #timeout: 5000
+
+
 development:
   adapter: postgresql
   encoding: unicode
@@ -17,6 +19,8 @@ development:
   port: 5432
   pool: 5
   timeout: 5000
+  user: postgres
+  password: postgres
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
