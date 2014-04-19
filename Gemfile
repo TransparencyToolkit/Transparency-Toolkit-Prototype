@@ -91,7 +91,7 @@ gem 'wordcloud'
 gem 'jsoncrossreference'
 gem 'datacalc'
 gem 'wicked'
-gem 'thin'
+#gem 'thin'
 gem 'docsplit'
 gem 'uploadconvert'
 gem 'crack'
@@ -109,4 +109,4 @@ gem 'passenger'
 
 
 
-#ruby '2.0.0'
+ruby '2.0.0'
