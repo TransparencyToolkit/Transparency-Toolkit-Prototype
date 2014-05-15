@@ -1,6 +1,8 @@
 <table>
 <tr><td>
 <div id="<%= stepnum %>datatable" class="collapse in">
+  <a href="<%= url = '../'+stepnum.to_s+'step'+@recipe.id.to_s+'.json' %>">Download Data</a>
+  
     <%= raw output %>
 </div>
 </td>

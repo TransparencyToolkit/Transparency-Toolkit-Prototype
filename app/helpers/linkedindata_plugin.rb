@@ -1,10 +1,11 @@
 class LinkedindataPlugin < PluginClass
   public
-  def initialize(method, input=nil, stepnum)
+  def initialize(method, input=nil, stepnum, recipeid)
     @method = method
     @input = input
     @stepnum = stepnum
     @output = nil
+    @recipeid = recipeid
   end
 
   def switch
@@ -18,6 +19,7 @@ class LinkedindataPlugin < PluginClass
   def data
     l = LinkedinData.new(@input["Search Terms"])
     @output = l.getData
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
   end
 
   def nsadata

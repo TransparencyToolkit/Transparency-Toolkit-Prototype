@@ -15,6 +15,10 @@ class JsoncombinerPlugin < PluginClass
     end
   end
   
+  def makejson
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
+  end
+
   def concatenate
     data1 = @input["First Dataset to Combine"].split(".")
     data2 = @input["Second Dataset to Combine"].split(".")
@@ -22,6 +26,7 @@ class JsoncombinerPlugin < PluginClass
     json2 = $recipehash[@recipeid].getoutput(data2[0].to_i)
     c = JSONCombiner.new(json1, json2)
     @output = c.concatenate
+    makejson
   end
 end
 
