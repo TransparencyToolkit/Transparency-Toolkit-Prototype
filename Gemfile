@@ -95,15 +95,15 @@ gem 'crack'
 gem 'effscraper'
 gem 'acluscraper'
 gem 'wlsearchscraper'
-gem 'entityextractor'
+# gem 'entityextractor'
 gem 'treat'
 gem 'american_date'
 gem 'jsontonetworkgraph'
 gem 'paperclip'
 gem 'engineyard'
 gem 'passenger'
-
-
+gem 'scalpel'
+gem 'd3-rails'
 
 
 ruby '2.0.0'

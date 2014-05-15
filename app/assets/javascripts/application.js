@@ -15,7 +15,7 @@
 //= require jquery_ujs
 //= require foundation
 //= require timelineJS/embed
-
+//= require d3
 
 
 jQuery(function($) {

@@ -18,8 +18,8 @@ class NetworkgraphPlugin < PluginClass
   
   def gennetwork
     n = JSONToNetworkGraph.new(@previous, @input["First Attribute to Generate Nodes From"], @input["First Attribute to Generate Nodes From"], @input["Second Attribute to Generate Nodes From"], @input["Second Attribute to Generate Nodes From"])
-    File.open("public/"+@stepnum+"step"+@recipeid+".json", 'w') { |file| file.write(n.genJSON) }
-    @output = "public/"+@stepnum+"step"+@recipeid+".json"
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(n.genJSON) }
+    @output = '"../../../'+@stepnum.to_s+'step'+@recipeid.to_s+'.json"'
   end
 end
 

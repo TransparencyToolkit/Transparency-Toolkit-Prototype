@@ -19,7 +19,12 @@ def getfields(recipeid)
     data = JSON.parse($recipehash[recipeid].getoutput($recipehash[recipeid].getlastnum))
     keylist = Array.new
 
-    l = data[1]
+    if data[1]
+      l = data[1]
+    else
+      l = data
+    end
+
     dhash = Hash[*l.flatten]
     dhash.each_key do |key|
       if keylist.include? key
