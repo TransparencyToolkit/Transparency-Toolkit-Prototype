@@ -1,0 +1,42 @@
+#tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: #8ED0E0;
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 5px;
+  pointer-events: none;
+  }
+
+#tooltip.hidden {
+  display: none;
+  }
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  }
+
+#info {
+  overflow: auto;
+  word-wrap: break-word;
+  border-radius: 1px;
+  border-color: #52B7D0;
+  border-style: solid;
+  background-color: #8ED0E0;
+  min-height: 100vh;
+  }
+
+
+#chart {
+    height:100vh;
+  overflow: visible;
+
+  svg:not(:root) {
+    overflow: visible;
+    }
+
+  }
