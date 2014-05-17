@@ -21,4 +21,12 @@ class PluginSaver
   def getoutput(stepnum)
     return @pluginhash[stepnum].output
   end
+
+  def getnode(stepnum)
+    return @pluginhash[stepnum].firstnode
+  end
+
+  def getothernode(stepnum)
+    return @pluginhash[stepnum].secondnode
+  end
 end

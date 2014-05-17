@@ -12,6 +12,21 @@ def setnum(recipeid)
   return $recipehash[recipeid].getlastnum + 1
 end
 
+# Returns preset array for dropdown
+def getpreset(type)
+  presetarray = Array.new
+  
+  # Go through govsites data
+  if type = "govsites"
+    sites = JSON.parse(File.read("public/sites.json"))
+    sites["data"].each do |d|
+      presetarray.push(d[8])
+    end
+  end
+
+  return presetarray
+end
+
 # Returns array of fields in JSON from last step
 def getfields(recipeid)
   if ($recipehash[recipeid]) != nil && ($recipehash[recipeid].getlastnum != 0)
@@ -70,13 +85,14 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 10 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum, recipeid))
     when 14 then $recipehash[recipeid].addstep(stepnum, WordcloudPlugin.new(usedmethod, input, stepnum))
     when 12 then $recipehash[recipeid].addstep(stepnum, JsoncrossreferencePlugin.new(usedmethod, input, stepnum, recipeid))
-    when 15 then $recipehash[recipeid].addstep(stepnum, UploadPlugin.new(usedmethod, input, stepnum))
-    when 16 then $recipehash[recipeid].addstep(stepnum, EffscraperPlugin.new(usedmethod, input, stepnum))
-    when 17 then $recipehash[recipeid].addstep(stepnum, AcluscraperPlugin.new(usedmethod, input, stepnum))
+    when 15 then $recipehash[recipeid].addstep(stepnum, UploadPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 16 then $recipehash[recipeid].addstep(stepnum, EffscraperPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 17 then $recipehash[recipeid].addstep(stepnum, AcluscraperPlugin.new(usedmethod, input, stepnum, recipeid))
     when 18 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1)))
-    when 19 then $recipehash[recipeid].addstep(stepnum, WlsearchscraperPlugin.new(usedmethod, input, stepnum))
-    when 20 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum))
+    when 19 then $recipehash[recipeid].addstep(stepnum, WlsearchscraperPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 20 then $recipehash[recipeid].addstep(stepnum, LinkedindataPlugin.new(usedmethod, input, stepnum, recipeid))
     when 21 then $recipehash[recipeid].addstep(stepnum, NetworkgraphPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
+    when 22..25 then $recipehash[recipeid].addstep(stepnum, GeneralscraperPlugin.new(usedmethod, input, stepnum, recipeid))
     else "Unknown Tool"
   end
 
@@ -105,9 +121,20 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 19
     render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 20
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 21
-    render :partial => 'recipes/networkgraph', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/networkgraph', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :firstnode => $recipehash[recipeid].getnode(stepnum), :secondnode => $recipehash[recipeid].getothernode(stepnum) }
+  when 22
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 23
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+  when 24
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 25
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   else "Unknown Tool"
   end
 end

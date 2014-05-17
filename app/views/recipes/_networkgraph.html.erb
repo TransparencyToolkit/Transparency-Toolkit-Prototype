@@ -106,7 +106,7 @@
                     return 5 + add;
                 })
                 .style("fill", function(d){
-                    if(d.type === "company"){
+                    if(d.type === <%= raw firstnode %>){
                         return "#0000CC";
                     } else {
                         return "#CC0000";
@@ -207,10 +207,10 @@
         // Generate items to show in sidebar and check for duplicates
         var checkDuplicate = [];
         function genItem(d, z){
-            if(d.type == "company"){
-                var title = d.data[z]["company"];
+            if(d.type == <%= raw firstnode %>){
+                var title = d.data[z][<%= raw firstnode %>];
             } else {
-                var title = d.data[z]["name"];
+                var title = d.data[z][<%= raw secondnode %>];
             }
 
             // Generate HTML for each item
@@ -266,7 +266,7 @@
                         } else {
                             d3.select(this)
                                     .style("fill", function(g){
-                                        if(g.type == "company"){
+                                        if(g.type == <%= raw firstnode %>){
                                             return  "#0000CC";
                                         } else {
                                             return "#CC0000";

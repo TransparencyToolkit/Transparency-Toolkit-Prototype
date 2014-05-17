@@ -1,10 +1,11 @@
 class UploadPlugin < PluginClass
   public
-  def initialize(method, input=nil, stepnum)
+  def initialize(method, input=nil, stepnum, recipeid)
     @method = method
     @input = input
     @stepnum = stepnum
     @output = nil
+    @recipeid = recipeid
   end
 
   def switch
@@ -17,6 +18,7 @@ class UploadPlugin < PluginClass
   def uploadconvert
     u = UploadConvert.new("public" + @input)
     @output = u.handleDoc
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
   end
 end
 

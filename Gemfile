@@ -104,6 +104,6 @@ gem 'engineyard'
 gem 'passenger'
 gem 'scalpel'
 gem 'd3-rails'
-
+gem 'generalscraper'
 
 ruby '2.0.0'
