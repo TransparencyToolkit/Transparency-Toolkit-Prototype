@@ -112,26 +112,26 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 15
     render :partial => 'recipes/uploadsingle', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
   when 16
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 17
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 18
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 19
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 20
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 21
     render :partial => 'recipes/networkgraph', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :firstnode => $recipehash[recipeid].getnode(stepnum), :secondnode => $recipehash[recipeid].getothernode(stepnum) }
   when 22
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 23
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 24
-    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+    render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 25
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
