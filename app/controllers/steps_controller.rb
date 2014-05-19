@@ -1,59 +1,95 @@
 class StepsController < ApplicationController
+  before_filter :set_recipe, :only => [:index, :show, :new, :edit, :create, :update, :destroy]
   skip_before_action :set_step, only: [:file]
   before_action :set_step, only: [:show, :edit, :update, :destroy]
 
+
+
   def index
-    @steps = Step.all
+
+    @recipe = Recipe.find(params[:recipe_id])
+    @step = @recipe.steps
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.xml  { render :xml => @steps }
+    end
   end
 
   def new
-    @step = Step.new(plugin_call_id: params[:plugin_call_id])
+    @recipe = Recipe.find(params[:recipe])
+    @step = @recipe.steps.build(plugin_call_id: params[:plugin_call_id])
+    @plugincalls = PluginCall.all
+  end
+
+  def edit
+    @recipe = Recipe.find(params[:recipe_id])
+    @step = @recipe.steps.find(params[:id])
   end
 
   def create
-    @recipe = Recipe.find(params[:inrecipe])
-    @step = @recipe.steps.new(step_params)
-
-    if @step.save
-      session[:step_id] = @step.id
-      redirect_to(controller: 'form_handlers', stepid: @step.to_param, recipeid: @recipe.to_param)
-    else
-    end
-  end
-
-  def show
-    @step = Step.find(params[:id])
+    @recipe = Recipe.find(params[:recipe_id])
+    @step = @recipe.steps.create(params[:step_params])
 
     respond_to do |format|
-      format.html { render action: 'show' }
-      format.json { render action: 'show', location: @step}
-    end
-  end
-
-  def update
-    respond_to do |format|
-      if @step.update(step_params)
-        format.html { redirect_to :back, notice: 'Step was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
+      if @step.save
+        session[:step_id] = @step.id
+        redirect_to(controller: 'form_handlers', stepid: @step.to_param, recipeid: @recipe.to_param)
+     else
+        format.html { render action: "new" }
         format.json { render json: @step.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  def destroy
-    @step.destroy
+  def show
+    @recipe = Recipe.find(params[:recipe_id])
+    @step = @recipe.steps.find(params[:id])
+
+
+
+  end
+
+  def update
+    @recipe = Recipe.find(params[:recipe_id])
+    @step = @recipe.steps.find(params[:id])
     respond_to do |format|
-      format.html { redirect_to :back }
-      format.json { head :no_content }
+      if @step.update_attributes(params[:step])
+        format.html { redirect_to([@step.recipe, @step], :notice => 'Step was successfully updated.') }
+        format.xml  { head :ok }
+
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @step.errors, :status => :unprocessable_entity }
+
+      end
+
     end
   end
 
-  private
-    def set_step
-      @step = Step.find(params[:id])
+  def destroy
+    @step = @recipe.steps.find(params[:id])
+    @step.destroy
+
+    respond_to do |format|
+      format.html { redirect_to(recipe_steps_url) }
+      format.xml  { head :ok }
     end
+  end
+
+
+
+
+  private
+
+  def set_recipe
+    @recipe = Recipe.find(params[:recipe])
+  end
+
+
+  def set_step
+      @step = Step.find(params[:id])
+  end
 
   def current_step
     @_current_step ||= session[:step_id] &&
@@ -61,7 +97,7 @@ class StepsController < ApplicationController
   end
 
     def step_params
-      params.require(:step).permit(:name, :description, :number, :stepid, :usedplugin, :usedcall, :plugin_call_id, :inrecipe, :recipe_id, :docfile).tap do |whitelisted|
+      params.require(:step).permit(:name, :description, :number, :plugin_call_id, :recipe_id, :docfile).tap do |whitelisted|
         whitelisted[:properties] = params[:step][:properties]
       end
     end

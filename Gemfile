@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '~> 4.1.0'
 
 
 
@@ -24,6 +23,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'less-rails'
 gem 'simple_form'
 gem 'pry'
+gem 'pry-byebug'
 gem 'json', '~> 1.8.1'
 gem 'httparty'
 gem 'dalli'
@@ -50,6 +50,7 @@ gem 'foundation-icons-sass-rails'
 gem 'foundation_datepicker_rails'
 
 gem 'will_paginate-foundation'
+gem 'binding_of_caller'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -106,6 +107,8 @@ gem 'engineyard'
 gem 'passenger'
 
 
+gem 'psych'
 
 
-ruby '2.0.0'
+
+

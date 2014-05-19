@@ -1,8 +1,8 @@
-<%= form_for [recipe, recipe.steps.build] do |f| %>
+<%= form_for(@step) do |f| %>
 
 
-    <%= f.grouped_collection_select :plugin_call_id, Plugin.where(category_id: category_id).order(:name), :plugin_calls, :name, :id, :what, include_blank: 'Please select', wrapper_html: {class: 'medium-12 small-12 columns'} %>
+    <%= f.collection_select :plugin_call_id,  PluginCall.where(category: category).order(:id), :details, :what, include_blank: 'Please select', wrapper_html: {class: 'medium-12 small-12 columns'} %>
 
-    <%= hidden_field_tag :inrecipe, recipe.id %>
+    <%= hidden_field_tag :recipe_id %>
     <%= f.submit 'Next: Tool Inputs', :class => 'button modal-form' %>
 <% end %>

@@ -1,17 +1,16 @@
 Inputtest2::Application.routes.draw do
   resources :recipes, :has_many => :steps
+  resources :steps, :belongs_to => :recipes
 
   resources :recipes do
-    resources :steps, :has_one => :plugin
+    resources :steps
   end
 
-  resources :steps do
-    resources :plugins, :has_many => :plugin_calls
+  resources :plugin_calls do
+    resources :steps
   end
 
-  resources :plugins do
-    resources :plugin_calls
-  end
+
 
   resources :plugin_calls do
     resources :plugin_call_fields

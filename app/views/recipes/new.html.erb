@@ -40,15 +40,15 @@
 </div>
 
 <div id="getDataModal" class="reveal-modal" data-reveal>
-  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
+  <%= render :partial => "steps/form", :locals => { :recipe => @recipe } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="combineDataModal" class="reveal-modal" data-reveal>
-  <%= render :partial => "steps/combineform", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
+  <%= render :partial => "steps/combineform", :locals => { :recipe => @recipe } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="visualizeDataModal" class="reveal-modal" data-reveal>
-  <%= render :partial => "steps/visualizeform", :locals => { :recipe => Recipe.find(params[:recipe]) } %>
+  <%= render :partial => "steps/visualizeform", :locals => { :recipe => @recipe } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 

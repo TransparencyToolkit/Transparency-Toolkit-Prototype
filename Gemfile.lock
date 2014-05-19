@@ -1,0 +1,348 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    acluscraper (0.0.2)
+    actionmailer (4.1.1)
+      actionpack (= 4.1.1)
+      actionview (= 4.1.1)
+      mail (~> 2.5.4)
+    actionpack (4.1.1)
+      actionview (= 4.1.1)
+      activesupport (= 4.1.1)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
+    actionview (4.1.1)
+      activesupport (= 4.1.1)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+    activemodel (4.1.1)
+      activesupport (= 4.1.1)
+      builder (~> 3.1)
+    activerecord (4.1.1)
+      activemodel (= 4.1.1)
+      activesupport (= 4.1.1)
+      arel (~> 5.0.0)
+    activesupport (4.1.1)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    addressable (2.3.6)
+    american_date (1.1.0)
+    arel (5.0.1.20140414130214)
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    birch (0.0.8)
+    builder (3.2.2)
+    byebug (2.7.0)
+      columnize (~> 0.3)
+      debugger-linecache (~> 1.2)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.4)
+      climate_control (>= 0.0.3, < 1.0)
+    coderay (1.1.0)
+    coffee-rails (4.0.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.7.0)
+    columnize (0.8.9)
+    commonjs (0.2.7)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    daemon_controller (1.2.0)
+    daemons (1.1.9)
+    dalli (2.7.1)
+    datacalc (0.0.1)
+    debug_inspector (0.0.2)
+    debugger-linecache (1.2.0)
+    docsplit (0.7.4)
+    domain_name (0.5.18)
+      unf (>= 0.0.5, < 1.0.0)
+    effscraper (0.0.4)
+    engineyard (2.3.3)
+      engineyard-cloud-client (~> 1.0.16)
+      engineyard-serverside-adapter (= 2.2.0)
+      escape (~> 0.0.4)
+      highline (~> 1.6.1)
+      launchy (~> 2.1)
+      net-ssh (~> 2.7)
+      rest-client (~> 1.6.0)
+    engineyard-cloud-client (1.0.16)
+      mime-types (~> 1.16)
+      multi_json (~> 1.6)
+      rest-client (~> 1.6.1)
+    engineyard-serverside-adapter (2.2.0)
+      escape (~> 0.0.4)
+      multi_json (~> 1.6)
+    entityextractor (0.0.10)
+    erubis (2.7.0)
+    escape (0.0.4)
+    eventmachine (1.0.3)
+    execjs (2.0.2)
+    font-awesome-rails (4.0.3.2)
+      railties (>= 3.2, < 5.0)
+    foundation-icons-sass-rails (3.0.0)
+      railties (>= 3.1.1)
+      sass-rails (>= 3.1.1)
+    foundation-rails (5.2.2.0)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
+    foundation_datepicker_rails (0.0.2)
+      font-awesome-rails (~> 4.0)
+      foundation-rails (~> 5.0)
+      rails (~> 4.0)
+    highline (1.6.21)
+    hike (1.2.3)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    i18n (0.6.9)
+    jbuilder (2.0.0)
+      activesupport (>= 3.0.0)
+      multi_json (>= 1.2.0)
+    jquery-rails (3.1.0)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    jquery-turbolinks (2.0.2)
+      railties (>= 3.1.0)
+      turbolinks
+    jquery-ui-rails (4.2.1)
+      railties (>= 3.2.16)
+    json (1.8.1)
+    jsoncombiner (0.0.2)
+    jsoncrossreference (0.0.3)
+    jsontochart (0.1.8)
+    jsontonetworkgraph (0.0.5)
+    launchy (2.4.2)
+      addressable (~> 2.3)
+    less (2.5.0)
+      commonjs (~> 0.2.7)
+    less-rails (2.5.0)
+      actionpack (>= 3.1)
+      less (~> 2.5.0)
+    libv8 (3.16.14.3)
+    linkedin-scraper (0.1.1)
+      mechanize
+    linkedindata (0.0.5)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mechanize (2.7.2)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0.0)
+      mime-types (~> 1.17, >= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.4)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
+    method_source (0.8.2)
+    mime-types (1.25.1)
+    mini_portile (0.5.3)
+    minitest (5.3.3)
+    multi_json (1.10.0)
+    multi_xml (0.5.5)
+    net-http-digest_auth (1.4)
+    net-http-persistent (2.9.4)
+    net-ssh (2.9.0)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    ntlm-http (0.1.1)
+    paperclip (4.1.1)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
+    passenger (4.0.41)
+      daemon_controller (>= 1.2.0)
+      rack
+      rake (>= 0.8.1)
+    pg (0.17.1)
+    polyglot (0.3.4)
+    progressbar (0.21.0)
+    protected_attributes (1.0.7)
+      activemodel (>= 4.0.1, < 5.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-byebug (1.3.2)
+      byebug (~> 2.7)
+      pry (~> 0.9.12)
+    psych (2.0.5)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (4.1.1)
+      actionmailer (= 4.1.1)
+      actionpack (= 4.1.1)
+      actionview (= 4.1.1)
+      activemodel (= 4.1.1)
+      activerecord (= 4.1.1)
+      activesupport (= 4.1.1)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.1.1)
+      sprockets-rails (~> 2.0)
+    railties (4.1.1)
+      actionpack (= 4.1.1)
+      activesupport (= 4.1.1)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (10.3.1)
+    rdoc (4.1.1)
+      json (~> 1.4)
+    ref (1.0.5)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
+    safe_yaml (1.0.3)
+    sass (3.2.19)
+    sass-rails (4.0.3)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.2.0)
+      sprockets (~> 2.8, <= 2.11.0)
+      sprockets-rails (~> 2.0)
+    schiphol (1.0.1)
+      progressbar (>= 0.10.0)
+      rubyzip (~> 0.9.9)
+    sdoc (0.4.0)
+      json (~> 1.8)
+      rdoc (~> 4.0, < 5.0)
+    simple_form (3.0.2)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
+    slop (3.5.0)
+    spring (1.1.2)
+    sprockets (2.11.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-rails (2.1.3)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (~> 2.8)
+    sunlightcongress (0.0.9)
+    sunlightpartytime (0.0.4)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
+    thin (1.6.2)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+    thor (0.19.1)
+    thread_safe (0.3.3)
+    tilt (1.4.1)
+    timelineJS-rails (1.1.5)
+      jquery-rails
+    timelinegen (0.0.6)
+    treat (2.0.7)
+      birch
+      schiphol
+      yomu
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+    turbolinks (2.2.2)
+      coffee-rails
+    tzinfo (1.1.0)
+      thread_safe (~> 0.1)
+    uglifier (2.5.0)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
+    uploadconvert (0.0.10)
+    webrobots (0.1.1)
+    wicked (1.0.3)
+      rails (>= 3.0.7)
+    will_paginate (3.0.5)
+    will_paginate-foundation (5.3.3)
+      will_paginate (>= 3.0.3)
+    wlsearchscraper (0.0.2)
+    wordcloud (0.0.11)
+    yomu (0.2.0)
+      json (~> 1.8)
+      mime-types (~> 1.23)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  acluscraper
+  american_date
+  better_errors
+  binding_of_caller
+  carrierwave
+  coffee-rails (~> 4.0.1)
+  crack
+  dalli
+  datacalc
+  docsplit
+  effscraper
+  engineyard
+  entityextractor
+  foundation-icons-sass-rails
+  foundation-rails
+  foundation_datepicker_rails
+  httparty
+  jbuilder (= 2.0)
+  jquery-rails
+  jquery-turbolinks
+  jquery-ui-rails
+  json (~> 1.8.1)
+  jsoncombiner
+  jsoncrossreference
+  jsontochart
+  jsontonetworkgraph
+  less-rails
+  linkedin-scraper
+  linkedindata
+  mechanize
+  paperclip
+  passenger
+  pg
+  protected_attributes
+  pry
+  pry-byebug
+  psych
+  quiet_assets
+  rails (~> 4.1.0)
+  sass-rails (~> 4.0.2)
+  sdoc
+  simple_form
+  spring
+  sprockets
+  sunlightcongress
+  sunlightpartytime
+  therubyracer
+  thin
+  timelineJS-rails
+  timelinegen
+  treat
+  turbolinks
+  uglifier (>= 1.3.0)
+  uploadconvert
+  wicked
+  will_paginate-foundation
+  wlsearchscraper
+  wordcloud

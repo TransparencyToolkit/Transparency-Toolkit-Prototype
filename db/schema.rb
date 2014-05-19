@@ -11,16 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140321235351) do
+ActiveRecord::Schema.define(version: 20140502161354) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "categories", force: true do |t|
-    t.string   "type"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
   create_table "plugin_call_fields", force: true do |t|
     t.string   "name"
@@ -38,28 +32,10 @@ ActiveRecord::Schema.define(version: 20140321235351) do
     t.string   "call"
     t.string   "details"
     t.string   "what"
-    t.integer  "plugin_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "plugin_call_id"
+    t.string   "category"
   end
-
-  add_index "plugin_calls", ["plugin_call_id"], name: "index_plugin_calls_on_plugin_call_id", using: :btree
-  add_index "plugin_calls", ["plugin_id"], name: "index_plugin_calls_on_plugin_id", using: :btree
-
-  create_table "plugins", force: true do |t|
-    t.string   "name"
-    t.string   "description"
-    t.string   "gemname"
-    t.string   "method"
-    t.integer  "step_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "category_id"
-  end
-
-  add_index "plugins", ["category_id"], name: "index_plugins_on_category_id", using: :btree
-  add_index "plugins", ["step_id"], name: "index_plugins_on_step_id", using: :btree
 
   create_table "recipes", force: true do |t|
     t.string   "name"
@@ -72,18 +48,14 @@ ActiveRecord::Schema.define(version: 20140321235351) do
     t.string   "name"
     t.string   "description"
     t.string   "number"
-    t.string   "usedplugin"
-    t.string   "usedcall"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "properties"
-    t.integer  "plugin_call_id"
     t.integer  "recipe_id"
-    t.integer  "inrecipe"
-    t.integer  "stepid"
     t.string   "file"
     t.string   "Step"
     t.string   "docfile"
+    t.integer  "plugin_call_id"
   end
 
   add_index "steps", ["plugin_call_id"], name: "index_steps_on_plugin_call_id", using: :btree

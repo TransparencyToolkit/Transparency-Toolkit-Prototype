@@ -49,17 +49,17 @@
 
 <div id="getDataModal" class="reveal-modal" data-reveal>
   <h3>Get New Data</h3>
-  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]), :category_id => '1' } %>
+  <%= render :partial => "steps/form", :locals => { :recipe => @recipe , :category => 'Get' } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="combineDataModal" class="reveal-modal" data-reveal>
   <h3>Combine Data</h3>
-  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]), :category_id => '2'  } %>
+  <%= render :partial => "steps/form", :locals => { :recipe => @recipe , :category => 'Combine'  } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="visualizeDataModal" class="reveal-modal" data-reveal>
   <h3>Visualize Data</h3>
-  <%= render :partial => "steps/form", :locals => { :recipe => Recipe.find(params[:recipe]), :category_id => '3'  } %>
+  <%= render :partial => "steps/form", :locals => { :recipe => @recipe , :category => 'Visualize'  } %>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 

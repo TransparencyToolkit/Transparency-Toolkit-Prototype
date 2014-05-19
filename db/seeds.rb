@@ -6,64 +6,35 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-category_list = [
-    "Get Data",
-    "Combine Data",
-    "Visualize Data"
-]
 
-category_list.each do |type|
-  Category.create(type: type)
-end
-
-
-plugin_list = [
-    ["US Congress", "Sunlight Foundation's data on votes, bills sponsored, and other actions in congress.", 1],
-    ["Political Fundraising Parties", "Sunlight Foundation's data on political fundraising parties for congresspeople.", 1],
-    ["LinkedIn", "Get data from public LinkedIn profiles.", 1],
-    ["Combine", "Combine multiple datasets.", 2],
-    ["Crossreference", "Crossreference datasets.", 2],
-    ["Timeline", "Automatically generate a timeline visualization.", 3],
-    ["Word Cloud", "Word cloud tool.", 3],
-    ["Upload", "Upload your own documents.", 1],
-    ["EFF Scraper", "Scrape EFF case documents.", 1],
-    ["ACLU Scraper", "Scrape ACLU case documents.", 1],
-    ["Text Extractor", "Extract dates, set terms, or terms in ALLCAPS", 2],
-    ["Cables", "Get documents released by WikiLeaks", 1],
-    ["Network Graph Generator", "Generate a network graph from any data", 3]
-]
-
-plugin_list.each do |name, description, category_id|
-  Plugin.create(name: name, description: description, category_id: category_id)
-end
 
 
 plugin_call_list = [
-    ["All Actions of Legislator", "Gets all the votes, bills sponsored, mentions, and other actions for a particular legislator in US congress.", 1],
-    ["Votes", "Gets all the votes for a particular legislator.", 1],
-    ["Amendments", "Gets all the amendments proposed by a particular legislator.", 1],
-    ["Bills", "Gets all the bills sponsored by a particular legislator.", 1],
-    ["Updates", "Gets all updates from congress mentioning a legislator.", 1],
-    ["Committees", "Get a list of committees a particular legislator is on.", 1],
-    ["Hearings", "Get a list of all hearings for a committee.", 1],
-    ["Hearings for Committees", "Get a list of all hearings for a list of committees.", 1],
-    ["Political Fundraising Parties", "Get a list of all parties a legislator attended.", 2],
-    ["Scrape LinkedIn", "Get data from public LinkedIn profiles.", 3],
-    ["Combine", "Combine multiple datasets.", 4],
-    ["Crossreference", "Crossreference datasets.", 5],
-    ["Timeline", "Automatically generate a timeline visualization.", 6],
-    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.", 7],
-    ["Upload", "Upload your own documents.", 8],
-    ["EFF Scraper", "Scrape EFF case documents.", 9],
-    ["ACLU Scraper", "Scrape ACLU case documents.", 10],
-    ["Extract Dates", "Extract dates mentioned in documents.", 11],
-    ["WikiLeaks Cables", "Get the WikiLeaks Cables.", 12],
-    ["NSA LinkedIn Data", "Pre-scraped data on the NSA and intelligence contractors", 3],
-    ["Generate Network Graph", "Generate a network graph from any data", 13]
+    ["All Actions of Legislator", "Gets all the votes, bills sponsored, mentions, and other actions for a particular legislator in US congress.",  "Get"],
+    ["Votes", "Gets all the votes for a particular legislator.", "Get"],
+    ["Amendments", "Gets all the amendments proposed by a particular legislator.", "Get"],
+    ["Bills", "Gets all the bills sponsored by a particular legislator.",  "Get"],
+    ["Updates", "Gets all updates from congress mentioning a legislator.",  "Get"],
+    ["Committees", "Get a list of committees a particular legislator is on.",  "Get"],
+    ["Hearings", "Get a list of all hearings for a committee.", "Get"],
+    ["Hearings for Committees", "Get a list of all hearings for a list of committees.",  "Get"],
+    ["Political Fundraising Parties", "Get a list of all parties a legislator attended.", "Get"],
+    ["Scrape LinkedIn", "Get data from public LinkedIn profiles.",  "Get"],
+    ["Combine", "Combine multiple datasets.", "Combine"],
+    ["Crossreference", "Crossreference datasets.", "Combine"],
+    ["Timeline", "Automatically generate a timeline visualization.",  "Visualize"],
+    ["Word Cloud", "Change the size of words in a document based on the number of times they are used.",  "Visualize"],
+    ["Upload", "Upload your own documents.", "Get"],
+    ["EFF Scraper", "Scrape EFF case documents.", "Get"],
+    ["ACLU Scraper", "Scrape ACLU case documents.",  "Get"],
+    ["Extract Dates", "Extract dates mentioned in documents.", "Get"],
+    ["WikiLeaks Cables", "Get the WikiLeaks Cables.",  "Get"],
+    ["NSA LinkedIn Data", "Pre-scraped data on the NSA and intelligence contractors", "Get"],
+    ["Generate Network Graph", "Generate a network graph from any data", "Visualize"]
 ]
 
-plugin_call_list.each do |what, details, plugin_id|
-  PluginCall.create(what: what, details: details, plugin_id: plugin_id)
+plugin_call_list.each do |what, details, category|
+  PluginCall.create(what: what, details: details, category: category)
 end
 
 

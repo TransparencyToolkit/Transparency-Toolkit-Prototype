@@ -19,4 +19,74 @@
   </div>
 </div>
 
-<%= render :partial => "steps/steps", :locals => {:recipe => @recipe} %>
+<div class="row">
+  <dl class="accordion" data-accordion>
+    <% @steps.order(:number).each do |step| %>
+
+        <dd class="outer">
+
+          <a href="#panel<%= step.number %>" class="title" > Step <%= step.number%></a>
+
+          <div id="panel<%= step.number %>" class="content <% if step.number =='1' %>active<%else%><%end%>">
+            <dl class="tabs" data-tab data-options=deep_linking:true">
+              <dd><a href="#panel<%= step.number  %>-<%= step.id %>">Details</a></dd>
+              <dd><a href="#panel<%= step.number %>-<%= step.id + 1  %>">Edit</a></dd>
+            </dl>
+            <div class="tabs-content">
+              <div class="content <% if step.number %>active<% else %><% end %>" id="panel<%= step.number %>-<%= step.id %>">
+
+                <%= switchView(step.plugin_call_id.to_i, step.properties,
+                               step.number.to_i, @recipe.id.to_i) %>
+
+                <%= link_to 'Show Fullscreen', recipe_step_path(@recipe, step), :target => "_blank", :class => 'button secondary'%>
+
+
+
+
+
+              </div>
+              <div class="content" id="panel<%= step.number  %>-<%= step.id + 1 %>">
+                <%= render :partial => "steps/editform", :locals => {:step => step} %>
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+        </dd>
+
+
+    <% end %>
+  </dl>
+
+</div>
+<div class="row">
+  <div class="medium-12 small-12">
+    <%= link_to "Use Another Tool", new_recipe_step_path(@recipe), :class => "button" %>
+
+  </div>
+</div>
+
+<script>
+    jQuery.noConflict();
+    Foundation.utils.S(".accordion a").on('click',function(){
+        Foundation.utils.S("dd.active a").children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
+        Foundation.utils.S(this).children('.fi-arrows-compress, .fi-arrows-expand').toggleClass("fi-arrows-compress fi-arrows-expand");
+    });
+
+    Foundation.utils.S(document).on('click', '.accordion .title', function(ev) {
+        if (Foundation.utils.S(this).next('.content').find('.storyjs-embed sized-embed').length > 0) {
+            Foundation.utils.S(window).resize();
+        }
+    });
+
+
+
+
+
+
+
+</script>
+
