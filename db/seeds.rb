@@ -71,7 +71,8 @@ plugin_call_list = [
     ["All Targets", "All targets in WL spy files", 16],
     ["Spy Files (Metadata Only)", "Metadata from the Spy Files documents", 16],
     ["Spy Files", "The full spy files documents", 16],
-    ["Extract Set Terms", "Extract set terms mentioned in documents.", 11]
+    ["Extract Set Terms", "Extract set terms mentioned in documents.", 11],
+    ["Extract ALLCAPS", "Extract ALLCAPS terms mentioned in documents.", 11]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -118,7 +119,11 @@ plugin_call_field_list = [
     ["Keywords", "text_field", true, 25],
     ["Field to Extract From", "file_field", true, 30],
     ["Terms to Extract", "text_field", true, 30],
-    ["Only Return Matches", "check_box", false, 30]
+    ["Only Return Matches", "check_box", false, 30],
+    ["Field to Extract From", "file_field", true, 31],
+    ["Terms to Ignore", "text_field", false, 31],
+    ["Min # of ALLCAPS Chars in Row", "text_field", true, 31],
+    ["Only Return Matches", "check_box", false, 31]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|

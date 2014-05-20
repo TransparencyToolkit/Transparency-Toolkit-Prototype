@@ -19,6 +19,7 @@ class ExtractPlugin < PluginClass
     case @method
       when 18 then extractdates
       when 30 then extractterms
+      when 31 then extractallcaps
       else "Unknown Method"
     end
   end
@@ -37,6 +38,30 @@ class ExtractPlugin < PluginClass
     end
     
     save = d.extract("set", nil, nil, *args)
+    json = d.genJSON
+    
+    if @input["Only Return Matches"] == "1"
+      pjson = JSON.parse(json)
+      outarray = Array.new
+      pjson.each do |p|
+        if !(p["extract"].empty?)
+          outarray.push(p)
+        end
+      end
+      @output = JSON.pretty_generate(outarray)
+    else
+      @output = json
+    end
+  end
+
+  def extractallcaps
+    d = EntityExtractor.new(@previous, @input["Field to Extract From"])
+    args = Array.new
+    @input["Terms to Ignore"].split(",").each do |a|
+      args.push(a.lstrip)
+    end
+
+    save = d.extract("ALLCAPS", @input["Min # of ALLCAPS Chars in Row"].to_i, *args, nil)
     json = d.genJSON
     
     if @input["Only Return Matches"] == "1"

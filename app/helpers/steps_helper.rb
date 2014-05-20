@@ -95,7 +95,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 22..25 then $recipehash[recipeid].addstep(stepnum, GeneralscraperPlugin.new(usedmethod, input, stepnum, recipeid))
     when 26 then $recipehash[recipeid].addstep(stepnum, UnvoterecordsPlugin.new(usedmethod, input, stepnum, recipeid))
     when 27..29 then $recipehash[recipeid].addstep(stepnum, SpyfilesPlugin.new(usedmethod, input, stepnum, recipeid))
-    when 30 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
+    when 30..31 then $recipehash[recipeid].addstep(stepnum, ExtractPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
     else "Unknown Tool"
   end
 
@@ -146,7 +146,7 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 29
     render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
-  when 30
+  when 30..31
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   else "Unknown Tool"
