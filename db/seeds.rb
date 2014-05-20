@@ -70,7 +70,8 @@ plugin_call_list = [
     ["UN GA Vote Records", "Vote records for the UN General Assembly", 15],
     ["All Targets", "All targets in WL spy files", 16],
     ["Spy Files (Metadata Only)", "Metadata from the Spy Files documents", 16],
-    ["Spy Files", "The full spy files documents", 16]
+    ["Spy Files", "The full spy files documents", 16],
+    ["Extract Set Terms", "Extract set terms mentioned in documents.", 11]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -114,7 +115,10 @@ plugin_call_field_list = [
     ["Site URL", "preset_field", true, 24],
     ["Keywords", "text_field", true, 24],
     ["Site URL", "preset_field", true, 25],
-    ["Keywords", "text_field", true, 25]
+    ["Keywords", "text_field", true, 25],
+    ["Field to Extract From", "file_field", true, 30],
+    ["Terms to Extract", "text_field", true, 30],
+    ["Only Return Matches", "check_box", false, 30]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|
