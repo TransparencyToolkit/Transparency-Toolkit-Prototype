@@ -1,0 +1,5438 @@
+[
+  {
+    "title": "Aappro Security and defence: Company Brochure ",
+    "link": "http://wikileaks.org/spyfiles/docs/AAPPRO-2011-AappSecuand-en.pdf",
+    "company": "AAPPRO ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AAPPRO",
+      "Covert Surveillance Devices",
+      "Tactical GSM Interception",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "GSM "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Speed Size Simplicity ",
+    "link": "http://wikileaks.org/spyfiles/docs/AAPPRO-2011-SpeeSizeSimp-en.pdf",
+    "company": "AAPPRO ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AAPPRO",
+      "Tactical Interception Devices",
+      "Tactical GSM Interception "
+    ],
+    "target_system": [
+      "GSM "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Public Security 54 ",
+    "link": "http://wikileaks.org/spyfiles/docs/ADS-2011-PublSecu54-en.pdf",
+    "company": "ADS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ADS "
+    ],
+    "target_system": [
+      "GSM "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "UK Pavilion at Milipol ",
+    "link": "http://wikileaks.org/spyfiles/docs/ADS-2011-UKPaviat-en.pdf",
+    "company": "ADS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ADS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Brochure Security & Policing Exhibition - UK Innovation for Global Security ",
+    "link": "http://wikileaks.org/spyfiles/docs/ADSUKTI-2012-BrocSecuPoli-en.pdf",
+    "company": "ADS UKTI Defence & Secuity Organisation ",
+    "year": "2012 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ADS UKTI DEFENCE & SECUITY ORGANISATION "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Catalogue Security & Policing Exhibition ",
+    "link": "http://wikileaks.org/spyfiles/docs/ADSUKTI-2012-CataSecuPoli-en.pdf",
+    "company": "ADS UKTI Defence & Security Organisation ",
+    "year": "2012 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "ADS UKTI DEFENCE & SECURITY ORGANISATION "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Automatic Speaker Identification System (ASIS) ",
+    "link": "http://wikileaks.org/spyfiles/docs/AGNITIO-2011-AutoSpeaIden-en.pdf",
+    "company": "Agnitio ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AGNITIO",
+      "Audio Forensics",
+      "Biometrics",
+      "Speaker Identification",
+      "Strategic Interception "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Batvox export 1:1 voice biometric tool ",
+    "link": "http://wikileaks.org/spyfiles/docs/AGNITIO-2011-Batvexpo1-en.pdf",
+    "company": "Agnitio ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AGNITIO",
+      "Speaker Identification",
+      "Audio Forensics "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "ES "
+    ]
+  },
+  {
+    "title": "Biometric Speaker Spotting System (BS3) ",
+    "link": "http://wikileaks.org/spyfiles/docs/AGNITIO-2011-BiomSpeaSpot-en.pdf",
+    "company": "Agnitio ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AGNITIO",
+      "COMINT",
+      "Audio Forensics",
+      "Speech Recognition",
+      "Speaker Identification",
+      "Strategic Interception "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "ES "
+    ]
+  },
+  {
+    "title": "BS3 Strategic - Biometric Speaker Spotting System: Strategic Edition ",
+    "link": "http://wikileaks.org/spyfiles/docs/AGNITIO-2011-BS3StraBiom-en.pdf",
+    "company": "Agnitio ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AGNITIO",
+      "Mass Monitoring",
+      "Audio Forensics",
+      "VOIP COMINT",
+      "Speaker Identification",
+      "Speech Recognition",
+      "Strategic Interception "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "ES "
+    ]
+  },
+  {
+    "title": "Speaker Identification Field Toolkit ",
+    "link": "http://wikileaks.org/spyfiles/docs/AGNITIO-2011-SpeaIdenFiel-en.pdf",
+    "company": "Agnitio ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AGNITIO",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "ES "
+    ]
+  },
+  {
+    "title": "Urban Management Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/AGTINTERNATIONAL-2011-UrbaManaSolu-fr.pdf",
+    "company": "AGT International ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AGT INTERNATIONAL",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "CH",
+      "NL",
+      "GB",
+      "DE",
+      "BR",
+      "SG",
+      "IN "
+    ]
+  },
+  {
+    "title": "Vision Analytics ",
+    "link": "http://wikileaks.org/spyfiles/docs/AISOLVE-2011-VisiAnal-en.pdf",
+    "company": "AI Solve ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AI SOLVE",
+      "Facial Recognition",
+      "Vehicle Tracking",
+      "CCTV "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "A30 Excellence in Telephone Interception Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/AMECS-2011-A30Excein-en.pdf",
+    "company": "AMECS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AMECS",
+      "Analysis Software",
+      "Deep Packet Inspection",
+      "Mass Monitoring",
+      "Monitoring Centre",
+      "PRODUCT",
+      "SOFTWARE",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "ISIS-4G/IRIS-4G/IRMA-4G Satellite Monitoring Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/ARPEGE-2010-ISIS4GIRIS-en.pdf",
+    "company": "Arpege ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ARPEGE",
+      "Satellite Interception",
+      "Strategic Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "ATIS Presentation ",
+    "link": "http://wikileaks.org/spyfiles/docs/ATISUHER-ATISPres-en.pdf",
+    "company": "ATIS Uher ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "ATIS UHER",
+      "Monitoring Centre "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE",
+      "TN "
+    ]
+  },
+  {
+    "title": "Security and Surveillance - Video Analytics ",
+    "link": "http://wikileaks.org/spyfiles/docs/AUTONOMY-2011-SecuandSurv-en.pdf",
+    "company": "Autonomy ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "AUTONOMY",
+      "CCTV",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Techncial Surveillance equipments ",
+    "link": "http://wikileaks.org/spyfiles/docs/BEA-2011-TechSurvequi-en.pdf",
+    "company": "BEA ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BEA",
+      "COMINT",
+      "Covert Surveillance Devices",
+      "Covert Tracking Devices",
+      "SIGINT",
+      "Audio Forensics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IT "
+    ]
+  },
+  {
+    "title": "Cell phone detection systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-Cellphondete-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "SIGINT",
+      "Cell Phone Detection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Cellphone detector Wolfhound ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-CelldeteWolf-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "SIGINT",
+      "Cell Phone Detection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "RF detection ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-RFdete-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "BERKELEY VARITRONICS SYSTEMS DECT 6.0 PROBLEMS UMTS",
+      "SIGINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "WatchHound cellphone monitor ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-Watccellmoni-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "SIGINT",
+      "Cell Phone Forensics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Wolfhound Cell phone detection systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-WolfCellphon-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "SIGINT",
+      "Lawful Interception",
+      "Cell Phone Detection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Wolfhound Lite Cellphone Detector ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-WolfLiteCell-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "SIGINT",
+      "Lawful Interception",
+      "Cell Phone Detection",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Wolfhound Pro ",
+    "link": "http://wikileaks.org/spyfiles/docs/BERKELEYVARITRONICS-2011-WolfPro-en.pdf",
+    "company": "Berkeley Varitronics Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BERKELEY VARITRONICS SYSTEMS",
+      "Lawful Interception",
+      "SIGINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Network Content Control System ",
+    "link": "http://wikileaks.org/spyfiles/docs/BIVIO-2011-NetwContCont-en.pdf",
+    "company": "Bivio ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "BIVIO",
+      "Deep Packet Inspection",
+      "Data Retention "
+    ],
+    "target_system": [
+      "Skype "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "About BrightPlanet ",
+    "link": "http://wikileaks.org/spyfiles/docs/BRIGHTPLANET-2011-AbouBrig-en.pdf",
+    "company": "BrightPlanet ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "BRIGHTPLANET",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Small Cellular Basestations for security applications ",
+    "link": "http://wikileaks.org/spyfiles/docs/CAMBRIDGECONSULTANTS-2011-SmalCellBase-en.pdf",
+    "company": "Cambridge Consultants ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "CAMBRIDGE CONSULTANTS",
+      "IMSI catcher",
+      "Lawful Interception",
+      "Tactical GSM Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "Wireless Homeland Security ",
+    "link": "http://wikileaks.org/spyfiles/docs/CAMBRIDGECONSULTANTS-2011-WireHomeSecu-en.pdf",
+    "company": "Cambridge Consultants ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "CAMBRIDGE CONSULTANTS",
+      "Cell Phone Forensics",
+      "Location Tracking",
+      "Tactical GSM Interception",
+      "Tactical Internet Monitoring",
+      "Network Recording",
+      "Covert Surveillance Devices",
+      "Covert Tracking Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "Infrastructure protection services ",
+    "link": "http://wikileaks.org/spyfiles/docs/CASSIDIAN-2011-Infrprotserv-en.pdf",
+    "company": "Cassidian ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "CASSIDIAN",
+      "CCTV",
+      "COMINT",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Advanced Cyber Infrastructure Protection ",
+    "link": "http://wikileaks.org/spyfiles/docs/CASSIDIANEADS-2011-AdvaCybeInfr-en.pdf",
+    "company": "Cassidian (EADS) ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "CASSIDIAN (EADS)",
+      "Deep Packet Inspection",
+      "Internet Monitoring "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Internet monitoring suite ",
+    "link": "http://wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf",
+    "company": "ClearTrail ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "CLEARTRAIL",
+      "Mass Monitoring",
+      "Deep Packet Inspection",
+      "COMINT",
+      "SIGINT",
+      "Tactical Internet Monitoring",
+      "Network Recording",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IN "
+    ]
+  },
+  {
+    "title": "Audioscope - Audio Capturing and Recording System  ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-AudiAudiCapt-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "COBHAM",
+      "Recognition",
+      "Covert Surveillance Devices",
+      "Audio Forensics",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Beowulf II Board Audio Recorder ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-BeowIIBoar-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "COBHAM BEOWULF II BOARD Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Beowulf II Bubble Gum Covert ìdrop and walk audio recorder ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-BeowIIBubb-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Beowulf II Solid state stand alone recorder ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-BeowIISoli-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Bifrost Wireless HIgh Speed USB Modem for Freja Video records ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-BifrWireHIgh-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "CCTV",
+      "Tactical Interception Devices",
+      "Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "CAPsure 256 Element Square Microphone Array ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-CAPs256Elem-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "COBHAM CAPSURE Covert Surveillance Devices",
+      "Audio Forensics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Catalogue of Tactical Communications and Surveillance Product Short Form ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-CataofTact-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Audio Forensics",
+      "Tactical Interception Devices",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Freja Video Recorders ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-FrejVideReco-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "CCTV",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "INCA Repeater - Four Channel Remote Controlled Repeater ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-INCARepeFour-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "COBHAM INCA REPEATER Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "InterCom (Thor) ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-InteThor-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "COBHAM INTERCOM (THOR) Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Loke III Bubble Gum Covert Drop and Walk transmitter ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-LokeIIIBubb-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Loke III TX Miniature Audio Stereo Transmitter ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-LokeIIITX-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Loke Nano Transmitter ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-LokeNanoTran-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Omega Recording Transmitter ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-OmegRecoTran-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Orion SkyWeb Premium ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-OrioSkyWPrem-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Safe Cities Surveillance Infrastructure ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-SafeCitiSurv-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "COBHAM",
+      "Internet Monitoring",
+      "Tactical GSM Interception",
+      "SIGINT",
+      "COMINT",
+      "Covert Surveillance Devices",
+      "localisation",
+      "visualisation "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Tactical Communications and Surveillance ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-TactCommand-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Location Tracking",
+      "Covert Tracking Devices",
+      "Tactical GSM Interception",
+      "CCTV",
+      "Covert Surveillance Devices",
+      "Image Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Thor Digitial Surveillance System ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-ThorDigiSurv-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Data Sheet ",
+    "tags": [
+      "COBHAM",
+      "Tactical Interception Devices",
+      "Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Thor Mini Receiver ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2011-ThorMiniRece-en.pdf",
+    "company": "Cobham ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "COBHAM",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "CommsAudit Corporate Overview ",
+    "link": "http://wikileaks.org/spyfiles/docs/COMMSAUDIT-2011-CommCorpOver-en.pdf",
+    "company": "CommsAudit ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "COMMSAUDIT",
+      "SIGINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Spectrum Intelligence Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/CRFS-2011-SpecInteSyst-en.pdf",
+    "company": "CRFS ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "CRFS",
+      "Cell Phone Detection",
+      "SIGINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Cyveillance Corporate Security ",
+    "link": "http://wikileaks.org/spyfiles/docs/CYVEILLANCE-2011-CyveCorpSecu-en.pdf",
+    "company": "Cyveillance ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "CYVEILLANCE",
+      "Internet Monitoring",
+      "Mass Monitoring",
+      "OSINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Corporate Overview Advanced Surveillance  ",
+    "link": "http://wikileaks.org/spyfiles/docs/DIGITALBARRIERS-2011-CorpOverAdva-en.pdf",
+    "company": "Digital Barriers ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "DIGITAL BARRIERS",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "FR",
+      "US",
+      "AE",
+      "SG "
+    ]
+  },
+  {
+    "title": "Mirador Specialist Cameras ",
+    "link": "http://wikileaks.org/spyfiles/docs/DIGITALBARRIERS-2011-MiraSpecCame-en.pdf",
+    "company": "Digital Barriers ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "DIGITAL BARRIERS",
+      "Covert Surveillance Devices",
+      "CCTV",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "FR",
+      "US",
+      "AE",
+      "SG "
+    ]
+  },
+  {
+    "title": "Showcases Law Enforcement Citywide Surveillance ",
+    "link": "http://wikileaks.org/spyfiles/docs/DIGITALBARRIERS-2011-ShowLawEnfo-en.pdf",
+    "company": "Digital Barriers ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "DIGITAL BARRIERS",
+      "Mass Monitoring",
+      "CCTV "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "FR",
+      "US",
+      "AE",
+      "SG "
+    ]
+  },
+  {
+    "title": "TVI S400 Wireless Surveillance ",
+    "link": "http://wikileaks.org/spyfiles/docs/DIGITALBARRIERS-2011-TVIS400Wire-en.pdf",
+    "company": "Digital Barriers ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "DIGITAL BARRIERS",
+      "Covert Surveillance Devices",
+      "CCTV "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "FR",
+      "US",
+      "AE",
+      "SG "
+    ]
+  },
+  {
+    "title": "Zimiti C-IDS Unattended Ground Sensors Covert Intrusion Detection System ",
+    "link": "http://wikileaks.org/spyfiles/docs/DIGITALBARRIERS-2011-ZimiC-IDUnat-en.pdf",
+    "company": "Digital Barriers ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "DIGITAL BARRIERS",
+      "Covert Surveillance Devices",
+      "Tactical Interception Devices",
+      "Seismic Vibration Sensors "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "FR",
+      "US",
+      "AE",
+      "SG "
+    ]
+  },
+  {
+    "title": "Centuare ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEKTRON-Cent-fr.pdf",
+    "company": "Elektron ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEKTRON",
+      "Lawful Interception",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "VEGA ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEKTRON-VEGA-fr.pdf",
+    "company": "Elektron ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEKTRON",
+      "COMINT",
+      "Location Tracking",
+      "Monitoring Centre "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Famille de produits Observer ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-Famideprod-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Giga Stor ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-GigaStor-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Gigabit and 10 GbE Network Analysis ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-Gigaand10-en.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Monitoring and Managing Voice over Internet Protocol (VoIP) ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-MoniandMana-en.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Network Forensics ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-NetwFore-en.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "nTAP Product Family ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-nTAPProdFami-en.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Observer ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-Obse-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Observer 12 Fonctions de securite ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-Obse12Fonc-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR",
+      "US "
+    ]
+  },
+  {
+    "title": "Observer Infrastructure / Link Analyst ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-ObseInfrLink-en.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Observer integre les technologies NetFlow & sFlow ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-Obseinteles-en.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "Observer Un outil adapte a la VoIP ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-ObseUnouti-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "Solutions dAnalyse Reseau ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-SoludAnal-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "Virtualisation ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELEXO-Virt-fr.pdf",
+    "company": "ELEXO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "ELEXO "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "Number Plate Recognition ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELSAG-2011-NumbPlatReco-en.pdf",
+    "company": "ELSAG ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "ELSAG",
+      "License Plate Recognition",
+      "CCTV "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Israel at Milipol Paris 2011 ",
+    "link": "http://wikileaks.org/spyfiles/docs/ENTERPRISEEUROPE-2011-IsraatMili-en.pdf",
+    "company": "Enterprise Europe Network ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ENTERPRISE EUROPE NETWORK "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IL "
+    ]
+  },
+  {
+    "title": "CellNet Drop 2 Interception System ",
+    "link": "http://wikileaks.org/spyfiles/docs/ERICSSON-2000-CellDrop2-en.pdf",
+    "company": "ERICSSON ",
+    "year": "2000 ",
+    "document_type": "Training Material ",
+    "tags": [
+      "ERICSSON",
+      "Monitoring Centre "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "SE "
+    ]
+  },
+  {
+    "title": "Biometrics ",
+    "link": "http://wikileaks.org/spyfiles/docs/ERNSTYOUNG-2011-Biom-en.pdf",
+    "company": "Ernst & Young ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ERNST & YOUNG",
+      "Biometrics",
+      "SERVICE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Electronic Surveillance, Counter-Surveillance & RF Jamming ",
+    "link": "http://wikileaks.org/spyfiles/docs/ESKAN-2011-ElecSurvCoun-en.pdf",
+    "company": "Eskan ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ESKAN",
+      "Audio Forensics",
+      "Cell Phone Detection",
+      "Location Tracking",
+      "Tactical Interception Devices",
+      "Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Evident ",
+    "link": "http://wikileaks.org/spyfiles/docs/ETIGROUP-2011-Evid-en.pdf",
+    "company": "ETIgroup ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "ETIGROUP",
+      "Analysis Software",
+      "COMINT",
+      "Data Retention",
+      "Data Mining",
+      "Deep Packet Inspection",
+      "Internet Monitoring",
+      "Lawful Interception",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK",
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "SPEKTOR Forensic Intelligence  ",
+    "link": "http://wikileaks.org/spyfiles/docs/EVIDENCETALKS-2012-SPEKForeInte-en.pdf",
+    "company": "Evidence Talks Ltd. ",
+    "year": "2012 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "EVIDENCE TALKS LTD.",
+      "Cell Phone Forensics",
+      "SIM Card Forensics",
+      "HARDWARE",
+      "PRODUCT",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Case History ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CaseHist-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Case history eni ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-Casehisteni-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Case Study: COsmOs ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CaseStudCOsm-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "CIGOTO SEE From search to knowing ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CIGOSEEFrom-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito Answers ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiAnsw-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito Categorizer Cogito Discover ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiCateCogi-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "COGITO Intelligence Platform ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-COGIIntePlat-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis",
+      "Text mining "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito Mapping Concepts ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiMappConc-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Analysis Software",
+      "Location Tracking",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito Monitor ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiMoni-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition",
+      "Text mining",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito Monitor Voice of the Customer ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiMoniVoic-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito Search Explore Engine ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiSearExpl-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "COGITO SEE Finding out who did what ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-COGISEEFind-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "COGITO Semantic Technology ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-COGISemaTech-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Cogito: Solutions for Semantic Publishing ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CogiSolufor-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "COGITO Twitter Semantic Search ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-COGITwitSema-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "Twitter "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "COGITO Understanding Words ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-COGIUndeWord-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "Corporate Brochure ",
+    "link": "http://wikileaks.org/spyfiles/docs/EXPERTSYSTEM-CorpBroc-en.pdf",
+    "company": "EXPERTSYSTEM ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "EXPERTSYSTEM",
+      "Semantic Analysis",
+      "Audio Forensics",
+      "Analysis Software",
+      "Speech Recognition",
+      "Speaker Identification "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "IT "
+    ]
+  },
+  {
+    "title": "FCO Services: Secure Mobile Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/FCOSERVICES-2011-FCOServSecu-en.pdf",
+    "company": "FCO Services ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FCO SERVICES",
+      "FCO SERVICES SECURE MOBILE SOLUTIONS  "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "An overview of FTS products & services ",
+    "link": "http://wikileaks.org/spyfiles/docs/FORENSICTELECOMMUNICATIONS-2011-Anoverof-en.pdf",
+    "company": "Forensic Telecommunications Services ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FORENSIC TELECOMMUNICATIONS SERVICES",
+      "Forensics",
+      "Cell Phone Forensics",
+      "COMINT",
+      "SMS Monitoring",
+      "SIM Card Forensics",
+      "Thuraya Monitoring",
+      "Iridium Monitoring",
+      "Tactical GSM Interception",
+      "PRODUCT",
+      "SERVICE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "iXAM Zero-footprint Forensic Acquisition ",
+    "link": "http://wikileaks.org/spyfiles/docs/FORENSICTELECOMMUNICATIONS-2011-iXAMZeroFore-en.pdf",
+    "company": "Forensic Telecommunications Services ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FORENSIC TELECOMMUNICATIONS SERVICES",
+      "Cell Phone Forensics "
+    ],
+    "target_system": [
+      "iPhone "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "SIMiFOR ",
+    "link": "http://wikileaks.org/spyfiles/docs/FORENSICTELECOMMUNICATIONS-2011-SIMi-en.pdf",
+    "company": "Forensic Telecommunications Services ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FORENSIC TELECOMMUNICATIONS SERVICES",
+      "Cell Phone Forensics",
+      "SIM Card Forensics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "FSNtracks ",
+    "link": "http://wikileaks.org/spyfiles/docs/FREIGHTWATCHSECURITY-2011-FSNt-en.pdf",
+    "company": "Freightwatch Security Net ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FREIGHTWATCH SECURITY NET",
+      "Location Tracking",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IE",
+      "US "
+    ]
+  },
+  {
+    "title": "Geo F5 GPS tracker ",
+    "link": "http://wikileaks.org/spyfiles/docs/FREIGHTWATCHSECURITY-2011-GeoF5GPS-en.pdf",
+    "company": "Freightwatch Security Net ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FREIGHTWATCH SECURITY NET",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IE",
+      "US "
+    ]
+  },
+  {
+    "title": "Lawful Interception: A Mounting Challenge for Service Providers and Governments ",
+    "link": "http://wikileaks.org/spyfiles/docs/FROSTSULLIVAN-LawfInteA-en.pdf",
+    "company": "FROST & SULLIVAN UTIMACO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "FROST & SULLIVAN UTIMACO",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "DE",
+      "FR",
+      "IT",
+      "PL",
+      "US "
+    ]
+  },
+  {
+    "title": "Meeting the Challenges of Data Retention: Now and in the future ",
+    "link": "http://wikileaks.org/spyfiles/docs/FROSTSULLIVAN-2010-MeettheChal-en.pdf",
+    "company": "FROST & SULLIVAN UTIMACO ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "FROST & SULLIVAN UTIMACO",
+      "Data Retention "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "DE",
+      "FR",
+      "IT",
+      "PL",
+      "US "
+    ]
+  },
+  {
+    "title": "Newsletter Q1 ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2011-NewsQ1-en.pdf",
+    "company": "GAMMA ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Tactical Interception Devices",
+      "Tactical Internet Monitoring "
+    ],
+    "target_system": [
+      "Internet Usage",
+      "Instant Messaging "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "Electronic Blitz ",
+    "link": "http://wikileaks.org/spyfiles/docs/GLIMMERGLASSNETWORKS-2011-ElecBlit-en.pdf",
+    "company": "Glimmerglass Networks ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "GLIMMERGLASS NETWORKS",
+      "Network Recording",
+      "Deep Packet Inspection",
+      "Mass Monitoring",
+      "Internet Monitoring",
+      "Fiber-optic Interception",
+      "Strategic Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Unmanned Surveillance System ",
+    "link": "http://wikileaks.org/spyfiles/docs/HARRIS-2011-UnmaSurvSyst-en.pdf",
+    "company": "Harris ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "HARRIS",
+      "Covert Surveillance Devices",
+      "CCTV",
+      "Image Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Location Tracking systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/HIDDENTECHNOLOGYSYSTEMS-2011-LocaTracsyst-en.pdf",
+    "company": "HiddenTechnology Systems International Ltd. ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "HIDDENTECHNOLOGY SYSTEMS INTERNATIONAL LTD.",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Timebox Event Visualisation IX Capability ",
+    "link": "http://wikileaks.org/spyfiles/docs/HPDEFENCE-2011-TimeEvenVisu-en.pdf",
+    "company": "HP Defence and Security ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "HP DEFENCE AND SECURITY",
+      "Visualisation",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Mtrust ",
+    "link": "http://wikileaks.org/spyfiles/docs/HUMANRECOGNITION-2011-Mtru-en.pdf",
+    "company": "Human Recognition System ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "HUMAN RECOGNITION SYSTEM",
+      "Biometrics",
+      "Facial Recognition",
+      "Iris Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Mobile Biometric Platform ",
+    "link": "http://wikileaks.org/spyfiles/docs/HUMANRECOGNITION-2011-MobiBiomPlat-en.pdf",
+    "company": "Human Recognition Systems ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "HUMAN RECOGNITION SYSTEMS",
+      "Facial Recognition",
+      "Image Recognition",
+      "Iris Recognition",
+      "Biometrics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Analyst´s Notebook 8 ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2010-AnalsNote-en.pdf",
+    "company": "i2 Group ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Analyst´s Notebook - Esri Edition Foundation Module ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2011-AnalsNote-en.pdf",
+    "company": "i2 Group ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Social Network Analysis",
+      "Semantic Analysis",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Combatting the Taliban in Central Helmand, Afghanistan ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2010-CombtheTali-en.pdf",
+    "company": "i2 Group ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Cyber  ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2010-Cybe-en.pdf",
+    "company": "i2 Group ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "iBase 8 ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2011-iBas8-en.pdf",
+    "company": "i2 Group ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Stopping Cyber Criminials in Their Tracks ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2010-StopCybeCrim-en.pdf",
+    "company": "i2 Group ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "TextChart AutoMark 8 ",
+    "link": "http://wikileaks.org/spyfiles/docs/I2GROUP-2010-TextAuto8-en.pdf",
+    "company": "i2 Group ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "I2 GROUP",
+      "Analysis Software",
+      "Text mining "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "COMINT Technology ",
+    "link": "http://wikileaks.org/spyfiles/docs/INNOVTELEK-2011-COMITech-en.pdf",
+    "company": "Innov Telek IZT ",
+    "year": "2011 ",
+    "document_type": "Presentation ",
+    "tags": [
+      "INNOV TELEK IZT",
+      "COMINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "DPX Network Probe ",
+    "link": "http://wikileaks.org/spyfiles/docs/IPOQUE-DPXNetwProb-en.pdf",
+    "company": "IPOQUE ",
+    "year": null,
+    "document_type": "Data Sheet ",
+    "tags": [
+      "IPOQUE",
+      "Deep Packet Inspection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "PACE Protocol  & Application Classification Engine ",
+    "link": "http://wikileaks.org/spyfiles/docs/IPOQUE-PACEProtAppl-en.pdf",
+    "company": "IPOQUE ",
+    "year": null,
+    "document_type": "Data Sheet ",
+    "tags": [
+      "IPOQUE",
+      "Deep Packet Inspection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "Facebook Relations Analysis Target Profiling Genesi Platform ",
+    "link": "http://wikileaks.org/spyfiles/docs/IPSINTELLIGENCE-FaceRelaAnal-en.pdf",
+    "company": "IPS Intelligence ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "IPS INTELLIGENCE",
+      "Analysis Software",
+      "Social Network Analysis "
+    ],
+    "target_system": [
+      "Facebook "
+    ],
+    "country_codes": [
+      "IT "
+    ]
+  },
+  {
+    "title": "Schedule 2013 ",
+    "link": "http://wikileaks.org/spyfiles/docs/ISS-2013-Sche2013-en.pdf",
+    "company": "ISS ",
+    "year": "2013 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "ISS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GLOBAL LISTING "
+    ]
+  },
+  {
+    "title": "Building your OSINT Capabililty ",
+    "link": "http://wikileaks.org/spyfiles/docs/KAPOWSOFTWARE-2011-BuilyourOSIN-en.pdf",
+    "company": "Kapow Software ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "KAPOW SOFTWARE",
+      "Social Network Analysis",
+      "Mass Monitoring",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "Twitter",
+      "Facebook "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "Kapow Katalyst for OSINT ",
+    "link": "http://wikileaks.org/spyfiles/docs/KAPOWSOFTWARE-2011-KapoKatafor-en.pdf",
+    "company": "Kapow Software ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "KAPOW SOFTWARE",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "Blogs",
+      "GMail",
+      "Hotmail",
+      "Internet Usage",
+      "Instant Messaging",
+      "Twitter",
+      "Facebook "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "Signals intelligence solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/L3ASA-2011-Signintesolu-en.pdf",
+    "company": "L3 ASA ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "L3 ASA",
+      "SIGINT",
+      "Lawful Interception",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "US "
+    ]
+  },
+  {
+    "title": "SessionVista CX-10 Collector Datasheet ",
+    "link": "http://wikileaks.org/spyfiles/docs/MANTARO-2011-SessCX10-en.pdf",
+    "company": "Mantaro ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "MANTARO",
+      "Visualisation",
+      "VOIP COMINT",
+      "Lawful Interception",
+      "Deep Packet Inspection "
+    ],
+    "target_system": [
+      "Instant Messaging",
+      "E-Mail "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Electronic Warfare: COMINT + COMMS/ESM Intelligence Generation & Fusion Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/MEDAV-2009-ElecWarfCOMI-en.pdf",
+    "company": "MEDAV ",
+    "year": "2009 ",
+    "document_type": "Presentation ",
+    "tags": [
+      "MEDAV",
+      "COMINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  },
+  {
+    "title": "IFS-8000 Intelligence Fusion System ",
+    "link": "http://wikileaks.org/spyfiles/docs/MEDAV-2011-IFS8000Inte-en.pdf",
+    "company": "MEDAV ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "MEDAV",
+      "Analysis Software",
+      "Monitoring Centre",
+      "Visualisation",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Signal Technology in Service of Homeland Security ",
+    "link": "http://wikileaks.org/spyfiles/docs/MEDAV-2011-SignTechin-en.pdf",
+    "company": "MEDAV ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "MEDAV",
+      "Internet Monitoring",
+      "Mass Monitoring",
+      "COMINT",
+      "SIGINT",
+      "OSINT",
+      "HUMINT",
+      "MASINT",
+      "Visualisation",
+      "Lawful Interception",
+      "Network Recording",
+      "Passive Surveillance",
+      "Data Retention",
+      "Deep Packet Inspection",
+      "VOIP COMINT",
+      "Audio Forensics",
+      "Social Network Analysis "
+    ],
+    "target_system": [
+      "iphone",
+      "iOS",
+      "apple",
+      "GIS "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Examining SSL-Encrypted Communiations ",
+    "link": "http://wikileaks.org/spyfiles/docs/METRONOME-2011-ExamSSL-Comm-en.pdf",
+    "company": "Metronome ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "METRONOME",
+      "COMINT",
+      "Deep Packet Inspection",
+      "Mass Monitoring",
+      "SSL",
+      "PRODUCT",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "GB",
+      "MY",
+      "ZA",
+      "CN "
+    ]
+  },
+  {
+    "title": "Advertisement System InPoint SMS ",
+    "link": "http://wikileaks.org/spyfiles/docs/NEOSOFT-AdveSystInPo-en.pdf",
+    "company": "NeoSoft ",
+    "year": null,
+    "document_type": "Data Sheet ",
+    "tags": [
+      "NEOSOFT",
+      "Tactical GSM Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "CH "
+    ]
+  },
+  {
+    "title": "BONGO monitoring system ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETI-2011-BONGmonisyst-en.pdf",
+    "company": "NETI ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NETI",
+      "Lawful Interception",
+      "Strategic Interception",
+      "VOIP COMINT",
+      "Network Recording",
+      "Traffic Data Processing",
+      "Monitoring Centre",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "HU "
+    ]
+  },
+  {
+    "title": "NETI IT Consulting profile ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETI-2011-NETIITCons-en.pdf",
+    "company": "NETI ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NETI",
+      "Lawful Interception",
+      "Mass Monitoring",
+      "bongo",
+      "iOS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "HU "
+    ]
+  },
+  {
+    "title": "10 GigaBit Fiber Taps ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-10GigaFibe-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "10/100 Port Aggregator Tap ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-10100Port-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "10/100/1000 Tap Network Link ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-101001000-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "FR "
+    ]
+  },
+  {
+    "title": "10/100BaseT Tap ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-10100BTap-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "4x1 GigaBit Copper In-Line Regeneration Tap ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-4x1GigaCopp-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Construiere une plateform d´access pour la surveillance ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-Consuneplat-fr.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "FR "
+    ]
+  },
+  {
+    "title": "Data Monitoring Switch ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-DataMoniSwit-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Director Data Monitoring Switch Datasheet ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-DireDataMoni-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "FR "
+    ]
+  },
+  {
+    "title": "FX to TX Tap ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-FXtoTX-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "GigaBit Copper Tap ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-GigaCoppTap-en.pdf",
+    "company": "NETOPTICS  ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS  "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "FR "
+    ]
+  },
+  {
+    "title": "GigaBit Fiber Taps ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-GigaFibeTaps-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "iLink Agg ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-iLinAgg-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "LA IF4CU3 4SFP ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-LAIF4C4SFP-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "LA-IL4CU 4SFP ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-LA-I4SFP-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Presentation du Director ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-PresduDire-fr.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Principe de fonctioneement d´un TAP cuivre ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-Prindefonc-fr.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "RGN-CU-IL4 4x1 10/100BaseT In-Line Regeneration Tap ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-RGN-4x110-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Tap into your Network Product Brochure ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETOPTICS-Tapintoyour-en.pdf",
+    "company": "NETOPTICS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETOPTICS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "OptiCop Interceptor Monitoring Access solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETQUEST-2011-OptiInteMoni-en.pdf",
+    "company": "Netquest ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NETQUEST",
+      "Lawful Interception",
+      "Mass Monitoring "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "SSL Inspector ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETRONOME-2011-SSLInsp-en.pdf",
+    "company": "Netronome ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NETRONOME",
+      "Deep Packet Inspection",
+      "SSL",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Gigabit Observer ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETWORKINSTRUMENTS-GigaObse-fr.pdf",
+    "company": "NETWORK Instruments ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETWORK INSTRUMENTS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Sondes pour le monitoring a distance du reseau ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETWORKINSTRUMENTS-Sondpourle-fr.pdf",
+    "company": "NETWORK INSTRUMENTS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "NETWORK INSTRUMENTS "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US",
+      "FR "
+    ]
+  },
+  {
+    "title": "NiceTrack Horizon Insight ",
+    "link": "http://wikileaks.org/spyfiles/docs/NICE-2011-NiceHoriInsi-en.pdf",
+    "company": "NICE ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NICE",
+      "Mass Monitoring",
+      "Location Tracking",
+      "Strategic Interception",
+      "Monitoring Centre "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IL",
+      "US",
+      "GB",
+      "HK "
+    ]
+  },
+  {
+    "title": "NiceTrack Intelligence Services ",
+    "link": "http://wikileaks.org/spyfiles/docs/NICE-2011-NiceInteServ-en.pdf",
+    "company": "NICE ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NICE",
+      "Lawful Interception",
+      "Mass Monitoring",
+      "OSINT "
+    ],
+    "target_system": [
+      "Humans "
+    ],
+    "country_codes": [
+      "IL",
+      "US",
+      "GB",
+      "HK "
+    ]
+  },
+  {
+    "title": "NiceTrack Location Tracking Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/NICE-2011-NiceLocaTrac-en.pdf",
+    "company": "NICE ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NICE",
+      "Passive Surveillance",
+      "Mass Monitoring",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "GSM",
+      "UMTS",
+      "CDMA",
+      "SIGINT "
+    ],
+    "country_codes": [
+      "IL",
+      "US",
+      "GB",
+      "HK "
+    ]
+  },
+  {
+    "title": "Safe City Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/NICE-2011-SafeCitySolu-en.pdf",
+    "company": "NICE ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NICE",
+      "Mass Monitoring",
+      "CCTV",
+      "Covert Surveillance Devices",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "IL",
+      "US",
+      "GB",
+      "HK "
+    ]
+  },
+  {
+    "title": "Enabling Seucire Internet OperationsION Internet Operations Network ",
+    "link": "http://wikileaks.org/spyfiles/docs/NTREPID-2011-EnabSeucInte-en.pdf",
+    "company": "NTREPID ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NTREPID",
+      "OSINT",
+      "Social Network Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "ION Internet Operations Network ",
+    "link": "http://wikileaks.org/spyfiles/docs/NTREPID-2011-IONInteOper-en.pdf",
+    "company": "NTREPID ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NTREPID",
+      "OSINT",
+      "HUMINT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "ION Large-Scale OSINT Collection ",
+    "link": "http://wikileaks.org/spyfiles/docs/NTREPID-2011-IONLargOSIN-en.pdf",
+    "company": "NTREPID ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NTREPID",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "ION - Research & Targeting ",
+    "link": "http://wikileaks.org/spyfiles/docs/NTREPID-2011-IONReseTarg-en.pdf",
+    "company": "NTREPID ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NTREPID",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "ION Secure Virtual Desktop ",
+    "link": "http://wikileaks.org/spyfiles/docs/NTREPID-2011-IONSecuVirt-en.pdf",
+    "company": "NTREPID ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NTREPID",
+      "Deep Packet Inspection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Tartan Software overview ",
+    "link": "http://wikileaks.org/spyfiles/docs/NTREPID-2011-TartSoftover-en.pdf",
+    "company": "NTREPID ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "NTREPID",
+      "Analysis Software",
+      "Visualisation",
+      "Strategic Interception",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "2 Mercure ",
+    "link": "http://wikileaks.org/spyfiles/docs/OCKHAM-2011-2Merc-en.pdf",
+    "company": "OCKHAM ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "OCKHAM",
+      "Mass Monitoring",
+      "Analysis Software",
+      "Traffic Data Processing",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Management solutions for investigations ",
+    "link": "http://wikileaks.org/spyfiles/docs/OCKHAM-2011-Manasolufor-fr.pdf",
+    "company": "OCKHAM ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "OCKHAM",
+      "Traffic Data Processing",
+      "Mass Monitoring",
+      "Visualisation "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "proceo ",
+    "link": "http://wikileaks.org/spyfiles/docs/OCKHAM-2011-proc-fr.pdf",
+    "company": "OCKHAM ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "OCKHAM",
+      "Analysis Software",
+      "Visualisation "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "GeoTime 5 ",
+    "link": "http://wikileaks.org/spyfiles/docs/OCULUS-2011-GeoT5-en.pdf",
+    "company": "OCULUS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "OCULUS",
+      "Visualisation",
+      "Social Network Analysis "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Geotime 5 - Instantly Reveal Movement Patterns Over Time ",
+    "link": "http://wikileaks.org/spyfiles/docs/OCULUS-2010-Geot5Inst-en.pdf",
+    "company": "OCULUS ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "OCULUS",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "1U Modular Rackmount Surveillance Simplified ",
+    "link": "http://wikileaks.org/spyfiles/docs/PACKETFORENSICS-2011-1UModuRack-en.pdf",
+    "company": "Packet Forensics ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PACKET FORENSICS",
+      "Internet Monitoring",
+      "Lawful Interception",
+      "Data Retention",
+      "VOIP COMINT",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "5-Series Small Devices, Big Opportunities ",
+    "link": "http://wikileaks.org/spyfiles/docs/PACKETFORENSICS-2011-5SeriSmal-en.pdf",
+    "company": "Packet Forensics ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PACKET FORENSICS",
+      "SIGINT",
+      "Tactical Internet Monitoring "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Completing the Investigative Solution Surveillance Simplified ",
+    "link": "http://wikileaks.org/spyfiles/docs/PACKETFORENSICS-2011-ComptheInve-en.pdf",
+    "company": "Packet Forensics ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PACKET FORENSICS",
+      "Internet Monitoring",
+      "Lawful Interception",
+      "Mass Monitoring",
+      "Deep Packet Inspection",
+      "hundreds of probes",
+      "Network Recording",
+      "Traffic Data Processing",
+      "VOIP COMINT",
+      "Tactical Internet Monitoring",
+      "Data Retention "
+    ],
+    "target_system": [
+      "Instant Messaging",
+      "GMail",
+      "Hotmail "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "LI-5 Surveillance Simplified ",
+    "link": "http://wikileaks.org/spyfiles/docs/PACKETFORENSICS-2011-LI5Surv-en.pdf",
+    "company": "Packet Forensics ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PACKET FORENSICS",
+      "Internet Monitoring",
+      "VOIP COMINT "
+    ],
+    "target_system": [
+      "E-Mail "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Private Voip Exchanges & the IAX Dilemma ",
+    "link": "http://wikileaks.org/spyfiles/docs/PACKETFORENSICS-2011-PrivVoipExch-en.pdf",
+    "company": "Packet Forensics ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PACKET FORENSICS",
+      "VOIP COMINT",
+      "H323",
+      "SIP",
+      "MGCP",
+      "IAX "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Surveillance Simplified ",
+    "link": "http://wikileaks.org/spyfiles/docs/PACKETFORENSICS-2011-SurvSimp-en.pdf",
+    "company": "Packet Forensics ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PACKET FORENSICS",
+      "Internet Monitoring",
+      "Lawful Interception",
+      "Deep Packet Inspection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Persistent Wide Area Surveillance ",
+    "link": "http://wikileaks.org/spyfiles/docs/PVLABS-2011-PersWideArea-en.pdf",
+    "company": "PV labs ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PV LABS",
+      "CCTV",
+      "Image Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Tactical Content Management System ",
+    "link": "http://wikileaks.org/spyfiles/docs/PVLABS-2011-TactContMana-en.pdf",
+    "company": "PV labs ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "PV LABS",
+      "Image Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "GSM/UMTS detection and location system ",
+    "link": "http://wikileaks.org/spyfiles/docs/QCCINTERSCAN-2011-GSMUMTSdete-en.pdf",
+    "company": "QCC Interscan ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QCC INTERSCAN",
+      "Cell Phone Detection",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "GAJT GPS Anti-Jam protection ",
+    "link": "http://wikileaks.org/spyfiles/docs/QINETIQ-2011-GAJTGPSAnti-en.pdf",
+    "company": "Qinetiq ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QINETIQ",
+      "Location Tracking",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "CA "
+    ]
+  },
+  {
+    "title": "Ocellus S100 GPS Surveillance and tracking ",
+    "link": "http://wikileaks.org/spyfiles/docs/QINETIQ-2011-OcelS100GPS-en.pdf",
+    "company": "Qinetiq ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QINETIQ",
+      "Location Tracking",
+      "Covert Tracking Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "CA "
+    ]
+  },
+  {
+    "title": "Ocellus T100 High performance GPS Logistics Tracking for Trailers, Containers, Vehicles and Remote Assets ",
+    "link": "http://wikileaks.org/spyfiles/docs/QINETIQ-2011-OcelT100High-en.pdf",
+    "company": "Qinetiq ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QINETIQ",
+      "Location Tracking",
+      "Covert Tracking Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "CA "
+    ]
+  },
+  {
+    "title": "Q20 High Dynamics GPS Receiver Module ",
+    "link": "http://wikileaks.org/spyfiles/docs/QINETIQ-2011-Q20HighDyna-en.pdf",
+    "company": "Qinetiq ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QINETIQ",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "CA "
+    ]
+  },
+  {
+    "title": "Case study: Network Intelligence for Lawful Interception ",
+    "link": "http://wikileaks.org/spyfiles/docs/QOSMOS-2011-CasestudNetw-en.pdf",
+    "company": "QOSMOS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QOSMOS",
+      "Lawful Interception",
+      "Mass Monitoring",
+      "gbps",
+      "p2p",
+      "Network Recording",
+      "Deep Packet Inspection",
+      "VOIP COMINT "
+    ],
+    "target_system": [
+      "E-Mail",
+      "Instant Messaging "
+    ],
+    "country_codes": [
+      "FR",
+      "US",
+      "SG "
+    ]
+  },
+  {
+    "title": "iX Engine DPI & Metadata Extraction SDK ",
+    "link": "http://wikileaks.org/spyfiles/docs/QOSMOS-2011-iXEngiDPI-en.pdf",
+    "company": "QOSMOS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QOSMOS",
+      "Deep Packet Inspection",
+      "Mass Monitoring",
+      "Internet Monitoring "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR",
+      "US",
+      "SG "
+    ]
+  },
+  {
+    "title": "ixMachine ",
+    "link": "http://wikileaks.org/spyfiles/docs/QOSMOS-2011-ixMa-en.pdf",
+    "company": "QOSMOS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QOSMOS",
+      "Deep Packet Inspection",
+      "Internet Monitoring",
+      "Traffic Data Processing",
+      "Network Recording",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "H323",
+      "Citrix",
+      "Oracle",
+      "SAP",
+      "Exchange",
+      "eMule",
+      "BitTorrent",
+      "Skype",
+      "MSN",
+      "GTalk",
+      "GMail",
+      "Hotmail",
+      "Yahoo!Mail",
+      "RTP",
+      "VOIP",
+      "google query",
+      "youtube",
+      "rtp",
+      "rtsp",
+      "wmp",
+      "SIP "
+    ],
+    "country_codes": [
+      "FR",
+      "US",
+      "SG "
+    ]
+  },
+  {
+    "title": "ixMachine LI Edition ",
+    "link": "http://wikileaks.org/spyfiles/docs/QOSMOS-2011-ixMaLIEdit-en.pdf",
+    "company": "QOSMOS ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "QOSMOS",
+      "Lawful Interception",
+      "Data Retention",
+      "VOIP COMINT",
+      "Internet Monitoring "
+    ],
+    "target_system": [
+      "Internet Usage",
+      "E-Mail "
+    ],
+    "country_codes": [
+      "FR",
+      "US",
+      "SG "
+    ]
+  },
+  {
+    "title": "Network Intelligence for Lawful Interception ",
+    "link": "http://wikileaks.org/spyfiles/docs/QOSMOS-NetwIntefor-en.pdf",
+    "company": "QOSMOS ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "QOSMOS",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "ARES Systeme d´interception de Bandes C/L Thuraya ",
+    "link": "http://wikileaks.org/spyfiles/docs/RHEINMETALLDEFENCE-ARESSystd-fr.pdf",
+    "company": "RHEINMETALL DEFENCE ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "RHEINMETALL DEFENCE",
+      "Tactical Satellite Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Argos Thuraya Interception L-Band System ",
+    "link": "http://wikileaks.org/spyfiles/docs/RHEINMETALLDEFENCE-ArgoThurInte-en.pdf",
+    "company": "RHEINMETALL DEFENCE ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "RHEINMETALL DEFENCE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Artemis - Systeme d´Interception de bandes L/L Thuraya ",
+    "link": "http://wikileaks.org/spyfiles/docs/RHEINMETALLDEFENCE-ArteSystd-fr.pdf",
+    "company": "RHEINMETALL DEFENCE ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "RHEINMETALL DEFENCE",
+      "Tactical Satellite Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Countering Thread Surveillance, Interception, Detection, Forensics, CyberSecurity ",
+    "link": "http://wikileaks.org/spyfiles/docs/ROKEMANOR-2011-CounThreSurv-en.pdf",
+    "company": "Roke Manor Research ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "ROKE MANOR RESEARCH",
+      "Lawful Interception",
+      "COMINT",
+      "Image Recognition",
+      "Internet Monitoring",
+      "Tactical Interception Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "An Introduction to Morpho Face Investigate Pilot ",
+    "link": "http://wikileaks.org/spyfiles/docs/SAFRAN-2011-AnIntrto-en.pdf",
+    "company": "Safran ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SAFRAN",
+      "Facial Recognition",
+      "CCTV",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "morphoface investigate ",
+    "link": "http://wikileaks.org/spyfiles/docs/SAFRAN-2011-morpinve-en.pdf",
+    "company": "Safran ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SAFRAN",
+      "Facial recognition",
+      "CCTV "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Scan Surveillance for Governments ",
+    "link": "http://wikileaks.org/spyfiles/docs/SCANTARGET-2011-ScanSurvfor-en.pdf",
+    "company": "ScanTarget ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SCANTARGET",
+      "Deep Packet Inspection",
+      "COMINT",
+      "Network Recording",
+      "SMS Monitoring",
+      "Lawful Interception",
+      "Traffic Data Processing",
+      "Semantic Analysis",
+      "Social Network Analysis",
+      "SOFTWARE",
+      "HARDWARE",
+      "PRODUCT "
+    ],
+    "target_system": [
+      "Twitter",
+      "E-Mail",
+      "Instant Messaging",
+      "Facebook",
+      "Internet Usage",
+      "Blogs",
+      "Forums "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Septier Monitoring Centre ",
+    "link": "http://wikileaks.org/spyfiles/docs/SEPTIER-2011-SeptMoniCent-en.pdf",
+    "company": "Septier ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SEPTIER",
+      "Speaker identification",
+      "Text mining",
+      "VOIP COMINT",
+      "Monitoring Centre",
+      "Speech Recognition "
+    ],
+    "target_system": [
+      "E-Mail",
+      "SMS",
+      "Instant Messaging "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "J-Alert mobile phone jamming detection ",
+    "link": "http://wikileaks.org/spyfiles/docs/SEQTOR-2011-J-Almobiphon-en.pdf",
+    "company": "Seqtor ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SEQTOR",
+      "Jamming Detection",
+      "HARDWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DK "
+    ]
+  },
+  {
+    "title": "Tactical Observation Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/SESP-2010-TactObseSolu-en.pdf",
+    "company": "SESP ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SESP",
+      "Tactical Interception Devices",
+      "HARDWARE",
+      "PRODUCT "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "Presentation Societe ",
+    "link": "http://wikileaks.org/spyfiles/docs/SILTEC-PresSoci-fr.pdf",
+    "company": "Siltec ",
+    "year": null,
+    "document_type": "Presentation ",
+    "tags": [
+      "SILTEC "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "PL "
+    ]
+  },
+  {
+    "title": "Tempest Product Overview ",
+    "link": "http://wikileaks.org/spyfiles/docs/SILTEC-TempProdOver-en.pdf",
+    "company": "Siltec ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "SILTEC",
+      "Tempest "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "PL "
+    ]
+  },
+  {
+    "title": "Recording and Transcription Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEECHTECHNOLOGY-RecoandTran-en.pdf",
+    "company": "Speech Technology Center ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEECH TECHNOLOGY CENTER",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "RU",
+      "DE "
+    ]
+  },
+  {
+    "title": "SIS II Specialized Audio Editor ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEECHTECHNOLOGY-2010-SISIISpec-en.pdf",
+    "company": "Speech Technology Center ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEECH TECHNOLOGY CENTER",
+      "Audio Forensics",
+      "Speech Recognition",
+      "Speaker Identification",
+      "SERVICE "
+    ],
+    "target_system": [
+      "Phone Network "
+    ],
+    "country_codes": [
+      "RU",
+      "DE "
+    ]
+  },
+  {
+    "title": "Gnomes Professional audio recorders ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEECHTECHNOLOGY-2011-GnomProfaudi-en.pdf",
+    "company": "Speech Technology Centre ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEECH TECHNOLOGY CENTRE",
+      "SPEECH TECHNOLOGY CENTRE GNOME RANGE OF RECORDERS Covert Surveillance Devices "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "RU",
+      "DE "
+    ]
+  },
+  {
+    "title": "VoiceGrid Voice Biometric Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEECHTECHNOLOGY-2011-VoicVoicBiom-en.pdf",
+    "company": "Speech Technology Centre ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEECH TECHNOLOGY CENTRE",
+      "Mass Monitoring",
+      "Biometrics",
+      "Analysis Software",
+      "Audio Forensics",
+      "Speaker Identification",
+      "Speech Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "RU",
+      "DE "
+    ]
+  },
+  {
+    "title": "VoiceGrid X ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEECHTECHNOLOGY-2011-VoicX-en.pdf",
+    "company": "Speech Technology Centre ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEECH TECHNOLOGY CENTRE",
+      "Audio Forensics",
+      "Biometrics",
+      "Speaker Identification",
+      "Analysis Software",
+      "Speech Recognition "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "RU",
+      "DE "
+    ]
+  },
+  {
+    "title": "VoiceGrid X Voice Biometrics Soilutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEECHTECHNOLOGY-2011-VoicXVoic-en.pdf",
+    "company": "Speech Technology Centre ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEECH TECHNOLOGY CENTRE",
+      "Analysis Software",
+      "Speech Recognition",
+      "Speaker Identification",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "RU",
+      "DE "
+    ]
+  },
+  {
+    "title": "Data acquisition from devices ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPEKTORFORENSIC-2011-Dataacqufrom-en.pdf",
+    "company": "Spektor Forensic Intelligence ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "SPEKTOR FORENSIC INTELLIGENCE",
+      "Analysis Software",
+      "Cell Phone Forensics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB "
+    ]
+  },
+  {
+    "title": "TMR 16E1 PCIe ",
+    "link": "http://wikileaks.org/spyfiles/docs/TAMARA-TMR16E1PCIe-en.pdf",
+    "company": "Tamara ",
+    "year": null,
+    "document_type": "Data Sheet ",
+    "tags": [
+      "TAMARA "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "TR "
+    ]
+  },
+  {
+    "title": "Hinton 5000 Interceptor Passive probe ",
+    "link": "http://wikileaks.org/spyfiles/docs/TELESOFTTECHNOLOGIES-2011-Hint5000Inte-en.pdf",
+    "company": "Telesoft Technologies ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TELESOFT TECHNOLOGIES",
+      "Mass Monitoring",
+      "Lawful Interception",
+      "SMS Monitoring",
+      "SIGINT",
+      "COMINT",
+      "Data Retention "
+    ],
+    "target_system": [
+      "GSM",
+      "IMSI",
+      "SMS",
+      "IMEI",
+      "CDMA "
+    ],
+    "country_codes": [
+      "GB",
+      "US",
+      "IN "
+    ]
+  },
+  {
+    "title": "Hinton Abis Probe ",
+    "link": "http://wikileaks.org/spyfiles/docs/TELESOFTTECHNOLOGIES-2011-HintAbisProb-en.pdf",
+    "company": "Telesoft Technologies ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TELESOFT TECHNOLOGIES",
+      "Location Tracking",
+      "Mass Monitoring",
+      "GSM",
+      "UMTS",
+      "CDMA "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "US",
+      "IN "
+    ]
+  },
+  {
+    "title": "Hinton Mobile Data Probe ",
+    "link": "http://wikileaks.org/spyfiles/docs/TELESOFTTECHNOLOGIES-2011-HintMobiData-en.pdf",
+    "company": "Telesoft Technologies ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TELESOFT TECHNOLOGIES",
+      "Lawful Interception",
+      "Mass Monitoring",
+      "GSM",
+      "UMTS",
+      "CDMA "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "GB",
+      "US",
+      "IN "
+    ]
+  },
+  {
+    "title": "Packet Monitoring Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/TELESOFTTECHNOLOGIES-2011-PackMoniSolu-en.pdf",
+    "company": "Telesoft Technologies ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TELESOFT TECHNOLOGIES",
+      "COMINT",
+      "Deep Packet Inspection",
+      "Lawful Interception",
+      "Internet Monitoring",
+      "Mass Monitoring",
+      "Network Recording",
+      "Passive Surveillance",
+      "Traffic Data Processing",
+      "SIGINT "
+    ],
+    "target_system": [
+      "100GE",
+      "10GE",
+      "40GE",
+      "100GE",
+      "1GE",
+      "VOIP COMINT",
+      "SIP",
+      "IP",
+      "IPv6",
+      "TCP",
+      "UDP",
+      "PCIe",
+      "email",
+      "PPP "
+    ],
+    "country_codes": [
+      "GB",
+      "US",
+      "IN "
+    ]
+  },
+  {
+    "title": "CYBELS CYBer Expertise for Leading Security ",
+    "link": "http://wikileaks.org/spyfiles/docs/THALES-2010-CYBECYBeExpe-en.pdf",
+    "company": "THALES ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "THALES",
+      "Analysis Software "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Cybersecurity overview ",
+    "link": "http://wikileaks.org/spyfiles/docs/THALES-2011-Cybeover-en.pdf",
+    "company": "THALES ",
+    "year": "2011 ",
+    "document_type": "- ",
+    "tags": [
+      "THALES",
+      "Monitoring Centre "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Intelligent systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/THALES-2010-Intesyst-en.pdf",
+    "company": "THALES ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "THALES",
+      "Location Tracking "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Urban Security - Mexico city ",
+    "link": "http://wikileaks.org/spyfiles/docs/THALES-2011-UrbaSecuMexi-en.pdf",
+    "company": "THALES ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "THALES",
+      "THALES URBAN SECURITY - MEXICO CITY Passive Surveillance "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Intervention & Mobile Laboratory ",
+    "link": "http://wikileaks.org/spyfiles/docs/TRACIP-2011-InteMobiLabo-en.pdf",
+    "company": "TRACIP ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TRACIP",
+      "Forensics "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "Our Mission to make the world a safer place for all of us ",
+    "link": "http://wikileaks.org/spyfiles/docs/TROVICOR-2011-OurMissto-en.pdf",
+    "company": "Trovicor ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TROVICOR",
+      "Monitoring Centre",
+      "PRODUCT",
+      "SERVICE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Paris Expo ",
+    "link": "http://wikileaks.org/spyfiles/docs/TROVICOR-2012-PariExpo-en.pdf",
+    "company": "Trovicor ",
+    "year": "2012 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "TROVICOR",
+      "Lawful Interception",
+      "Monitoring Centre "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE "
+    ]
+  },
+  {
+    "title": "Automated Data Retention for Telcommunication Service Providers ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2010-AutoDataRete-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Data Retention "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "DRS Data Retention Suite ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2010-DRSDataRete-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Data Retention "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "DRS Paquete de retencion de datos ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2011-DRSPaqude-es.pdf",
+    "company": "UTIMACO ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Data Retention "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "LIMS Access Points ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2011-LIMSAccePoin-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "LIMS DRS Surveillance integration products ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2011-LIMSDRSSurv-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception",
+      "Mass Monitoring",
+      "Data Retention",
+      "Network Recording",
+      "Traffic Data Processing",
+      "VOIP COMINT",
+      " "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "LIMS DRS Video ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-LIMSDRSVide-en.pdf",
+    "company": "UTIMACO ",
+    "year": null,
+    "document_type": "Video ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception",
+      "Data Retention "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "LIMS Lawful Interception of Telecommunication Services ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-LIMSLawfInte-en.pdf",
+    "company": "UTIMACO ",
+    "year": null,
+    "document_type": "Data Sheet ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "LIMS Techpaper Lawful Interception with Umbrella Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2010-LIMSTechLawf-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "LIMS Techpaper LI with Umbrella Systems ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2010-LIMSTechLI-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception",
+      "COMINT "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "Utimaco LIMS Interceptacion legal de servicios de telecomunicaciones ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-UtimLIMSInte-es.pdf",
+    "company": "UTIMACO ",
+    "year": null,
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "Utimacop LIMS Lawful Interception of Telecommuication Services ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2010-UtimLIMSLawf-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2010 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception "
+    ],
+    "target_system": [
+      "Phone Network",
+      "Mobile Phone Network "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "Strategic Satellite Monitoring ",
+    "link": "http://wikileaks.org/spyfiles/docs/VASTECH-2011-StraSateMoni-en.pdf",
+    "company": "VAStech ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "VASTECH",
+      "COMINT",
+      "Satellite Interception",
+      "Strategic Interception "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "ZA "
+    ]
+  },
+  {
+    "title": "Strategic Telecommunication Network Monitoring ",
+    "link": "http://wikileaks.org/spyfiles/docs/VASTECH-2011-StraTeleNetw-en.pdf",
+    "company": "VAStech ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "VASTECH",
+      "Mass Monitoring",
+      "Network Recording",
+      "Speech Recognition",
+      "Traffic Data Processing",
+      "SMS Monitoring",
+      "Internet Monitoring",
+      "Deep Packet Inspection",
+      "Strategic Interception",
+      "HARDWARE",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "ZA "
+    ]
+  },
+  {
+    "title": "Virtus Translation for Structured Data ",
+    "link": "http://wikileaks.org/spyfiles/docs/VIRTUS-2011-VirtTranfor-en.pdf",
+    "company": "Virtus ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "VIRTUS",
+      "Analysis Software",
+      "SOFTWARE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Superior Pattern Discovery Solutions ",
+    "link": "http://wikileaks.org/spyfiles/docs/VISUALANALYTICS-2011-SupePattDisc-en.pdf",
+    "company": "Visual Analytics Inc ",
+    "year": "2011 ",
+    "document_type": "Catalogue ",
+    "tags": [
+      "VISUAL ANALYTICS INC",
+      "Analysis Software",
+      "Visualisation",
+      "Data Mining",
+      "SOFTWARE",
+      "SERVICE "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "US "
+    ]
+  },
+  {
+    "title": "Exploits for Law Enforcement ",
+    "link": "http://wikileaks.org/spyfiles/docs/VUPEN-2011-ExplforLaw-en.pdf",
+    "company": "VuPen ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "VUPEN",
+      "Exploits "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "FR "
+    ]
+  },
+  {
+    "title": "FinFisher Pricing ",
+    "link": "http://wikileaks.org/spyfiles/docs/DREAMLAB-2011-FinFPric-en.pdf",
+    "company": "Dreamlab ",
+    "year": "2011 ",
+    "document_type": "Pricelist ",
+    "tags": [
+      "DREAMLAB",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "CH",
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "OM Purchase Order  ",
+    "link": "http://wikileaks.org/spyfiles/docs/DREAMLAB-2010-OMPurcOrde-en.pdf",
+    "company": "Dreamlab ",
+    "year": "2010 ",
+    "document_type": "Contract Material ",
+    "tags": [
+      "DREAMLAB",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "CH",
+      "OM "
+    ]
+  },
+  {
+    "title": "OM Quotation Monitoring for iproxy-project ",
+    "link": "http://wikileaks.org/spyfiles/docs/DREAMLAB-2010-OMQuotMoni-en.pdf",
+    "company": "Dreamlab ",
+    "year": "2010 ",
+    "document_type": "Contract Material ",
+    "tags": [
+      "DREAMLAB",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "CH",
+      "OM "
+    ]
+  },
+  {
+    "title": "OM System Manual ",
+    "link": "http://wikileaks.org/spyfiles/docs/DREAMLAB-2010-OMSystManu-en.pdf",
+    "company": "Dreamlab ",
+    "year": "2010 ",
+    "document_type": "Deployment Docu ",
+    "tags": [
+      "DREAMLAB",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "CH",
+      "OM "
+    ]
+  },
+  {
+    "title": "TM Quotation InfectionProxy  ",
+    "link": "http://wikileaks.org/spyfiles/docs/DREAMLAB-2010-TMQuotInfe-en.pdf",
+    "company": "Dreamlab´ ",
+    "year": "2010 ",
+    "document_type": "Contract Material ",
+    "tags": [
+      "DREAMLAB´",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "CH",
+      "TM "
+    ]
+  },
+  {
+    "title": "Vereinbarung einer strategischen Partnerschaft ",
+    "link": "http://wikileaks.org/spyfiles/docs/DREAMLABGAMMA-2011-Vereeinestra-de.pdf",
+    "company": "Dreamlab Gamma ",
+    "year": "2011 ",
+    "document_type": "Contract Material ",
+    "tags": [
+      "DREAMLAB GAMMA",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "DE",
+      "GB",
+      "CH "
+    ]
+  },
+  {
+    "title": "Finfisher FINFly ISP 2.0 Infrastructure Product Training ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2010-FinfFINFISP-en.pdf",
+    "company": "Gamma ",
+    "year": "2010 ",
+    "document_type": "Training Material ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "DE",
+      "GB "
+    ]
+  },
+  {
+    "title": "Strategy for an overall intelligence Concept ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2011-Straforan-en.pdf",
+    "company": "Gamma ",
+    "year": "2011 ",
+    "document_type": "Brochure ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "DE",
+      "GB",
+      "CH "
+    ]
+  },
+  {
+    "title": "TM Finfisher FinFly ISP Project Turkmenistan ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2011-TMFinfFinF-en.pdf",
+    "company": "Gamma ",
+    "year": "2011 ",
+    "document_type": "Deployment Docu ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "DE",
+      "GB",
+      "TM "
+    ]
+  },
+  {
+    "title": "Redirector Programmer Guide Version 4.0 ",
+    "link": "http://wikileaks.org/spyfiles/docs/SILICOM-2010-RediProgGuid-en.pdf",
+    "company": "Silicom ",
+    "year": "2010 ",
+    "document_type": "Manual ",
+    "tags": [
+      "SILICOM",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "Internet Usage "
+    ],
+    "country_codes": [
+      "IL "
+    ]
+  },
+  {
+    "title": "Non-Disclosure Agreement ",
+    "link": "http://wikileaks.org/spyfiles/docs/SILICOMDREAMLAB-2010-Non-Agre-en.pdf",
+    "company": "Silicom Dreamlab ",
+    "year": "2010 ",
+    "document_type": "Contract Material ",
+    "tags": [
+      "SILICOM DREAMLAB",
+      "Strategic Infection "
+    ],
+    "target_system": [
+      "- "
+    ],
+    "country_codes": [
+      "CH",
+      "IL "
+    ]
+  },
+  {
+    "title": "Peter Warnke ",
+    "link": "http://wikileaks.org/spyfiles/docs/CELLEBRITE-2012-PeteWarn-en.pdf",
+    "company": "Cellebrite ",
+    "year": "2012 ",
+    "tags": [
+      "CELLEBRITE",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "DE",
+      "IL",
+      "TR",
+      "NL",
+      "AE",
+      "US",
+      "GB",
+      "PL",
+      "CH "
+    ]
+  },
+  {
+    "title": "David Ast ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2012-DaviAst-en.pdf",
+    "company": "Cobham ",
+    "year": "2012 ",
+    "tags": [
+      "COBHAM",
+      "Tactical GSM Interception",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "DE",
+      "CZ",
+      "DK",
+      "CH",
+      "FR",
+      "AT",
+      "IT "
+    ]
+  },
+  {
+    "title": "Neil Tomlinson ",
+    "link": "http://wikileaks.org/spyfiles/docs/COBHAM-2012-NeilToml-en.pdf",
+    "company": "Cobham ",
+    "year": "2012 ",
+    "tags": [
+      "COBHAM",
+      "Tactical GSM Interception",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "GB",
+      "AE",
+      "LB",
+      "QT",
+      "KW "
+    ]
+  },
+  {
+    "title": "Thomas Oblinger ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELAMAN-2012-ThomObli-en.pdf",
+    "company": "Elaman ",
+    "year": "2012 ",
+    "tags": [
+      "ELAMAN",
+      "Trojans",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "DE",
+      "CH",
+      "AE",
+      "OM "
+    ]
+  },
+  {
+    "title": "Holger Rumscheidt ",
+    "link": "http://wikileaks.org/spyfiles/docs/ELAMAN-2011-HolgRums-en.pdf",
+    "company": "Elaman ",
+    "year": "2011 ",
+    "tags": [
+      "ELAMAN",
+      "Trojans",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "LB",
+      "DE",
+      "FR",
+      "CH",
+      "AE",
+      "AT",
+      "OM",
+      "ZA",
+      "ET",
+      "US",
+      "AZ",
+      "TM",
+      "ZA",
+      "JO "
+    ]
+  },
+  {
+    "title": "Brydon Nelson ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2012-BrydNels-en.pdf",
+    "company": "Gamma ",
+    "year": "2012 ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "GB",
+      "DE",
+      "QA",
+      "AE",
+      "BH",
+      "NL",
+      "OM",
+      "BN",
+      "MY",
+      "CY",
+      "FR "
+    ]
+  },
+  {
+    "title": "Carlos Gandini ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2012-CarlGand-en.pdf",
+    "company": "Gamma ",
+    "year": "2012 ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "DE",
+      "AT",
+      "ES",
+      "CZ",
+      "FR",
+      "MX",
+      "AE",
+      "OM",
+      "MA",
+      "GQ",
+      "CM",
+      "PT",
+      "BR "
+    ]
+  },
+  {
+    "title": "Johnny Debs ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2012-JohnDebs-en.pdf",
+    "company": "Gamma ",
+    "year": "2012 ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "LB",
+      "RS",
+      "GB",
+      "CZ",
+      "TR",
+      "ET",
+      "GA "
+    ]
+  },
+  {
+    "title": "Louthean Nelson ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2011-LoutNels-en.pdf",
+    "company": "Gamma ",
+    "year": "2011 ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Strategic Infection",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "LB",
+      "DE",
+      "AE",
+      "LV",
+      "CH",
+      "ID",
+      "IT",
+      "MY",
+      "SG",
+      "GB",
+      "AT",
+      "RS",
+      "TR",
+      "CI",
+      "BJ",
+      "ZA "
+    ]
+  },
+  {
+    "title": "Martin Muench ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2013-MartMuen-en.pdf",
+    "company": "Gamma ",
+    "year": "2013 ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Strategic Infection",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "MX",
+      "US",
+      "DE",
+      "CZ",
+      "KZ",
+      "GB",
+      "NL",
+      "FR",
+      "RS "
+    ]
+  },
+  {
+    "title": "Stephan Oelkers ",
+    "link": "http://wikileaks.org/spyfiles/docs/GAMMA-2012-StepOelk-en.pdf",
+    "company": "Gamma ",
+    "year": "2012 ",
+    "tags": [
+      "GAMMA",
+      "Trojans",
+      "Strategic Infection",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "SG",
+      "ID",
+      "UG",
+      "AE",
+      "DE",
+      "ET",
+      "NG",
+      "DE",
+      "LB",
+      "QA",
+      "NG "
+    ]
+  },
+  {
+    "title": "Marco Bettini ",
+    "link": "http://wikileaks.org/spyfiles/docs/HACKINGTEAM-2012-MarcBett-en.pdf",
+    "company": "Hackingteam ",
+    "year": "2012 ",
+    "tags": [
+      "HACKINGTEAM",
+      "Trojans",
+      "Strategic Infection",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "IT",
+      "FR",
+      "MA",
+      "AE",
+      "SG",
+      "DE",
+      "RS",
+      "ES",
+      "MX",
+      "CZ",
+      "PT",
+      "BR "
+    ]
+  },
+  {
+    "title": "Mostapaha Maana ",
+    "link": "http://wikileaks.org/spyfiles/docs/HACKINGTEAM-2011-MostMaan-en.pdf",
+    "company": "Hackingteam ",
+    "year": "2011 ",
+    "tags": [
+      "HACKINGTEAM",
+      "Trojans",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "IT",
+      "CH",
+      "US",
+      "MA",
+      "MY",
+      "SG",
+      "LB",
+      "NL",
+      "FR",
+      "EG",
+      "AE",
+      "TR",
+      "DE",
+      "SA",
+      "QA",
+      "SD",
+      "CZ",
+      "OM "
+    ]
+  },
+  {
+    "title": "Chris Nyland ",
+    "link": "http://wikileaks.org/spyfiles/docs/HIDDENTECHNOLOGY-2012-ChriNyla-en.pdf",
+    "company": "Hidden Technology ",
+    "year": "2012 ",
+    "tags": [
+      "HIDDEN TECHNOLOGY",
+      "Tactical Interception Devices",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "GB",
+      "ES",
+      "MT",
+      "FR",
+      "NL",
+      "IN "
+    ]
+  },
+  {
+    "title": "Rudolf Gnadl ",
+    "link": "http://wikileaks.org/spyfiles/docs/ROHDESCHWARZ-2012-RudoGnad-en.pdf",
+    "company": "Rohde Schwarz ",
+    "year": "2012 ",
+    "tags": [
+      "ROHDE SCHWARZ",
+      "SIGINT",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "DE",
+      "AT",
+      "CZ",
+      "PT",
+      "FR",
+      "ES",
+      "US "
+    ]
+  },
+  {
+    "title": "Ray Hutton ",
+    "link": "http://wikileaks.org/spyfiles/docs/TELESOFT-2012-RayHutt-en.pdf",
+    "company": "Telesoft ",
+    "year": "2012 ",
+    "tags": [
+      "TELESOFT",
+      "Lawful Interception",
+      "Tactical Internet Monitoring",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "GB",
+      "ES",
+      "AE",
+      "IT "
+    ]
+  },
+  {
+    "title": "Tomas Miskovsky ",
+    "link": "http://wikileaks.org/spyfiles/docs/TROVICOR-2012-TomaMisk-en.pdf",
+    "company": "Trovicor ",
+    "year": "2012 ",
+    "tags": [
+      "TROVICOR",
+      "Lawful Interception",
+      "Monitoring Centre",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "CZ",
+      "AE",
+      "DE",
+      "BG",
+      "RS "
+    ]
+  },
+  {
+    "title": "Rudolf Windschuh ",
+    "link": "http://wikileaks.org/spyfiles/docs/UTIMACO-2012-RudoWind-en.pdf",
+    "company": "UTIMACO ",
+    "year": "2012 ",
+    "tags": [
+      "UTIMACO",
+      "Lawful Interception",
+      "Strategic Interception",
+      "Data Retention",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "DE",
+      "NL",
+      "FR",
+      "ES",
+      "AE",
+      "AU",
+      "CZ",
+      "FI",
+      "GB "
+    ]
+  },
+  {
+    "title": "Avner Turniansky ",
+    "link": "http://wikileaks.org/spyfiles/docs/VERINT-2012-AvneTurn-en.pdf",
+    "company": "Verint ",
+    "year": "2012 ",
+    "tags": [
+      "VERINT",
+      "Lawful Interception",
+      "Strategic Interception",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "IL",
+      "IT",
+      "US",
+      "ES",
+      "NG",
+      "CH",
+      "GR",
+      "TR "
+    ]
+  },
+  {
+    "title": "WLCIU AZ ",
+    "link": "http://wikileaks.org/spyfiles/docs/AZERBAIJAN-2012-WLCIAZ-en.pdf",
+    "company": "AZERBAIJAN ",
+    "year": "2012 ",
+    "tags": [
+      "AZERBAIJAN",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "AZ "
+    ]
+  },
+  {
+    "title": "WLCIU BH ",
+    "link": "http://wikileaks.org/spyfiles/docs/BAHRAIN-2013-WLCIBH-en.pdf",
+    "company": "BAHRAIN ",
+    "year": "2013 ",
+    "tags": [
+      "BAHRAIN",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "BH "
+    ]
+  },
+  {
+    "title": "WLCIU BR ",
+    "link": "http://wikileaks.org/spyfiles/docs/BRAZIL-2013-WLCIBR-en.pdf",
+    "company": "BRAZIL ",
+    "year": "2013 ",
+    "tags": [
+      "BRAZIL",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "BR "
+    ]
+  },
+  {
+    "title": "WLCIU  ES ",
+    "link": "http://wikileaks.org/spyfiles/docs/SPAIN-2013-WLCIES-en.pdf",
+    "company": "SPAIN ",
+    "year": "2013 ",
+    "tags": [
+      "SPAIN",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "ES "
+    ]
+  },
+  {
+    "title": "WLCIU  ET ",
+    "link": "http://wikileaks.org/spyfiles/docs/ETHIOPIA-2012-WLCIET-en.pdf",
+    "company": "ETHIOPIA ",
+    "year": "2012 ",
+    "tags": [
+      "ETHIOPIA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "ET "
+    ]
+  },
+  {
+    "title": "WLCIU GQ ",
+    "link": "http://wikileaks.org/spyfiles/docs/EQUATORIALGUINEA-2013-WLCIGQ-en.pdf",
+    "company": "EQUATORIAL GUINEA ",
+    "year": "2013 ",
+    "tags": [
+      "EQUATORIAL GUINEA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "GQ "
+    ]
+  },
+  {
+    "title": "WLCIU ID ",
+    "link": "http://wikileaks.org/spyfiles/docs/INDONESIA-2012-WLCIID-en.pdf",
+    "company": "INDONESIA ",
+    "year": "2012 ",
+    "tags": [
+      "INDONESIA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "ID "
+    ]
+  },
+  {
+    "title": "WLCIU KZ ",
+    "link": "http://wikileaks.org/spyfiles/docs/KAZAKHSTAN-2013-WLCIKZ-en.pdf",
+    "company": "KAZAKHSTAN ",
+    "year": "2013 ",
+    "tags": [
+      "KAZAKHSTAN",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "KZ "
+    ]
+  },
+  {
+    "title": "WLCIU MX ",
+    "link": "http://wikileaks.org/spyfiles/docs/MEXICO-2013-WLCIMX-en.pdf",
+    "company": "MEXICO ",
+    "year": "2013 ",
+    "tags": [
+      "MEXICO",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "MX "
+    ]
+  },
+  {
+    "title": "WLCIU MY ",
+    "link": "http://wikileaks.org/spyfiles/docs/MALAYSIA-2011-WLCIMY-en.pdf",
+    "company": "MALAYSIA ",
+    "year": "2011 ",
+    "tags": [
+      "MALAYSIA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "MY "
+    ]
+  },
+  {
+    "title": "WLCIU NG ",
+    "link": "http://wikileaks.org/spyfiles/docs/NIGERIA-2013-WLCING-en.pdf",
+    "company": "NIGERIA ",
+    "year": "2013 ",
+    "tags": [
+      "NIGERIA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "NG "
+    ]
+  },
+  {
+    "title": "WLCIU NL ",
+    "link": "http://wikileaks.org/spyfiles/docs/NETHERLANDS-2012-WLCINL-en.pdf",
+    "company": "NETHERLANDS ",
+    "year": "2012 ",
+    "tags": [
+      "NETHERLANDS",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "NL "
+    ]
+  },
+  {
+    "title": "WLCIU RS ",
+    "link": "http://wikileaks.org/spyfiles/docs/SERBIA-2012-WLCIRS-en.pdf",
+    "company": "SERBIA ",
+    "year": "2012 ",
+    "tags": [
+      "SERBIA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "RS "
+    ]
+  },
+  {
+    "title": "WLCIU TM ",
+    "link": "http://wikileaks.org/spyfiles/docs/TURKMENISTAN-2013-WLCITM-en.pdf",
+    "company": "TURKMENISTAN ",
+    "year": "2013 ",
+    "tags": [
+      "TURKMENISTAN",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "TM "
+    ]
+  },
+  {
+    "title": "WLCIU UG ",
+    "link": "http://wikileaks.org/spyfiles/docs/UGANDA-2013-WLCIUG-en.pdf",
+    "company": "UGANDA ",
+    "year": "2013 ",
+    "tags": [
+      "UGANDA",
+      "WLCIU "
+    ],
+    "country_codes": [
+      "UG "
+    ]
+  },
+  {
+    "title": "2013 ALL Targets ",
+    "link": "http://wikileaks.org/spyfiles/docs/2011-2013ALLTarg-en.pdf",
+    "company": "- ",
+    "year": "2011 ",
+    "tags": [
+      "WLCIU "
+    ],
+    "country_codes": [
+      "- "
+    ]
+  }
+]

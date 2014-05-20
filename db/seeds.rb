@@ -32,7 +32,8 @@ plugin_list = [
     ["Cables", "Get documents released by WikiLeaks", 1],
     ["Network Graph Generator", "Generate a network graph from any data", 3],
     ["General Scraper", "Scrapes any site for the keywords specified", 1],
-    ["UN Vote Records", "UN GA vote record data", 1]
+    ["UN Vote Records", "UN GA vote record data", 1],
+    ["Spy Files", "WikiLeaks Spy Files data", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -66,7 +67,10 @@ plugin_call_list = [
     ["Scrape Any Website (Metadata Only)", "Scrapes the site you choose and returns metadata", 14],
     ["Scrape US Gov Site", "Scrapes government site you choose", 14],
     ["Scrape US Gov Site (Metadata Only)", "Scrapes the US gov site you choose and returns metadata", 14],
-    ["UN GA Vote Records", "Vote records for the UN General Assembly", 15]
+    ["UN GA Vote Records", "Vote records for the UN General Assembly", 15],
+    ["All Targets", "All targets in WL spy files", 16],
+    ["Spy Files (Metadata Only)", "Metadata from the Spy Files documents", 16],
+    ["Spy Files", "The full spy files documents", 16]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
