@@ -1,0 +1,36 @@
+Transparency Toolkit is a web app where journalists can chain together tools to get data (via scrapers and APIs), filter/extract from documents, analyze documents, and generate visualizations all without coding.
+
+To setup-
+1. Clone git repo
+2. Make sure you have rails 4, ruby 2, and postgresql installed
+3. bundle install
+4. rake db:migrate
+5. rake db:seed
+6. rails server
+
+There also might be some additional database setup required, but the exact procedure for this depends slightly on OS.
+
+
+If you are interested in adding tools, it is relatively simple to do so.
+1. Add Info to Database: Edit db/seeds.rb with the info on the tool
+       a. plugin_list: Add a tool to the plugin_list by providing ["Name", "Description", category #]. Category 1 is for data sources, 
+       category 2 is for filtering/combining tools, and category 3 is for visualization and analysis tools.
+       b. plugin_call_list: These are the different methods for the tool (some tools have a collection of related but different methods
+       ). They are formatted as ["Name", "Description", plugin id]
+       c. plugin_call_field_list: These are the inputs for the tool ["Field Name", "field_type", if input is required, plugin_call id]
+
+2. Make Tool Class: Make a class for the tool in app/helpers. This should inherit from PluginClass and this is where the tool (either a gem or another separate program) is called.
+
+3. Make Tool View: Add the views needed for the inputs and showing the results.
+   a. Add Inputs: In views/form_handlers, add a file with new input types as needed. Currently, the types are text_field, check_box, text_area, file_field (list of fields in JSON), step_field (list of output of previous steps), upload_field, and preset_field (add preset list via app/steps_helper)
+   b. Add any view needed for the tool to app/views/recipes. This should be a partial and is where the javascript for javascript visualizations goes.
+
+4. Add to StepsHelper: This switches between the tool views and classes.
+       a. Add to switchTool: In the switchTool method, add a case to the case statement of the form- 
+       	  when TOOLNUM then $recipehash[recipeid].addstep(stepnum, TOOLCLASSNAMEPlugin.new(usedmethod, input, stepnum, recipeid))
+          Some tools might require additional parameters.
+       b. Add to switchView: In the switchView method, add a case statement of the form-
+       	  when TOOLNUM
+	       render :partial => 'recipes/TOOLPARTIAL', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) } 
+
+5. Reset/reseed the database and add gems to the gemfile if necessary to run the tool.

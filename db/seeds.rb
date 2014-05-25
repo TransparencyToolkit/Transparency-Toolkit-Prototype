@@ -90,6 +90,7 @@ plugin_call_field_list = [
     ["Committee ID", "text_field", true, 7],
     ["Legislator Name", "text_field", true, 9],
     ["Search Terms", "text_field", true, 10],
+    ["# of Degrees Out to Scrape", "text_field", false, 10],
     ["First Dataset to Combine", "step_field", true, 11],
     ["Second Dataset to Combine", "step_field", true, 11],
     ["First Dataset to Crossreference", "step_field", true, 12],

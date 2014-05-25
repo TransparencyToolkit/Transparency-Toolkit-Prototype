@@ -17,7 +17,7 @@ class LinkedindataPlugin < PluginClass
   end
   
   def data
-    l = LinkedinData.new(@input["Search Terms"])
+    l = LinkedinData.new(@input["Search Terms"], @input["# of Degrees Out to Scrape"].to_i)
     @output = l.getData
     File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
   end
