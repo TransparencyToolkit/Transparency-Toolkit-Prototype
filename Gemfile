@@ -10,6 +10,7 @@ gem 'perpetuity-postgres'
 gem 'sass-rails', '~> 4.0.2'
 
 gem 'sprockets'
+gem 'wkhtmltopdf-binary'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -103,5 +104,7 @@ gem 'paperclip'
 gem 'scalpel'
 gem 'd3-rails'
 gem 'generalscraper'
+gem 'urlarchiver'
+gem 'pdfkit'
 
 ruby '2.0.0'

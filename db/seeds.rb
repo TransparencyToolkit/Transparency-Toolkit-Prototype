@@ -33,7 +33,8 @@ plugin_list = [
     ["Network Graph Generator", "Generate a network graph from any data", 3],
     ["General Scraper", "Scrapes any site for the keywords specified", 1],
     ["UN Vote Records", "UN GA vote record data", 1],
-    ["Spy Files", "WikiLeaks Spy Files data", 1]
+    ["Spy Files", "WikiLeaks Spy Files data", 1],
+    ["Archive Websites", "Saves html and pdfs of websites", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -72,7 +73,9 @@ plugin_call_list = [
     ["Spy Files (Metadata Only)", "Metadata from the Spy Files documents", 16],
     ["Spy Files", "The full spy files documents", 16],
     ["Extract Set Terms", "Extract set terms mentioned in documents.", 11],
-    ["Extract ALLCAPS", "Extract ALLCAPS terms mentioned in documents.", 11]
+    ["Extract ALLCAPS", "Extract ALLCAPS terms mentioned in documents.", 11],
+    ["Archive URL", "Archives one URL.", 17],
+    ["Archive Multiple URLs", "Archives multiple URLs.", 17]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -124,7 +127,9 @@ plugin_call_field_list = [
     ["Field to Extract From", "file_field", true, 31],
     ["Terms to Ignore", "text_field", false, 31],
     ["Min # of ALLCAPS Chars in Row", "text_field", true, 31],
-    ["Only Return Matches", "check_box", false, 31]
+    ["Only Return Matches", "check_box", false, 31],
+    ["URL to Archive", "text_field", true, 32],
+    ["Field with URLs", "file_field", true, 33]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|
