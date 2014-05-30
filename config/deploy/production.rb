@@ -5,6 +5,9 @@
 # property set.  Don't declare `role :all`, it's a meta role.
 set :stage, :production
 set :branch, "master"
+set :pg_database, "tt_production"
+set :pg_user, "postgres"
+set :pg_password, "postgres"
 
 #role :app, %w{deploy@example.com}
 #role :web, %w{deploy@example.com}

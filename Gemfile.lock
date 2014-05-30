@@ -40,9 +40,14 @@ GEM
     capistrano-bundler (1.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    capistrano-postgresql (3.0.0)
+      capistrano (>= 3.0)
     capistrano-rails (1.1.1)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
+    capistrano-rvm (0.1.1)
+      capistrano (~> 3.0)
+      sshkit (~> 1.2)
     carrierwave (0.10.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -278,7 +283,9 @@ DEPENDENCIES
   better_errors
   capistrano
   capistrano-bundler
+  capistrano-postgresql
   capistrano-rails
+  capistrano-rvm
   carrierwave
   coffee-rails (~> 4.0.1)
   crack

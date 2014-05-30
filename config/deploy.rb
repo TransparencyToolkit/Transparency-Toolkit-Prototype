@@ -23,6 +23,10 @@ set :pty, false
 
 # Default value for :pty is false
 # set :pty, true
+set :rvm_type, :user
+set :rvm_ruby_version, '2.0.0'
+
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 # Default value for :linked_files is []
 set :linked_files, %w{config/database.yml}
