@@ -34,7 +34,8 @@ plugin_list = [
     ["General Scraper", "Scrapes any site for the keywords specified", 1],
     ["UN Vote Records", "UN GA vote record data", 1],
     ["Spy Files", "WikiLeaks Spy Files data", 1],
-    ["Archive Websites", "Saves html and pdfs of websites", 1]
+    ["Archive Websites", "Saves html and pdfs of websites", 1],
+    ["Indeed Scraper", "Scrapes Indeed for jobs and resumes", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -75,7 +76,9 @@ plugin_call_list = [
     ["Extract Set Terms", "Extract set terms mentioned in documents.", 11],
     ["Extract ALLCAPS", "Extract ALLCAPS terms mentioned in documents.", 11],
     ["Archive URL", "Archives one URL.", 17],
-    ["Archive Multiple URLs", "Archives multiple URLs.", 17]
+    ["Archive Multiple URLs", "Archives multiple URLs.", 17],
+    ["Scrape Indeed Resumes", "Scrape resumes from Indeed.", 18],
+    ["Scrape Indeed Jobs", "Scrape jobs from Indeed.", 18]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -129,7 +132,11 @@ plugin_call_field_list = [
     ["Min # of ALLCAPS Chars in Row", "text_field", true, 31],
     ["Only Return Matches", "check_box", false, 31],
     ["URL to Archive", "text_field", true, 32],
-    ["Field with URLs", "file_field", true, 33]
+    ["Field with URLs", "file_field", true, 33],
+    ["Keyword", "text_field", true, 34],
+    ["Location", "text_field", false, 34],
+    ["Keyword", "text_field", true, 35],
+    ["Location", "text_field", false, 35]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|

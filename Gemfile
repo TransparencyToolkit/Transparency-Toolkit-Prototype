@@ -110,5 +110,7 @@ gem 'd3-rails'
 gem 'generalscraper'
 gem 'urlarchiver'
 gem 'pdfkit'
+gem 'indeedscraper'
+gem 'open_uri_redirections'
 
 ruby '2.0.0'

@@ -8,6 +8,8 @@ set :branch, "master"
 set :pg_database, "tt_production"
 set :pg_user, "postgres"
 set :pg_password, "postgres"
+set :use_sudo, false
+set :pty, true
 
 #role :app, %w{deploy@example.com}
 #role :web, %w{deploy@example.com}
