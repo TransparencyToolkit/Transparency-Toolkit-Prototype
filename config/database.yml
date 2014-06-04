@@ -31,6 +31,8 @@ test:
   database: tt_test
   pool: 5
   timeout: 5000
+  user: postgres
+  password: postgres
 
 production:
   adapter: postgresql
@@ -38,3 +40,5 @@ production:
   database: tt_production
   pool: 5
   timeout: 5000
+  user: postgres
+  password: postgres

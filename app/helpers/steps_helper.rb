@@ -17,7 +17,7 @@ def getpreset(type)
   presetarray = Array.new
   
   # Go through govsites data
-  if type = "govsites"
+  if type === "govsites"
     sites = JSON.parse(File.read("public/sites.json"))
     sites["data"].each do |d|
       presetarray.push(d[8])
