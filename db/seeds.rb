@@ -78,7 +78,8 @@ plugin_call_list = [
     ["Archive URL", "Archives one URL.", 17],
     ["Archive Multiple URLs", "Archives multiple URLs.", 17],
     ["Scrape Indeed Resumes", "Scrape resumes from Indeed.", 18],
-    ["Scrape Indeed Jobs", "Scrape jobs from Indeed.", 18]
+    ["Scrape Indeed Jobs", "Scrape jobs from Indeed.", 18],
+    ["Archive Multiple URLs (Full Text)", "Archives multiple URLs with full text.", 17] 
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -136,7 +137,8 @@ plugin_call_field_list = [
     ["Keyword", "text_field", true, 34],
     ["Location", "text_field", false, 34],
     ["Keyword", "text_field", true, 35],
-    ["Location", "text_field", false, 35]
+    ["Location", "text_field", false, 35],
+    ["Field with URLs", "file_field", true, 36]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|

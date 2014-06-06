@@ -13,6 +13,7 @@ class ArchiverPlugin < PluginClass
     case @method
       when 32 then archiveone
       when 33 then archivemultiple
+      when 36 then archivemultiplefull
       else "Unknown Method"
     end
   end
@@ -30,5 +31,13 @@ class ArchiverPlugin < PluginClass
     @output = a.genOutput
     File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
   end
+  
+  def archivemultiplefull
+    a = URLArchiver.new("multifull")
+    a.multiarchive(@prev, @input["Field with URLs"])
+    @output = a.genOutput
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
+  end
+
 end
 
