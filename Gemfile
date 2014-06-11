@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-gem 'pg'
-gem 'perpetuity-postgres'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -56,11 +53,17 @@ group :doc do
 end
 
 
-group :development do
+group :development, :test do
+  gem 'sqlite3'
   gem 'better_errors'
   gem 'quiet_assets'
-
 end
+
+group :production do
+  gem 'pg'
+  gem 'perpetuity-postgres'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

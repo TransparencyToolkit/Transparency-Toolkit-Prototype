@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140321235351) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "categories", force: true do |t|
     t.string   "type"
     t.datetime "created_at"
@@ -32,7 +29,7 @@ ActiveRecord::Schema.define(version: 20140321235351) do
     t.string   "test"
   end
 
-  add_index "plugin_call_fields", ["plugin_call_id"], name: "index_plugin_call_fields_on_plugin_call_id", using: :btree
+  add_index "plugin_call_fields", ["plugin_call_id"], name: "index_plugin_call_fields_on_plugin_call_id"
 
   create_table "plugin_calls", force: true do |t|
     t.string   "call"
@@ -44,8 +41,8 @@ ActiveRecord::Schema.define(version: 20140321235351) do
     t.integer  "plugin_call_id"
   end
 
-  add_index "plugin_calls", ["plugin_call_id"], name: "index_plugin_calls_on_plugin_call_id", using: :btree
-  add_index "plugin_calls", ["plugin_id"], name: "index_plugin_calls_on_plugin_id", using: :btree
+  add_index "plugin_calls", ["plugin_call_id"], name: "index_plugin_calls_on_plugin_call_id"
+  add_index "plugin_calls", ["plugin_id"], name: "index_plugin_calls_on_plugin_id"
 
   create_table "plugins", force: true do |t|
     t.string   "name"
@@ -58,8 +55,8 @@ ActiveRecord::Schema.define(version: 20140321235351) do
     t.integer  "category_id"
   end
 
-  add_index "plugins", ["category_id"], name: "index_plugins_on_category_id", using: :btree
-  add_index "plugins", ["step_id"], name: "index_plugins_on_step_id", using: :btree
+  add_index "plugins", ["category_id"], name: "index_plugins_on_category_id"
+  add_index "plugins", ["step_id"], name: "index_plugins_on_step_id"
 
   create_table "recipes", force: true do |t|
     t.string   "name"
@@ -86,7 +83,7 @@ ActiveRecord::Schema.define(version: 20140321235351) do
     t.string   "docfile"
   end
 
-  add_index "steps", ["plugin_call_id"], name: "index_steps_on_plugin_call_id", using: :btree
-  add_index "steps", ["recipe_id"], name: "index_steps_on_recipe_id", using: :btree
+  add_index "steps", ["plugin_call_id"], name: "index_steps_on_plugin_call_id"
+  add_index "steps", ["recipe_id"], name: "index_steps_on_recipe_id"
 
 end
