@@ -32,22 +32,11 @@ def getfields(recipeid)
   if ($recipehash[recipeid]) != nil && ($recipehash[recipeid].getlastnum != 0)
     $recipehash[recipeid].useobject($recipehash[recipeid].getlastnum)
     data = JSON.parse($recipehash[recipeid].getoutput($recipehash[recipeid].getlastnum))
-    keylist = Array.new
+    fields = Set.new
 
-    if data[1]
-      l = data[1]
-    else
-      l = data
-    end
+    data.map { |o| fields.merge(o.keys) }
 
-    dhash = Hash[*l.flatten]
-    dhash.each_key do |key|
-      if keylist.include? key
-      else keylist.push(key)
-      end
-    end
-  
-    return keylist
+    return fields
   end
 end
 
