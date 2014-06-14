@@ -21,13 +21,17 @@
   }
 
 #info {
-  overflow: auto;
+  width: 19%;
+  height: 93%;
+  padding: 10px;
+  overflow: auto;	
   word-wrap: break-word;
   border-radius: 1px;
   border-color: #52B7D0;
   border-style: solid;
   background-color: #8ED0E0;
   min-height: 100vh;
+  max-height: 100vh;
   }
 
 

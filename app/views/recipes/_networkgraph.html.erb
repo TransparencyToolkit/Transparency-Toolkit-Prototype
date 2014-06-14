@@ -1,10 +1,9 @@
 <%= stylesheet_link_tag "network_graph" %>
-
-
-<div class="row">
-
-<div class= "large-9 push-3 columns" id="chart">
-
+<body>
+  <div id="tooltip" class="hidden">
+      <p><span id="content"></span></p>
+    </div>
+<div class="large-9 push-3 columns" id="chart">
 <script type="text/javascript">
     var width = $('#chart').width();
     var height = $('#chart').height();
@@ -208,9 +207,9 @@
         var checkDuplicate = [];
         function genItem(d, z){
             if(d.type == <%= raw firstnode %>){
-                var title = d.data[z][<%= raw firstnode %>];
-            } else {
                 var title = d.data[z][<%= raw secondnode %>];
+            } else {
+                var title = d.data[z][<%= raw firstnode %>];
             }
 
             // Generate HTML for each item
@@ -350,15 +349,7 @@
     <input type="text" id="search" name="search" placeholder="Search" tabindex="1">
      </form>
     <p id="gentext"></p>
-
-    <div id="tooltip" class="hidden">
-      <p><span id="content"></span></p>
-    </div>
   </aside>
 </div>
 
-
-
-</div>
-
-
+</body>
