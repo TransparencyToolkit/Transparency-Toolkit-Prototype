@@ -89,6 +89,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 33 then $recipehash[recipeid].addstep(stepnum, ArchiverPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
     when 34..35 then $recipehash[recipeid].addstep(stepnum, IndeedscraperPlugin.new(usedmethod, input, stepnum, recipeid))
     when 36 then $recipehash[recipeid].addstep(stepnum, ArchiverPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
+    when 37..43 then $recipehash[recipeid].addstep(stepnum, PrescrapedPlugin.new(usedmethod, input, stepnum, recipeid))
     else "Unknown Tool"
   end
 
@@ -117,8 +118,7 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 19
     render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 20
-    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
-    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+    render :partial => 'recipes/link', :locals => { :path => "../nsadata.json" }
   when 21
     render :partial => 'recipes/networkgraph', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :firstnode => $recipehash[recipeid].getnode(stepnum), :secondnode => $recipehash[recipeid].getothernode(stepnum) }
   when 22
@@ -149,7 +149,7 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 35
     render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
-  when 36
+  when 36..43
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   else "Unknown Tool"

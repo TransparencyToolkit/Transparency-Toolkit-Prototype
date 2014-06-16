@@ -35,7 +35,8 @@ plugin_list = [
     ["UN Vote Records", "UN GA vote record data", 1],
     ["Spy Files", "WikiLeaks Spy Files data", 1],
     ["Archive Websites", "Saves html and pdfs of websites", 1],
-    ["Indeed Scraper", "Scrapes Indeed for jobs and resumes", 1]
+    ["Indeed Scraper", "Scrapes Indeed for jobs and resumes", 1],
+    ["Pre-Scraped LinkedIn Data", "Pre-scraped LinkedIn data", 1]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -79,7 +80,14 @@ plugin_call_list = [
     ["Archive Multiple URLs", "Archives multiple URLs.", 17],
     ["Scrape Indeed Resumes", "Scrape resumes from Indeed.", 18],
     ["Scrape Indeed Jobs", "Scrape jobs from Indeed.", 18],
-    ["Archive Multiple URLs (Full Text)", "Archives multiple URLs with full text.", 17] 
+    ["Archive Multiple URLs (Full Text)", "Archives multiple URLs with full text.", 17],
+    ["Xkeyscore", "XKeyscore", 19],
+    ["MARINA", "MARINA", 19],
+    ["OCTAVE", "OCTAVE", 19],
+    ["ANCHORY", "ANCHORY", 19],
+    ["Daytona AT&T", "Daytona AT&T", 19],
+    ["Daytona Database", "Daytona Database", 19],
+    ["Cymbal AT&T", "Cymbal AT&T", 19]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
