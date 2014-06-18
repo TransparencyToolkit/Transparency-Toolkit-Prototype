@@ -103,7 +103,7 @@ class EntityExtractor
         @extractfield.each do |f|
           extractTerms(*terms, i, addlist, f)
         end
-
+        binding.pry
         i["extract"] = addlist
         @output.push(i)
       
