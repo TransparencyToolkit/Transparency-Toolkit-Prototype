@@ -29,7 +29,7 @@ class EntityExtractor
       index = toParse =~ (/[A-Z]{#{minchar}}/)
       charnum = 0
       
-      # Find word in all caps
+     # Find word in all caps
       toParse.each_char do |c|
         if charnum >= index
           if toParse[c] == toParse[c].upcase && toParse[c] !~ (/[[:punct:]]/) && toParse[c] !~ (/[[:digit:]]/)
@@ -103,7 +103,7 @@ class EntityExtractor
         @extractfield.each do |f|
           extractTerms(*terms, i, addlist, f)
         end
-        binding.pry
+
         i["extract"] = addlist
         @output.push(i)
       
