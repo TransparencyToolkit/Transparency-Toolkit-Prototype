@@ -11,6 +11,7 @@ gem 'jsontochoropleth'
 gem 'jsontomap'
 gem 'geocoder'
 gem 'leaflet-rails'
+gem 'passenger'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'

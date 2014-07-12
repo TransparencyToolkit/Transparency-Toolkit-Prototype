@@ -74,6 +74,7 @@ GEM
       json
     d3-rails (3.4.4)
       railties (>= 3.1)
+    daemon_controller (1.2.0)
     daemons (1.1.9)
     dalli (2.7.2)
     datacalc (0.0.1)
@@ -167,6 +168,10 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    passenger (4.0.42)
+      daemon_controller (>= 1.2.0)
+      rack
+      rake (>= 0.8.1)
     pdfkit (0.6.2)
     perpetuity (1.0.0.beta5)
     perpetuity-postgres (0.0.5)
@@ -333,6 +338,7 @@ DEPENDENCIES
   open_uri_redirections
   orderedhash
   paperclip
+  passenger
   pdfkit
   perpetuity-postgres
   pg
