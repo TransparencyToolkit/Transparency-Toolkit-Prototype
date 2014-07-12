@@ -52,6 +52,8 @@ class ExtractPlugin < PluginClass
     else
       @output = json
     end
+
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
   end
 
   def extractallcaps
@@ -76,6 +78,8 @@ class ExtractPlugin < PluginClass
     else
       @output = json
     end
+
+    File.open("public/"+@stepnum.to_s+"step"+@recipeid.to_s+".json", 'w') { |file| file.write(@output) }
   end
 end
 

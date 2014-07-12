@@ -16,8 +16,8 @@
 //= require foundation
 //= require timelineJS/embed
 //= require d3
-
-
+//= require topojson
+//= require leaflet
 jQuery(function($) {
     $(document).foundation();
 });

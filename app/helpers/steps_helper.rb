@@ -90,6 +90,15 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 34..35 then $recipehash[recipeid].addstep(stepnum, IndeedscraperPlugin.new(usedmethod, input, stepnum, recipeid))
     when 36 then $recipehash[recipeid].addstep(stepnum, ArchiverPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
     when 37..43 then $recipehash[recipeid].addstep(stepnum, PrescrapedPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 44 then $recipehash[recipeid].addstep(stepnum, TordataPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 45 then $recipehash[recipeid].addstep(stepnum, TtcalcPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
+    when 46 then $recipehash[recipeid].addstep(stepnum, TotalinternetusersPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 47 then $recipehash[recipeid].addstep(stepnum, ChoroplethPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
+    when 48 then $recipehash[recipeid].addstep(stepnum, TordataPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 49 then $recipehash[recipeid].addstep(stepnum, ChoroplethPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
+    when 50 then $recipehash[recipeid].addstep(stepnum, PopulationPlugin.new(usedmethod, input, stepnum, recipeid))
+    when 51 then $recipehash[recipeid].addstep(stepnum, MapPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
+    when 52 then $recipehash[recipeid].addstep(stepnum, TtcalcPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
     else "Unknown Tool"
   end
 
@@ -150,6 +159,25 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 35
     render :partial => 'recipes/upload', :locals => { :output => $recipehash[recipeid].getoutput(stepnum), :stepnum => stepnum }
   when 36..43
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
+  when 44
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
+  when 45
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+  when 46
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
+  when 47
+    render :partial => 'recipes/choropleth', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 48
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
+  when 49
+    render :partial => 'recipes/choropleth', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 50
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
+  when 51
+    render :partial => 'recipes/map', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
+  when 52
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   else "Unknown Tool"

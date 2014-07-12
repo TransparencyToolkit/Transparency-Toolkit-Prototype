@@ -14,7 +14,7 @@
           <div class="tabs-content">
             <div class="content <% if step.number %>active<% else %><% end %>" id="panel<%= step.number %>-<%= step.id %>">
 
-	      <% if step.plugin_call_id.to_i != 21 %>
+	      <% if (step.plugin_call_id.to_i != 21) %>
               <%= switchView(step.plugin_call_id.to_i, step.properties,
                              step.number.to_i, @recipe.id.to_i) %>
 	      <% end %>

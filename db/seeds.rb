@@ -36,7 +36,13 @@ plugin_list = [
     ["Spy Files", "WikiLeaks Spy Files data", 1],
     ["Archive Websites", "Saves html and pdfs of websites", 1],
     ["Indeed Scraper", "Scrapes Indeed for jobs and resumes", 1],
-    ["Pre-Scraped LinkedIn Data", "Pre-scraped LinkedIn data", 1]
+    ["Pre-Scraped LinkedIn Data", "Pre-scraped LinkedIn data", 1],
+    ["Tor Data", "Tor data", 1],
+    ["Calculation Tools", "Calculation tools", 2],
+    ["Internet User Data", "Total internet users", 1],
+    ["Choropleth Map", "Choropleth Map", 3],
+    ["Population", "Population of countries over time", 1],
+    ["Map", "Generate map with points from dataset", 3]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -87,7 +93,16 @@ plugin_call_list = [
     ["ANCHORY", "ANCHORY", 19],
     ["Daytona AT&T", "Daytona AT&T", 19],
     ["Daytona Database", "Daytona Database", 19],
-    ["Cymbal AT&T", "Cymbal AT&T", 19]
+    ["Cymbal AT&T", "Cymbal AT&T", 19],
+    ["Tor Users", "Tor Users", 20],
+    ["Sum by Attribute", "Sum by Attribute", 21],
+    ["Total Internet Users", "Total internet users by country over time", 22],
+    ["Choropleth Map (Percents)", "Choropleth map generator", 23],
+    ["Tor Servers", "Tor servers", 20],
+    ["Choropleth Map", "Choropleth map generator", 23],
+    ["Population", "Population over time", 24],
+    ["Map with Points", "Plot points on map", 25],
+    ["Count Unique Values", "Count values", 21]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -146,7 +161,19 @@ plugin_call_field_list = [
     ["Location", "text_field", false, 34],
     ["Keyword", "text_field", true, 35],
     ["Location", "text_field", false, 35],
-    ["Field with URLs", "file_field", true, 36]
+    ["Field with URLs", "file_field", true, 36],
+    ["Field to Sum", "file_field", true, 45],
+    ["Attribute to Sum By", "file_field", true, 45],
+    ["Country Field", "file_field", true, 47],
+    ["Percent", "file_field", true, 47],
+    ["Country Field", "file_field", true, 49],
+    ["Number Field", "file_field", true, 49],
+    ["Location Field", "file_field", true, 51],
+    ["Picture Field", "file_field", false, 51],
+    ["Title Field", "file_field", true, 51],
+    ["Start Location", "text_field", true, 51],
+    ["Start Zoom", "text_field", true, 51],
+    ["Field to Count Unique Values", "file_field", true, 52]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|

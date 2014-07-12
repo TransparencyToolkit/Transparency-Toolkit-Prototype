@@ -1,0 +1,22 @@
+<div id="map" style="height: 600px; width: 1000px;"></div>
+
+<script>
+  var map = L.map('map').setView(<%= raw output[1] %>, <%= raw output[2] %>);
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors', maxZoom: 18 }).addTo(map);
+
+d3.json(<%= raw output[0] %>, function(error, data){
+  var someFeatures = data;
+
+  function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.popupContent) {
+        layer.bindPopup(feature.properties.popupContent, {maxHeight: 200, closeButton: true});
+    }
+}
+
+L.geoJson(someFeatures, {
+        onEachFeature: onEachFeature
+}).addTo(map);
+});
+</script>

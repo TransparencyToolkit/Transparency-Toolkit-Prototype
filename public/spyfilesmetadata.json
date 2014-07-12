@@ -15,7 +15,7 @@
       "GSM "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -33,7 +33,7 @@
       "GSM "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -49,7 +49,7 @@
       "GSM "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -65,7 +65,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -81,7 +81,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -97,7 +97,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -117,7 +117,7 @@
       "Phone Network "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -135,7 +135,7 @@
       "Phone Network "
     ],
     "country_codes": [
-      "ES "
+      "ESP"
     ]
   },
   {
@@ -156,7 +156,7 @@
       "Phone Network "
     ],
     "country_codes": [
-      "ES "
+      "ESP"
     ]
   },
   {
@@ -178,7 +178,7 @@
       "Phone Network "
     ],
     "country_codes": [
-      "ES "
+      "ESP"
     ]
   },
   {
@@ -197,7 +197,7 @@
       "Phone Network "
     ],
     "country_codes": [
-      "ES "
+      "ESP"
     ]
   },
   {
@@ -214,13 +214,13 @@
       "Phone Network "
     ],
     "country_codes": [
-      "CH",
-      "NL",
-      "GB",
-      "DE",
-      "BR",
-      "SG",
-      "IN "
+      "CHE",
+      "NLD",
+      "GBR",
+      "DEU",
+      "BRA",
+      "SGP",
+      "IND"
     ]
   },
   {
@@ -239,7 +239,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -262,7 +262,7 @@
       "Phone Network "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -280,7 +280,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -297,8 +297,8 @@
       "- "
     ],
     "country_codes": [
-      "DE",
-      "TN "
+      "DEU",
+      "TUN"
     ]
   },
   {
@@ -316,7 +316,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -337,7 +337,7 @@
       "- "
     ],
     "country_codes": [
-      "IT "
+      "ITA"
     ]
   },
   {
@@ -355,7 +355,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -373,7 +373,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -391,7 +391,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -409,7 +409,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -428,7 +428,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -448,7 +448,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -466,7 +466,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -484,7 +484,7 @@
       "Skype "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -502,7 +502,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -521,8 +521,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -545,8 +545,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -565,7 +565,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -583,7 +583,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -606,7 +606,7 @@
       "- "
     ],
     "country_codes": [
-      "IN "
+      "IND"
     ]
   },
   {
@@ -626,7 +626,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -643,7 +643,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -661,7 +661,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -680,7 +680,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -700,7 +700,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -718,7 +718,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -738,7 +738,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -757,7 +757,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -774,7 +774,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -791,7 +791,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -809,7 +809,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -828,7 +828,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -847,7 +847,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -865,7 +865,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -882,7 +882,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -905,7 +905,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -927,7 +927,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -945,7 +945,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -964,7 +964,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -981,7 +981,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -999,7 +999,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -1018,7 +1018,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -1036,11 +1036,11 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "FR",
-      "US",
-      "AE",
-      "SG "
+      "GBR",
+      "FRA",
+      "USA",
+      "ARE",
+      "SGP"
     ]
   },
   {
@@ -1059,11 +1059,11 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "FR",
-      "US",
-      "AE",
-      "SG "
+      "GBR",
+      "FRA",
+      "USA",
+      "ARE",
+      "SGP"
     ]
   },
   {
@@ -1081,11 +1081,11 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "FR",
-      "US",
-      "AE",
-      "SG "
+      "GBR",
+      "FRA",
+      "USA",
+      "ARE",
+      "SGP"
     ]
   },
   {
@@ -1103,11 +1103,11 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "FR",
-      "US",
-      "AE",
-      "SG "
+      "GBR",
+      "FRA",
+      "USA",
+      "ARE",
+      "SGP"
     ]
   },
   {
@@ -1126,11 +1126,11 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "FR",
-      "US",
-      "AE",
-      "SG "
+      "GBR",
+      "FRA",
+      "USA",
+      "ARE",
+      "SGP"
     ]
   },
   {
@@ -1148,7 +1148,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1167,7 +1167,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1183,7 +1183,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1199,7 +1199,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1215,7 +1215,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1231,7 +1231,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1247,7 +1247,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1263,7 +1263,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1279,7 +1279,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1295,8 +1295,8 @@
       "- "
     ],
     "country_codes": [
-      "FR",
-      "US "
+      "FRA",
+      "USA"
     ]
   },
   {
@@ -1312,7 +1312,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -1328,7 +1328,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -1344,7 +1344,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -1360,7 +1360,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -1376,7 +1376,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -1394,7 +1394,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -1410,7 +1410,7 @@
       "- "
     ],
     "country_codes": [
-      "IL "
+      "ISR"
     ]
   },
   {
@@ -1427,7 +1427,7 @@
       "- "
     ],
     "country_codes": [
-      "SE "
+      "SWE"
     ]
   },
   {
@@ -1445,7 +1445,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -1466,7 +1466,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -1490,9 +1490,9 @@
       "- "
     ],
     "country_codes": [
-      "DK",
-      "GB",
-      "US "
+      "DNK",
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -1513,7 +1513,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -1530,8 +1530,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1548,8 +1548,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1569,8 +1569,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1587,8 +1587,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1608,8 +1608,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1629,8 +1629,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1648,8 +1648,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1668,8 +1668,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1690,8 +1690,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1708,8 +1708,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1729,8 +1729,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1747,8 +1747,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1765,8 +1765,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1783,8 +1783,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1801,8 +1801,8 @@
       "Twitter "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1819,8 +1819,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1841,8 +1841,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "IT "
+      "USA",
+      "ITA"
     ]
   },
   {
@@ -1859,7 +1859,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -1885,7 +1885,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -1902,8 +1902,8 @@
       "iPhone "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -1921,8 +1921,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -1940,8 +1940,8 @@
       "- "
     ],
     "country_codes": [
-      "IE",
-      "US "
+      "IRL",
+      "USA"
     ]
   },
   {
@@ -1958,8 +1958,8 @@
       "- "
     ],
     "country_codes": [
-      "IE",
-      "US "
+      "IRL",
+      "USA"
     ]
   },
   {
@@ -1976,12 +1976,12 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "DE",
-      "FR",
-      "IT",
-      "PL",
-      "US "
+      "GBR",
+      "DEU",
+      "FRA",
+      "ITA",
+      "POL",
+      "USA"
     ]
   },
   {
@@ -1998,12 +1998,12 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "DE",
-      "FR",
-      "IT",
-      "PL",
-      "US "
+      "GBR",
+      "DEU",
+      "FRA",
+      "ITA",
+      "POL",
+      "USA"
     ]
   },
   {
@@ -2023,8 +2023,8 @@
       "Instant Messaging "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -2046,7 +2046,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2065,7 +2065,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2082,7 +2082,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -2100,7 +2100,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2119,7 +2119,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -2139,7 +2139,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -2157,7 +2157,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2177,7 +2177,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2194,7 +2194,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2211,7 +2211,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2229,7 +2229,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2247,7 +2247,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2265,7 +2265,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2282,7 +2282,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -2299,7 +2299,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -2316,7 +2316,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -2334,7 +2334,7 @@
       "Facebook "
     ],
     "country_codes": [
-      "IT "
+      "ITA"
     ]
   },
   {
@@ -2350,7 +2350,7 @@
       "- "
     ],
     "country_codes": [
-      "GLOBAL LISTING "
+      null
     ]
   },
   {
@@ -2370,8 +2370,8 @@
       "Facebook "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -2394,8 +2394,8 @@
       "Facebook "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -2414,8 +2414,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "US "
+      "GBR",
+      "USA"
     ]
   },
   {
@@ -2436,7 +2436,7 @@
       "E-Mail "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2453,7 +2453,7 @@
       "- "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   },
   {
@@ -2473,7 +2473,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -2508,7 +2508,7 @@
       "GIS "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -2530,11 +2530,11 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "GB",
-      "MY",
-      "ZA",
-      "CN "
+      "USA",
+      "GBR",
+      "MYS",
+      "ZAF",
+      "CHN"
     ]
   },
   {
@@ -2551,7 +2551,7 @@
       "- "
     ],
     "country_codes": [
-      "CH "
+      "CHE"
     ]
   },
   {
@@ -2574,7 +2574,7 @@
       "- "
     ],
     "country_codes": [
-      "HU "
+      "HUN"
     ]
   },
   {
@@ -2594,7 +2594,7 @@
       "- "
     ],
     "country_codes": [
-      "HU "
+      "HUN"
     ]
   },
   {
@@ -2610,7 +2610,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2626,7 +2626,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2642,8 +2642,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "FR "
+      "USA",
+      "FRA"
     ]
   },
   {
@@ -2659,7 +2659,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2675,7 +2675,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2691,8 +2691,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "FR "
+      "USA",
+      "FRA"
     ]
   },
   {
@@ -2709,7 +2709,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2725,8 +2725,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "FR "
+      "USA",
+      "FRA"
     ]
   },
   {
@@ -2743,7 +2743,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2759,8 +2759,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "FR "
+      "USA",
+      "FRA"
     ]
   },
   {
@@ -2777,7 +2777,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2793,7 +2793,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2810,7 +2810,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2826,7 +2826,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2842,7 +2842,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2858,7 +2858,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2875,7 +2875,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2891,7 +2891,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2909,7 +2909,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2928,7 +2928,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2944,7 +2944,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -2960,8 +2960,8 @@
       "- "
     ],
     "country_codes": [
-      "US",
-      "FR "
+      "USA",
+      "FRA"
     ]
   },
   {
@@ -2981,10 +2981,10 @@
       "- "
     ],
     "country_codes": [
-      "IL",
-      "US",
-      "GB",
-      "HK "
+      "ISR",
+      "USA",
+      "GBR",
+      "HKG"
     ]
   },
   {
@@ -3003,10 +3003,10 @@
       "Humans "
     ],
     "country_codes": [
-      "IL",
-      "US",
-      "GB",
-      "HK "
+      "ISR",
+      "USA",
+      "GBR",
+      "HKG"
     ]
   },
   {
@@ -3028,10 +3028,10 @@
       "SIGINT "
     ],
     "country_codes": [
-      "IL",
-      "US",
-      "GB",
-      "HK "
+      "ISR",
+      "USA",
+      "GBR",
+      "HKG"
     ]
   },
   {
@@ -3051,10 +3051,10 @@
       "- "
     ],
     "country_codes": [
-      "IL",
-      "US",
-      "GB",
-      "HK "
+      "ISR",
+      "USA",
+      "GBR",
+      "HKG"
     ]
   },
   {
@@ -3072,7 +3072,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3090,7 +3090,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3108,7 +3108,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3125,7 +3125,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3142,7 +3142,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3162,7 +3162,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3182,7 +3182,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3201,7 +3201,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3219,7 +3219,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3237,7 +3237,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3254,7 +3254,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3275,7 +3275,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3293,7 +3293,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3321,7 +3321,7 @@
       "Hotmail "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3339,7 +3339,7 @@
       "E-Mail "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3360,7 +3360,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3379,7 +3379,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3397,7 +3397,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3414,7 +3414,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -3432,7 +3432,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -3450,8 +3450,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "CA "
+      "GBR",
+      "CAN"
     ]
   },
   {
@@ -3469,8 +3469,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "CA "
+      "GBR",
+      "CAN"
     ]
   },
   {
@@ -3488,8 +3488,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "CA "
+      "GBR",
+      "CAN"
     ]
   },
   {
@@ -3506,8 +3506,8 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "CA "
+      "GBR",
+      "CAN"
     ]
   },
   {
@@ -3531,9 +3531,9 @@
       "Instant Messaging "
     ],
     "country_codes": [
-      "FR",
-      "US",
-      "SG "
+      "FRA",
+      "USA",
+      "SGP"
     ]
   },
   {
@@ -3552,9 +3552,9 @@
       "- "
     ],
     "country_codes": [
-      "FR",
-      "US",
-      "SG "
+      "FRA",
+      "USA",
+      "SGP"
     ]
   },
   {
@@ -3595,9 +3595,9 @@
       "SIP "
     ],
     "country_codes": [
-      "FR",
-      "US",
-      "SG "
+      "FRA",
+      "USA",
+      "SGP"
     ]
   },
   {
@@ -3618,9 +3618,9 @@
       "E-Mail "
     ],
     "country_codes": [
-      "FR",
-      "US",
-      "SG "
+      "FRA",
+      "USA",
+      "SGP"
     ]
   },
   {
@@ -3637,7 +3637,7 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3654,7 +3654,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -3670,7 +3670,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -3687,7 +3687,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -3708,7 +3708,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -3727,7 +3727,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3745,7 +3745,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3778,7 +3778,7 @@
       "Forums "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3801,7 +3801,7 @@
       "Instant Messaging "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -3819,7 +3819,7 @@
       "- "
     ],
     "country_codes": [
-      "DK "
+      "DNK"
     ]
   },
   {
@@ -3838,7 +3838,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -3854,7 +3854,7 @@
       "- "
     ],
     "country_codes": [
-      "PL "
+      "POL"
     ]
   },
   {
@@ -3871,7 +3871,7 @@
       "- "
     ],
     "country_codes": [
-      "PL "
+      "POL"
     ]
   },
   {
@@ -3890,8 +3890,8 @@
       "- "
     ],
     "country_codes": [
-      "RU",
-      "DE "
+      "RUS",
+      "DEU"
     ]
   },
   {
@@ -3911,8 +3911,8 @@
       "Phone Network "
     ],
     "country_codes": [
-      "RU",
-      "DE "
+      "RUS",
+      "DEU"
     ]
   },
   {
@@ -3929,8 +3929,8 @@
       "- "
     ],
     "country_codes": [
-      "RU",
-      "DE "
+      "RUS",
+      "DEU"
     ]
   },
   {
@@ -3952,8 +3952,8 @@
       "- "
     ],
     "country_codes": [
-      "RU",
-      "DE "
+      "RUS",
+      "DEU"
     ]
   },
   {
@@ -3974,8 +3974,8 @@
       "- "
     ],
     "country_codes": [
-      "RU",
-      "DE "
+      "RUS",
+      "DEU"
     ]
   },
   {
@@ -3995,8 +3995,8 @@
       "- "
     ],
     "country_codes": [
-      "RU",
-      "DE "
+      "RUS",
+      "DEU"
     ]
   },
   {
@@ -4014,7 +4014,7 @@
       "- "
     ],
     "country_codes": [
-      "GB "
+      "GBR"
     ]
   },
   {
@@ -4030,7 +4030,7 @@
       "- "
     ],
     "country_codes": [
-      "TR "
+      "TUR"
     ]
   },
   {
@@ -4056,9 +4056,9 @@
       "CDMA "
     ],
     "country_codes": [
-      "GB",
-      "US",
-      "IN "
+      "GBR",
+      "USA",
+      "IND"
     ]
   },
   {
@@ -4079,9 +4079,9 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "US",
-      "IN "
+      "GBR",
+      "USA",
+      "IND"
     ]
   },
   {
@@ -4102,9 +4102,9 @@
       "- "
     ],
     "country_codes": [
-      "GB",
-      "US",
-      "IN "
+      "GBR",
+      "USA",
+      "IND"
     ]
   },
   {
@@ -4142,9 +4142,9 @@
       "PPP "
     ],
     "country_codes": [
-      "GB",
-      "US",
-      "IN "
+      "GBR",
+      "USA",
+      "IND"
     ]
   },
   {
@@ -4161,7 +4161,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -4178,7 +4178,7 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -4195,7 +4195,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -4212,7 +4212,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -4229,7 +4229,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -4248,7 +4248,7 @@
       "- "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -4267,7 +4267,7 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE "
+      "DEU"
     ]
   },
   {
@@ -4285,8 +4285,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4304,8 +4304,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4323,8 +4323,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4342,8 +4342,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4367,8 +4367,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4387,8 +4387,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4406,8 +4406,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4425,8 +4425,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4445,8 +4445,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4464,8 +4464,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4483,8 +4483,8 @@
       "Mobile Phone Network "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4503,7 +4503,7 @@
       "- "
     ],
     "country_codes": [
-      "ZA "
+      "ZAF"
     ]
   },
   {
@@ -4529,7 +4529,7 @@
       "- "
     ],
     "country_codes": [
-      "ZA "
+      "ZAF"
     ]
   },
   {
@@ -4547,7 +4547,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -4568,7 +4568,7 @@
       "- "
     ],
     "country_codes": [
-      "US "
+      "USA"
     ]
   },
   {
@@ -4585,7 +4585,7 @@
       "- "
     ],
     "country_codes": [
-      "FR "
+      "FRA"
     ]
   },
   {
@@ -4603,9 +4603,9 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "CH",
-      "DE",
-      "GB "
+      "CHE",
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4623,8 +4623,8 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "CH",
-      "OM "
+      "CHE",
+      "OMN"
     ]
   },
   {
@@ -4642,8 +4642,8 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "CH",
-      "OM "
+      "CHE",
+      "OMN"
     ]
   },
   {
@@ -4661,8 +4661,8 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "CH",
-      "OM "
+      "CHE",
+      "OMN"
     ]
   },
   {
@@ -4680,8 +4680,8 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "CH",
-      "TM "
+      "CHE",
+      "TKM"
     ]
   },
   {
@@ -4699,9 +4699,9 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "DE",
-      "GB",
-      "CH "
+      "DEU",
+      "GBR",
+      "CHE"
     ]
   },
   {
@@ -4719,8 +4719,8 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "DE",
-      "GB "
+      "DEU",
+      "GBR"
     ]
   },
   {
@@ -4738,9 +4738,9 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "DE",
-      "GB",
-      "CH "
+      "DEU",
+      "GBR",
+      "CHE"
     ]
   },
   {
@@ -4758,9 +4758,9 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "DE",
-      "GB",
-      "TM "
+      "DEU",
+      "GBR",
+      "TKM"
     ]
   },
   {
@@ -4777,7 +4777,7 @@
       "Internet Usage "
     ],
     "country_codes": [
-      "IL "
+      "ISR"
     ]
   },
   {
@@ -4794,8 +4794,8 @@
       "- "
     ],
     "country_codes": [
-      "CH",
-      "IL "
+      "CHE",
+      "ISR"
     ]
   },
   {
@@ -4808,15 +4808,15 @@
       "WLCIU "
     ],
     "country_codes": [
-      "DE",
-      "IL",
-      "TR",
-      "NL",
-      "AE",
-      "US",
-      "GB",
-      "PL",
-      "CH "
+      "DEU",
+      "ISR",
+      "TUR",
+      "NLD",
+      "ARE",
+      "USA",
+      "GBR",
+      "POL",
+      "CHE"
     ]
   },
   {
@@ -4830,13 +4830,13 @@
       "WLCIU "
     ],
     "country_codes": [
-      "DE",
-      "CZ",
-      "DK",
-      "CH",
-      "FR",
-      "AT",
-      "IT "
+      "DEU",
+      "CZE",
+      "DNK",
+      "CHE",
+      "FRA",
+      "AUT",
+      "ITA"
     ]
   },
   {
@@ -4850,11 +4850,11 @@
       "WLCIU "
     ],
     "country_codes": [
-      "GB",
-      "AE",
-      "LB",
-      "QT",
-      "KW "
+      "GBR",
+      "ARE",
+      "LBN",
+      null,
+      "KWT"
     ]
   },
   {
@@ -4868,10 +4868,10 @@
       "WLCIU "
     ],
     "country_codes": [
-      "DE",
-      "CH",
-      "AE",
-      "OM "
+      "DEU",
+      "CHE",
+      "ARE",
+      "OMN"
     ]
   },
   {
@@ -4885,20 +4885,20 @@
       "WLCIU "
     ],
     "country_codes": [
-      "LB",
-      "DE",
-      "FR",
-      "CH",
-      "AE",
-      "AT",
-      "OM",
-      "ZA",
-      "ET",
-      "US",
-      "AZ",
-      "TM",
-      "ZA",
-      "JO "
+      "LBN",
+      "DEU",
+      "FRA",
+      "CHE",
+      "ARE",
+      "AUT",
+      "OMN",
+      "ZAF",
+      "ETH",
+      "USA",
+      "AZE",
+      "TKM",
+      "ZAF",
+      "JOR"
     ]
   },
   {
@@ -4912,17 +4912,17 @@
       "WLCIU "
     ],
     "country_codes": [
-      "GB",
-      "DE",
-      "QA",
-      "AE",
-      "BH",
-      "NL",
-      "OM",
-      "BN",
-      "MY",
-      "CY",
-      "FR "
+      "GBR",
+      "DEU",
+      "QAT",
+      "ARE",
+      "BHR",
+      "NLD",
+      "OMN",
+      "BRN",
+      "MYS",
+      "CYP",
+      "FRA"
     ]
   },
   {
@@ -4936,19 +4936,19 @@
       "WLCIU "
     ],
     "country_codes": [
-      "DE",
-      "AT",
-      "ES",
-      "CZ",
-      "FR",
-      "MX",
-      "AE",
-      "OM",
-      "MA",
-      "GQ",
-      "CM",
-      "PT",
-      "BR "
+      "DEU",
+      "AUT",
+      "ESP",
+      "CZE",
+      "FRA",
+      "MEX",
+      "ARE",
+      "OMN",
+      "MAR",
+      "GNQ",
+      "CMR",
+      "PRT",
+      "BRA"
     ]
   },
   {
@@ -4962,13 +4962,13 @@
       "WLCIU "
     ],
     "country_codes": [
-      "LB",
-      "RS",
-      "GB",
-      "CZ",
-      "TR",
-      "ET",
-      "GA "
+      "LBN",
+      "SRB",
+      "GBR",
+      "CZE",
+      "TUR",
+      "ETH",
+      "GAB"
     ]
   },
   {
@@ -4983,22 +4983,22 @@
       "WLCIU "
     ],
     "country_codes": [
-      "LB",
-      "DE",
-      "AE",
-      "LV",
-      "CH",
-      "ID",
-      "IT",
-      "MY",
-      "SG",
-      "GB",
-      "AT",
-      "RS",
-      "TR",
-      "CI",
-      "BJ",
-      "ZA "
+      "LBN",
+      "DEU",
+      "ARE",
+      "LVA",
+      "CHE",
+      "IDN",
+      "ITA",
+      "MYS",
+      "SGP",
+      "GBR",
+      "AUT",
+      "SRB",
+      "TUR",
+      "CIV",
+      "BEN",
+      "ZAF"
     ]
   },
   {
@@ -5013,15 +5013,15 @@
       "WLCIU "
     ],
     "country_codes": [
-      "MX",
-      "US",
-      "DE",
-      "CZ",
-      "KZ",
-      "GB",
-      "NL",
-      "FR",
-      "RS "
+      "MEX",
+      "USA",
+      "DEU",
+      "CZE",
+      "KAZ",
+      "GBR",
+      "NLD",
+      "FRA",
+      "SRB"
     ]
   },
   {
@@ -5036,17 +5036,17 @@
       "WLCIU "
     ],
     "country_codes": [
-      "SG",
-      "ID",
-      "UG",
-      "AE",
-      "DE",
-      "ET",
-      "NG",
-      "DE",
-      "LB",
-      "QA",
-      "NG "
+      "SGP",
+      "IDN",
+      "UGA",
+      "ARE",
+      "DEU",
+      "ETH",
+      "NGA",
+      "DEU",
+      "LBN",
+      "QAT",
+      "NGA"
     ]
   },
   {
@@ -5061,18 +5061,18 @@
       "WLCIU "
     ],
     "country_codes": [
-      "IT",
-      "FR",
-      "MA",
-      "AE",
-      "SG",
-      "DE",
-      "RS",
-      "ES",
-      "MX",
-      "CZ",
-      "PT",
-      "BR "
+      "ITA",
+      "FRA",
+      "MAR",
+      "ARE",
+      "SGP",
+      "DEU",
+      "SRB",
+      "ESP",
+      "MEX",
+      "CZE",
+      "PRT",
+      "BRA"
     ]
   },
   {
@@ -5086,24 +5086,24 @@
       "WLCIU "
     ],
     "country_codes": [
-      "IT",
-      "CH",
-      "US",
-      "MA",
-      "MY",
-      "SG",
-      "LB",
-      "NL",
-      "FR",
-      "EG",
-      "AE",
-      "TR",
-      "DE",
-      "SA",
-      "QA",
-      "SD",
-      "CZ",
-      "OM "
+      "ITA",
+      "CHE",
+      "USA",
+      "MAR",
+      "MYS",
+      "SGP",
+      "LBN",
+      "NLD",
+      "FRA",
+      "EGY",
+      "ARE",
+      "TUR",
+      "DEU",
+      "SAU",
+      "QAT",
+      "SDN",
+      "CZE",
+      "OMN"
     ]
   },
   {
@@ -5117,12 +5117,12 @@
       "WLCIU "
     ],
     "country_codes": [
-      "GB",
-      "ES",
-      "MT",
-      "FR",
-      "NL",
-      "IN "
+      "GBR",
+      "ESP",
+      "MLT",
+      "FRA",
+      "NLD",
+      "IND"
     ]
   },
   {
@@ -5136,13 +5136,13 @@
       "WLCIU "
     ],
     "country_codes": [
-      "DE",
-      "AT",
-      "CZ",
-      "PT",
-      "FR",
-      "ES",
-      "US "
+      "DEU",
+      "AUT",
+      "CZE",
+      "PRT",
+      "FRA",
+      "ESP",
+      "USA"
     ]
   },
   {
@@ -5157,10 +5157,10 @@
       "WLCIU "
     ],
     "country_codes": [
-      "GB",
-      "ES",
-      "AE",
-      "IT "
+      "GBR",
+      "ESP",
+      "ARE",
+      "ITA"
     ]
   },
   {
@@ -5175,11 +5175,11 @@
       "WLCIU "
     ],
     "country_codes": [
-      "CZ",
-      "AE",
-      "DE",
-      "BG",
-      "RS "
+      "CZE",
+      "ARE",
+      "DEU",
+      "BGR",
+      "SRB"
     ]
   },
   {
@@ -5195,15 +5195,15 @@
       "WLCIU "
     ],
     "country_codes": [
-      "DE",
-      "NL",
-      "FR",
-      "ES",
-      "AE",
-      "AU",
-      "CZ",
-      "FI",
-      "GB "
+      "DEU",
+      "NLD",
+      "FRA",
+      "ESP",
+      "ARE",
+      "AUS",
+      "CZE",
+      "FIN",
+      "GBR"
     ]
   },
   {
@@ -5218,14 +5218,14 @@
       "WLCIU "
     ],
     "country_codes": [
-      "IL",
-      "IT",
-      "US",
-      "ES",
-      "NG",
-      "CH",
-      "GR",
-      "TR "
+      "ISR",
+      "ITA",
+      "USA",
+      "ESP",
+      "NGA",
+      "CHE",
+      "GRC",
+      "TUR"
     ]
   },
   {
@@ -5238,7 +5238,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "AZ "
+      "AZE"
     ]
   },
   {
@@ -5251,7 +5251,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "BH "
+      "BHR"
     ]
   },
   {
@@ -5264,7 +5264,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "BR "
+      "BRA"
     ]
   },
   {
@@ -5277,7 +5277,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "ES "
+      "ESP"
     ]
   },
   {
@@ -5290,7 +5290,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "ET "
+      "ETH"
     ]
   },
   {
@@ -5303,7 +5303,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "GQ "
+      "GNQ"
     ]
   },
   {
@@ -5316,7 +5316,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "ID "
+      "IDN"
     ]
   },
   {
@@ -5329,7 +5329,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "KZ "
+      "KAZ"
     ]
   },
   {
@@ -5342,7 +5342,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "MX "
+      "MEX"
     ]
   },
   {
@@ -5355,7 +5355,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "MY "
+      "MYS"
     ]
   },
   {
@@ -5368,7 +5368,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "NG "
+      "NGA"
     ]
   },
   {
@@ -5381,7 +5381,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "NL "
+      "NLD"
     ]
   },
   {
@@ -5394,7 +5394,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "RS "
+      "SRB"
     ]
   },
   {
@@ -5407,7 +5407,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "TM "
+      "TKM"
     ]
   },
   {
@@ -5420,7 +5420,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "UG "
+      "UGA"
     ]
   },
   {
@@ -5432,7 +5432,7 @@
       "WLCIU "
     ],
     "country_codes": [
-      "- "
+      null
     ]
   }
 ]

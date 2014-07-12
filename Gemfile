@@ -2,9 +2,15 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
-
+gem 'csv2json'
+gem 'orderedhash'
 gem 'pg'
 gem 'perpetuity-postgres'
+gem 'topojson-rails'
+gem 'jsontochoropleth'
+gem 'jsontomap'
+gem 'geocoder'
+gem 'leaflet-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -80,6 +86,7 @@ gem 'capistrano-postgresql'
 gem 'carrierwave'
 gem 'spring', group: :development
 
+gem 'countryconvert'
 gem 'timelinegen'
 gem 'timelineJS-rails'
 gem 'jsontochart'
@@ -92,6 +99,7 @@ gem 'linkedindata'
 gem 'wordcloud'
 gem 'jsoncrossreference'
 gem 'datacalc'
+gem 'ttcalc'
 gem 'wicked'
 gem 'thin'
 gem 'docsplit'
