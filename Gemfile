@@ -12,6 +12,7 @@ gem 'jsontomap'
 gem 'geocoder'
 gem 'leaflet-rails'
 gem 'passenger'
+gem 'nametoemail'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'

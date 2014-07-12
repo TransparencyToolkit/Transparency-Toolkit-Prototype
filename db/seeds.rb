@@ -42,7 +42,8 @@ plugin_list = [
     ["Internet User Data", "Total internet users", 1],
     ["Choropleth Map", "Choropleth Map", 3],
     ["Population", "Population of countries over time", 1],
-    ["Map", "Generate map with points from dataset", 3]
+    ["Map", "Generate map with points from dataset", 3],
+    ["Name to Email", "Generate names from emails", 2]
 ]
 
 plugin_list.each do |name, description, category_id|
@@ -102,7 +103,11 @@ plugin_call_list = [
     ["Choropleth Map", "Choropleth map generator", 23],
     ["Population", "Population over time", 24],
     ["Map with Points", "Plot points on map", 25],
-    ["Count Unique Values", "Count values", 21]
+    ["Count Unique Values", "Count values", 21],
+    ["Name to Email (Set Domain)", "Generate emails from names", 26], 
+    ["Name to Email (Domain from JSON)", "Generate emails from names", 26],
+    ["Name to Email (Set Domain, Append to JSON)", "Generate emails from names", 26],
+    ["Name to Email (Domain from JSON, Append to JSON)", "Generate emails from names", 26]
 ]
 
 plugin_call_list.each do |what, details, plugin_id|
@@ -173,7 +178,19 @@ plugin_call_field_list = [
     ["Title Field", "file_field", true, 51],
     ["Start Location", "text_field", true, 51],
     ["Start Zoom", "text_field", true, 51],
-    ["Field to Count Unique Values", "file_field", true, 52]
+    ["Field to Count Unique Values", "file_field", true, 52],
+    ["Name Field", "file_field", true, 53],
+    ["Domain Name", "text_field", true, 53],
+    ["Email Formats", "emailformat_field", true, 53],
+    ["Name Field", "file_field", true, 54],
+    ["URL Field", "file_field", true, 54],
+    ["Email Formats", "emailformat_field", true, 54],
+    ["Name Field", "file_field", true, 55],
+    ["Domain Name", "text_field", true, 55],
+    ["Email Formats", "emailformat_field", true, 55],
+    ["Name Field", "file_field", true, 56],
+    ["URL Field", "file_field", true, 56],
+    ["Email Formats", "emailformat_field", true, 56]
 ]
 
 plugin_call_field_list.each do |name, field_type, required, plugin_call_id|

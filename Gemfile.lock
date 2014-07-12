@@ -153,6 +153,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.10.1)
     multi_xml (0.5.5)
+    nametoemail (0.0.1)
     net-http-digest_auth (1.4)
     net-http-persistent (2.9.4)
     net-scp (1.2.1)
@@ -335,6 +336,7 @@ DEPENDENCIES
   linkedin-scraper
   linkedindata
   mechanize
+  nametoemail
   open_uri_redirections
   orderedhash
   paperclip

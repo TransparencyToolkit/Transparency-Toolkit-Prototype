@@ -22,6 +22,8 @@ def getpreset(type)
     sites["data"].each do |d|
       presetarray.push(d[8])
     end
+  elsif type === "emails"
+    presetarray = ["All Formats","firstname.lastname@domain","firstinitiallastname@domain","firstname_lastname@domain","lastnamefirstinitial@domain","lastname@domain"]
   end
 
   return presetarray
@@ -99,6 +101,7 @@ def switchTool(usedmethod, input=nil, stepnum, recipeid)
     when 50 then $recipehash[recipeid].addstep(stepnum, PopulationPlugin.new(usedmethod, input, stepnum, recipeid))
     when 51 then $recipehash[recipeid].addstep(stepnum, MapPlugin.new(usedmethod, input, stepnum, $recipehash[recipeid].getoutput(stepnum-1), recipeid))
     when 52 then $recipehash[recipeid].addstep(stepnum, TtcalcPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
+  when 53..56 then $recipehash[recipeid].addstep(stepnum, NametoemailPlugin.new(usedmethod, input, stepnum, recipeid, $recipehash[recipeid].getoutput(stepnum-1)))
     else "Unknown Tool"
   end
 
@@ -107,10 +110,16 @@ end
 
 # Switches between the views for different tools
 def switchView(usedmethod, input=nil, stepnum, recipeid)
+  binding.pry
   case usedmethod
   when 13
     render :partial => 'recipes/emailtimeline', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
-  when 1..12
+  when 1..10
+    @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
+    render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+  when 11
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
+  when 12
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
   when 14
@@ -180,6 +189,8 @@ def switchView(usedmethod, input=nil, stepnum, recipeid)
   when 52
     @j = JSONToChart.new($recipehash[recipeid].getoutput(stepnum), stepnum)
     render :partial => 'recipes/datatable', :locals => { :output => @j.table, :stepnum => stepnum }
+  when 53..36
+    render :partial => 'recipes/link', :locals => { :output => @output, :stepnum => stepnum }
   else "Unknown Tool"
   end
 end
