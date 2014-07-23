@@ -110,7 +110,6 @@ end
 
 # Switches between the views for different tools
 def switchView(usedmethod, input=nil, stepnum, recipeid)
-  binding.pry
   case usedmethod
   when 13
     render :partial => 'recipes/emailtimeline', :locals => { :output => $recipehash[recipeid].getoutput(stepnum) }
