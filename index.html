@@ -31,37 +31,48 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <p>Transparency Toolkit is a web app where journalists can chain together tools to get data (via scrapers and APIs), filter/extract from documents, analyze documents, and generate visualizations all without coding.</p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>To setup-</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<ol>
+<li>Clone git repo</li>
+<li>Make sure you have rails 4, ruby 2, and postgresql installed</li>
+<li>bundle install</li>
+<li>rake db:migrate</li>
+<li>rake db:seed</li>
+<li>rails server</li>
+</ol><p>There also might be some additional database setup required, but the exact procedure for this depends slightly on OS.</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>If you are interested in adding tools, it is relatively simple to do so.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<ol>
+<li>Add Info to Database: Edit db/seeds.rb with the info on the tool:
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<ol>
+<li>plugin_list: Add a tool to the plugin_list by providing ["Name", "Description", category #]. Category 1 is for data sources, category 2 is for filtering/combining tools, and category 3 is for visualization and analysis tools.</li>
+<li>plugin_call_list: These are the different methods for the tool (some tools have a collection of related but different methods). They are formatted as ["Name", "Description", plugin id].</li>
+<li>plugin_call_field_list: These are the inputs for the tool ["Field Name", "field_type", if input is required, plugin_call id].</li>
+</ol>
+</li>
+<li>Make Tool Class: Make a class for the tool in app/helpers. This should inherit from PluginClass and this is where the tool (either a gem or another separate program) is called.</li>
+<li>Make Tool View: Add the views needed for the inputs and showing the results.
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<ol>
+<li>Add Inputs: In views/form_handlers, add a file with new input types as needed. Currently, the types are text_field, check_box, text_area, file_field (list of fields in JSON), step_field (list of output of previous steps), upload_field, and preset_field (add preset list via app/steps_helper).</li>
+<li>Add any view needed for the tool to app/views/recipes. This should be a partial and is where the javascript for javascript visualizations goes.</li>
+</ol>
+</li>
+<li>Add to StepsHelper: This switches between the tool views and classes.
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<ol>
+<li>Add to switchTool: In the switchTool method, add a case to the case statement of the form 
+<code>when TOOLNUM then $recipehash[recipeid].addstep(stepnum, TOOLCLASSNAMEPlugin.new(usedmethod, input, stepnum, recipeid))</code> Some tools might require additional parameters.</li>
+<li>Add to switchView: In the switchView method, add a case statement of the form <code>when TOOLNUM render :partial =&gt; 'recipes/TOOLPARTIAL', :locals =&gt; { :output =&gt; $recipehash[recipeid].getoutput(stepnum) }</code> </li>
+</ol>
+</li>
+<li>Reset/reseed the database and add gems to the gemfile if necessary to run the tool.</li>
+</ol>
       </section>
     </div>
 
